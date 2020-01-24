@@ -1,0 +1,1647 @@
+Script started on Friday 24 January 2020 10:48:26 AM IST
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat >fist.txt
+20
+300
+1
+0.88
+e ]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ sort -o output.html[K[K[K[Ktxt fi[K[Kfist.txt
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ output.txt
+output.txt: command not found
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ output.txt
+output.txt: command not found
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat >output.txt
+^C
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat >output.txt[1Poutput.txt
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ ctat[K[K[Kat > output.txt
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ open output.txt
+Couldn't get a file descriptor referring to the console
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ sort fist [K.txt
+0.88
+1
+20
+300
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ sort -r fist.txt
+300
+20
+1
+0.88
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ sort -n fist.txt
+0.88
+1
+20
+300
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cut -b 1 fist.txt
+2
+3
+1
+0
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ wget http://14.139.189.217
+--2020-01-24 10:56:41--  http://14.139.189.217/
+Connecting to 192.168.0.2:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 8546 (8.3K) [text/html]
+Saving to: ‘index.html’
+
+index.html            0%[                    ]       0  --.-KB/s               index.html          100%[===================>]   8.35K  --.-KB/s    in 0.006s  
+
+2020-01-24 10:56:41 (1.47 MB/s) - ‘index.html’ saved [8546/8546]
+
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ index.html
+index.html: command not found
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat Desktop/output.txt
+cat: Desktop/output.txt: No such file or directory
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat state.html
+cat: state.html: No such file or directory
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat >stste[K[K[K[K[Kstate.txt
+himachal
+andra pradesh
+kerala
+taminna   lnadu
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cut-c[K[K -c -1 state.txt
+h
+a
+k
+t
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cut -b 1,2,3, [K[K stst[K[Kate.txt
+him
+and
+ker
+tam
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ uname -s
+Linux
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ uname -v
+#83~16.04.1-Ubuntu SMP Wed Dec 18 04:56:23 UTC 2019
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat >employee.txt
+arun 300
+kan 30000
+ian 200
+uman 90
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ sort -k 2n employee.txt
+uman 90
+ian 200
+arun 300
+kan 30000
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ grep-c[K[K -c "uman" employee.txt
+1
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ awk'[K '{print $2}' employee.txt
+300
+30000
+200
+90
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ awk '{print NR}'[K[K,$0}' employee.txt
+1 arun 300
+2 kan 30000
+3 ian 200
+4 uman 90
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ awk 'END{print NR}' employee.txt
+4
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ grep -c "ian [K'[K" employee.txt
+1
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ wget http://cece[Konline.edu
+--2020-01-24 11:05:29--  http://ceconline.edu/
+Connecting to 192.168.0.2:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html.1’
+
+index.html.1            [<=>                 ]       0  --.-KB/s               index.html.1            [ <=>                ]  17.54K  45.5KB/s               index.html.1            [  <=>               ]  38.38K  99.0KB/s    in 0.4s    
+
+2020-01-24 11:05:31 (99.0 KB/s) - ‘index.html.1’ saved [39305]
+
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat state.txt
+himachal
+andra pradesh
+kerala
+tamilnadu
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat employee.txt
+arun 300
+kan 30000
+ian 200
+uman 90
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ [K]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat employee.txt state.txt > complete.txt
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat complete.txt
+arun 300
+kan 30000
+ian 200
+uman 90
+himachal
+andra pradesh
+kerala
+tamilnadu
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ man man
+[?1049h[?1h=MAN(1)                        Manual pager utils                        MAN(1)[m
+[m
+[1mNAME[0m[m
+       man - an interface to the on-line reference manuals[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mman[0m  [[1m-C[0m  [4mfile[24m]  [[1m-d[0m]  [[1m-D[0m]  [[1m--warnings[0m[=[4mwarnings[24m]]  [[1m-R[0m [4mencoding[24m] [[1m-L[0m[m
+       [4mlocale[24m] [[1m-m[0m [4msystem[24m[,...]] [[1m-M[0m [4mpath[24m] [[1m-S[0m [4mlist[24m]  [[1m-e[0m  [4mextension[24m]  [[1m-i[0m|[1m-I[0m][m
+       [[1m--regex[0m|[1m--wildcard[0m]   [[1m--names-only[0m]  [[1m-a[0m]  [[1m-u[0m]  [[1m--no-subpages[0m]  [[1m-P[0m[m
+       [4mpager[24m] [[1m-r[0m [4mprompt[24m] [[1m-7[0m] [[1m-E[0m [4mencoding[24m] [[1m--no-hyphenation[0m] [[1m--no-justifi‐[0m[m
+       [1mcation[0m]  [[1m-p[0m  [4mstring[24m]  [[1m-t[0m]  [[1m-T[0m[[4mdevice[24m]]  [[1m-H[0m[[4mbrowser[24m]] [[1m-X[0m[[4mdpi[24m]] [[1m-Z[0m][m
+       [[[4msection[24m] [4mpage[24m ...] ...[m
+       [1mman[0m [1m-k[0m [[4mapropos[24m [4moptions[24m] [4mregexp[24m ...[m
+       [1mman[0m [1m-K[0m [[1m-w[0m|[1m-W[0m] [[1m-S[0m [4mlist[24m] [[1m-i[0m|[1m-I[0m] [[4m--regex[24m] [[4msection[24m] [4mterm[24m ...[m
+       [1mman[0m [1m-f[0m [[4mwhatis[24m [4moptions[24m] [4mpage[24m ...[m
+       [1mman[0m [1m-l[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [[1m--warnings[0m[=[4mwarnings[24m]]  [[1m-R[0m  [4mencoding[24m]  [[1m-L[0m[m
+       [4mlocale[24m]  [[1m-P[0m  [4mpager[24m]  [[1m-r[0m  [4mprompt[24m]  [[1m-7[0m] [[1m-E[0m [4mencoding[24m] [[1m-p[0m [4mstring[24m] [[1m-t[0m][m
+       [[1m-T[0m[[4mdevice[24m]] [[1m-H[0m[[4mbrowser[24m]] [[1m-X[0m[[4mdpi[24m]] [[1m-Z[0m] [4mfile[24m ...[m
+       [1mman[0m [1m-w[0m|[1m-W[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [4mpage[24m ...[m
+       [1mman[0m [1m-c[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [4mpage[24m ...[m
+       [1mman[0m [[1m-?V[0m][m
+[m
+[1mDESCRIPTION[0m[m
+[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ pr-[K -h "Complete List" complete.txt
+
+
+2020-01-24 11:08                  Complete List                   Page 1
+
+
+arun 300
+kan 30000
+ian 200
+uman 90
+himachal
+andra pradesh
+kerala
+tamilnadu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ $awk -F ':' '$3==$4' passwd.txt[K[K[K[K[K[K[K[K[K[Kemployee,[K.txt
+-F: command not found
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ sort -r complete.txt
+uman 90
+tamilnadu
+kerala
+kan 30000
+ian 200
+himachal
+arun 300
+andra pradesh
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ sudo apt-get update
+[sudo] password for s4c1: 
+Sorry, try again.
+[sudo] password for s4c1: 
+s4c1 is not in the sudoers file.  This incident will be reported.
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ index,[K.html
+index.html: command not found
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat index.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <title>Ask's Home</title>
+    <meta name="GENERATOR" content="OpenOffice.org 2.3 (Linux)">
+    <meta name="AUTHOR" content="ask">
+    <meta name="CREATED" content="20101130;15571500">
+    <meta name="CHANGEDBY" content="ask">
+    <meta name="CHANGED" content="20101130;19162600">
+  </head>
+  <body dir="ltr" lang="en-US">
+    <p align="center">College of Engineering Chengannur<br>
+      Department of Computer Engineering</p>
+    <p align="center">Academic Information Page of<br>
+    </p>
+    <p align="center">Ahammed Siraj K K <br>
+      (Associate Professor)<br>
+      (ask@ceconline.edu)<br>
+    </p>
+    <hr style="width: 100%; height: 2px;">On Internet &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp; http://14.139.189.217&nbsp; &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; On intranet &nbsp;
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
+    http://192.168.0.30&nbsp;
+    <hr size="2" width="100%"><br>
+    2020 Even Semester<br>
+    <table style="text-align: left;" border="1" height="226"
+      cellspacing="2" cellpadding="2" width="688">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; text-align: center;">Class<br>
+          </td>
+          <td style="vertical-align: top; text-align: center;">Course<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;"><br>
+            B. Tech.&nbsp; S2C <br>
+          </td>
+          <td style="vertical-align: top;"><br>
+            &nbsp; <a href="s2c/index.html"> EST 102 Programming in C</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><br>
+            B. Tech.&nbsp; S4C<br>
+          </td>
+          <td valign="top"><br>
+            <a href="s4c/index.html">CS232 Free and Open Source Software
+              Lab</a> </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <table border="1" cellspacing="2" cellpadding="2" width="25%">
+      <tbody>
+        <tr>
+          <td valign="top"><a href="mtech/index.html">M. Tech. CSIP </a><br>
+            (Coordinator)<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    2019 Odd Semester<br>
+    <table style="text-align: left;" border="1" height="226"
+      cellspacing="2" cellpadding="2" width="688">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; text-align: center;">Class<br>
+          </td>
+          <td style="vertical-align: top; text-align: center;">Course<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;"><br>
+            B. Tech.&nbsp; S3E <br>
+            <br>
+          </td>
+          <td style="vertical-align: top;"><br>
+            &nbsp;<a href="s3e/index.html">EE233 Programming Lab</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><br>
+            B. Tech.&nbsp; S7C<br>
+          </td>
+          <td valign="top"><br>
+            <a href="451/index.html">CS451 Seminar &amp; Project
+              Preliminary<br>
+            </a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><br>
+            M. Tech. CSIP M1<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+            <a href="m1/index.html">03 CS 6131 Data Structures and
+              Algorithms</a><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table border="1" cellspacing="2" cellpadding="2" width="25%">
+      <tbody>
+        <tr>
+          <td valign="top"><a href="news.html">Technical
+              News/Information Links</a><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <hr size="2" width="100%">
+    <hr size="2" width="100%"><br>
+    2019 Even Semester<br>
+    <table style="text-align: left;" border="1" height="83"
+      cellspacing="2" cellpadding="2" width="744">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; text-align: center;">Class<br>
+          </td>
+          <td style="vertical-align: top; text-align: center;">Course<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;"><br>
+            B. Tech.&nbsp; S6D<br>
+          </td>
+          <td style="vertical-align: top;"><br>
+            <a href="s6d/index.html">CS302 Design and Analysis of
+              Algorithms<br>
+            </a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><br>
+            B. Tech.&nbsp; S4D<br>
+          </td>
+          <td valign="top"><br>
+            <a href="s4d/index.html">CS232 Free and Open Source Software
+              Lab</a><br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><br>
+            M. Tech. CSIP M2<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+            <a href="m2/index.html">03CS6902 Mini Project</a><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    2018 Odd Semester<br>
+    <table style="text-align: left;" border="1" height="83"
+      cellspacing="2" cellpadding="2" width="744">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; text-align: center;">Class<br>
+          </td>
+          <td style="vertical-align: top; text-align: center;">Course<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;"><br>
+            B. Tech.&nbsp; S3C<br>
+          </td>
+          <td style="vertical-align: top;"><br>
+            <a href="s3c/index.html">CS201&nbsp; Discrete Computational
+              Structures</a> </td>
+        </tr>
+        <tr>
+          <td valign="top"><br>
+            B. Tech.&nbsp; S3D<br>
+          </td>
+          <td valign="top"><br>
+            <a href="s3d/index.html"> CS231 Data Structures Lab</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><br>
+            M. Tech. CSIP M3<br>
+          </td>
+          <td valign="top"><br>
+            <a href="m3/index.html">03CS7903 Seminar II</a><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <i>If we don't believe in freedom of expression for people we
+      despise, we don't believe in it at all - Noam Chomsky<br>
+      <br>
+    </i> <br>
+    <table border="1" height="31" cellspacing="2" cellpadding="2"
+      width="620">
+      <tbody>
+        <tr>
+          <td valign="top"><b>For the kind attention of students: </b><br>
+            <br>
+            It is to suggest some guidelines regarding the interaction
+            with me.<br>
+            <br>
+            1. I have not given my mobile number to students. So, I
+            don't like to be contacted by students through my cellphone,
+            of course except in a situation of utmost urgency.<br>
+            <br>
+            2. Instead, the students or the parents can liberally
+            communicate with me via email or in person.<br>
+            &nbsp;<br>
+            3. I have no objection in being contacted on my mobile phone
+            by the parents. In such cases it could preferably be after 4
+            PM from Monday to Thursday.&nbsp; <br>
+            <br>
+            4. When the students are sending me various documents via
+            email state who are you (Name, Course (B.Tech/M.Tech),
+            Branch, Semester, Roll Number etc.) and what document you
+            are sending.<br>
+            <br>
+            5. Students may meet me only during their free time. Do not
+            meet me by abstaining from your class sessions. I am
+            normally available at my cabin up to 6PM on Monday to
+            Thursday.&nbsp; Preferably, mail me beforehand to fix an
+            appointment. Also, I am at my seat normally for the entire
+            lunch break, Monday to Thursday. B. Tech. students may meet
+            me during this time.<br>
+            <br>
+            7. M. Tech. students please avoid meeting me during lunch
+            break, as some B. Tech. students used to visit me during
+            this interval.<br>
+            &nbsp;<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <p left="" align=""></p>
+  </body>
+</html>
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ i[Kcat inde.html.1
+cat: inde.html.1: No such file or directory
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cat inde.html.1x.html.1[C[C[C[C[C[C[C
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<style type="text/css">
+
+<!--
+.style18 {color: #FF0000; font-weight: bold; }
+
+-->
+
+</style>
+
+<head>
+
+	<title>..:: College of Engineering Chengannur ::..</title>
+
+    	<meta http-equiv="Keywords"
+
+		content="College of Engineering Chengannur, Chengannur, Engineering, Electronics, Communication, Computer Science, IHRD,CEC, Kerala, India">
+
+	<meta http-equiv="Description"
+
+		content="Official Website of College of Engineering Chengannur, Kerala, India.">
+
+	<meta http-equiv="Content-Type"
+
+		content="text/html; charset=us-ascii" />
+
+	<link href="favicon.ico" rel="shortcut icon" />
+
+	<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+
+	<link title="Notifications" href="http://cec.ihrd.ac.in/notifications_feed.xml" type="application/rss+xml" rel="alternate" />
+
+<!-- Slidercode added by Shahul -->
+<link rel="stylesheet" href="slider/nivo-slider.css" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<script src="slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<link rel="stylesheet" href="slider/light/light.css" type="text/css" />
+
+
+
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+</head>
+
+<body>
+
+	<!-- header.php begins here -->
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="26" height="20" align="left" nowrap="nowrap" background="cec_images/T_tile.gif"><img src="cec_images/tlc_edge.gif" alt="" name="tlc_edge" width="26" height="20" border="0" id="tlc_edge" style="background-color: #FFFFFF" /></td>
+		<td height="20" align="right" valign="bottom" nowrap="NOWRAP" background="cec_images/T_tile.gif">&nbsp;</td>
+		<td width="26" height="20"><img src="cec_images/trc_edge.gif" alt="" name="tlc_edge" width="26" height="20" border="0" id="tlc_edge" style="background-color: #FFFFFF" /></td>
+	</tr>
+	<tr>
+		 <td width="26" height="107" nowrap="nowrap" background="cec_images/L_Tile.gif">&nbsp;</td> 
+		<td align="center" valign="top">
+			<table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+				<tr>
+				<!--	<td width="113" height="130" nowrap="nowrap">
+				  </td> -->
+				  <td width="700" align="center"><img src="ceconline_header_4.jpg" width="1300" align="center" /></td>
+				 <!-- <td width="57" align="center">&nbsp;</td> -->
+			  </tr>
+		    </table>
+		</td>
+		<td width="26" background="cec_images/R_Tile.gif">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="26" height="38" background="cec_images/JB_Tile.gif">
+			<img src="cec_images/joint_left.gif" alt="" name="LeftJoint" width="26" height="38" id="LeftJoint" />
+		</td>
+		<td>
+			<table width="95%" background="cec_images/JB_Tile.gif" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td height="38">&nbsp;</td>
+					<td width="75" height="38" nowrap="nowrap" background="cec_images/TabTile.gif"><img src="cec_images/TabPinLeft.gif" alt="" name="TabPinJoint" width="25" height="38" border="0" id="TabPinJoint" /></td>
+					<td width="75" background="cec_images/TabTile.gif"><div align="center" class="cecHead"><a href="index.php?link=home&data=about" title="Home"><b>Home</b></a></div></td>
+					<td background="cec_images/TabTile.gif"><div align="center" class="style2"><img src="cec_images/TabSpacer.gif" width="12" height="38" alt="" /></div></td>
+					<td width="75" background="cec_images/TabTile.gif"><div align="center" class="cecHead"><a href="index.php?link=admissions&data=admissions" title="Admissions"><b>Admissions</b></a></div></td>
+					<td background="cec_images/TabTile.gif"><div align="center" class="style2"><img src="cec_images/TabSpacer.gif" width="12" height="38" alt="" /></div></td>
+					<td width="75" background="cec_images/TabTile.gif"><div align="center" class="cecHead"><a href="index.php?link=departments" title="Departments"><b>Departments</b></a></div></td>
+					<td background="cec_images/TabTile.gif"><div align="center" class="style2"><img src="cec_images/TabSpacer.gif" width="12" height="38" alt="" /></div></td>
+					<td width="75" background="cec_images/TabTile.gif"><div align="center" class="cecHead"><a href="index.php?link=placements" title="Placements"><b>Placements</b></a></div></td>
+					<td background="cec_images/TabTile.gif"><div align="center" class="style2"><img src="cec_images/TabSpacer.gif" width="12" height="38" alt="" /></div></td>
+					<td width="75" background="cec_images/TabTile.gif"><div align="center" class="cecHead"><a href="index.php?link=links" title="Links"><b>Links</b></a></div></td>
+					<td background="cec_images/TabTile.gif"><div align="center" class="style2"><img src="cec_images/TabSpacer.gif" width="12" height="38" alt="" /></div></td>
+					<td width="75" background="cec_images/TabTile.gif"><div align="center" class="cecHead"><a href="http://cecians.in" title="Alumni" target=�_blank�><b>Alumni</b></a></div></td>
+					<td background="cec_images/TabTile.gif"><div align="center" class="style2"><img src="cec_images/TabSpacer.gif" width="12" height="38" alt="" /></div></td>
+					<td width="75" background="cec_images/TabTile.gif"><div align="center" class="cecHead"><a href="index.php?link=location" title="Location"><b>Contact Us</b></a></div></td>
+
+					
+					<td width="25" height="38" background="cec_images/JB_Tile.gif"><img src="cec_images/TabPinRight.gif" alt="" name="TabPinJoint" width="25" height="38" border="0" id="TabPinJoint" /></td>
+					<td height="38" background="cec_images/JB_Tile.gif">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+		<td width="26" height="38"><img src="cec_images/joint_right.gif" alt="" name="LeftJoint" width="26" height="38" id="LeftJoint" /></td>
+	</tr>
+</table>
+<!-- header.php ends here -->	
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="line1.jpg" width="1400" height="3" />
+	
+	<!-- <marquee  direction="left" scrollamount="3">
+       
+	  <strong><span class="style19">Hon. Dr. APJ Abdul Kalam</span>, the former President of India is visiting our esteemed institution on the  26th  of November 2012 as the Chief Guest of  the <span class="style19">Crystal Jubilee Celebration of IEEE Student branch & IGNITE Annual Meet 2012 .	</span> <a href="http://www.thehindu.com/todays-paper/tp-national/tp-kerala/kalam-to-attend-college-fete/article4129302.ece">News Link(TheHindu)</a> </strong>
+
+	  </marquee> -->
+
+	<marquee  direction="left" behavior="alternate" scrollamount="4"><span class="style18">
+	 
+      </span><span class="style18">||</span>
+
+<!--	<marquee  direction="left"  scrollamount="4">
+     <span class="style12">
+         <p align="center" class="style2" >&nbsp;-->
+         
+         
+        <a href="./index.php?link=notifications" class="style3"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" /></a>Vist our new Website <a href="http://www.ceconline.ga">&nbsp;Click Here... </a>
+        </span><span class="style18">||</span>
+        <a href="./index.php?link=notifications" class="style3"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" /></a> B.Tech VIII Sem - Non-Departmental Electives 
+        <a href="./index.php?link=notifications" class="style3"></a><a href="/admissions/Admission2019/clndelist.pdf"> Classwise List </a>
+        <a href="./index.php?link=notifications" class="style3"></a><a href="/admissions/Admission2019/condelist.pdf"> Coursewise List </a>
+        
+        </span><span class="style18">||</span>
+        
+        
+        
+        
+         <!--
+          <span class="style18">||</span>
+          <a href="./index.php?link=notifications" class="style3"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" /> First Year students (Boys) who applied for hostel will be taken to the hostel on 22..07..2019 AN 04.00pm</a>
+          
+         
+          
+         <a href="./index.php?link=notifications" class="style3"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" /></a>B-Tech. NRI Admissions 2019-2020 Waiting List(CS)  <a href="/admissions/Admission2019/nriwaitcs19.pdf">&nbsp;Click Here... </a>
+           
+           Provisional Selection List - NRI Admissions 2019-2020 <a href="/admissions/Admission2019/nriprosel19.pdf">&nbsp;Click Here... </a>  &nbsp; ||&nbsp; </a></a>
+           Provisional List -  NRI Admissions 2019-2020 <a href="/admissions/Admission2019/nripro19.pdf">&nbsp;Click Here... </a>  &nbsp; ||&nbsp; </a> 
+ 
+ 
+ 
+       <a href="index.php?link=notifications">    CUSAT --- CECians Bags Top Ranks..BTech Examination April 2017...  ||  <a href="tpc/Placement data upto 2016.pdf">CECians make us proud again with the ever highest record of 226 job offers and 220 placements</a>   </span>
+    <span class="style12">-->
+         
+         <!--<a href="./index.php?link=notifications" class="style3"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" /></a>
+           Last Date for Applying ASAP - AI/ML Course on 26--09--2018. <a href="https://sites.google.com/asapkerala.gov.in/aim/home">&nbsp;Register online... </a>  &nbsp; ||&nbsp; </a> 
+ 
+         <a href="index.php?link=notifications">   B.Tech Second Series Examination Nov 2018..Rescheduled..</a>   </span>
+    
+    -->
+    
+    </marquee>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="line1.jpg" width="1400" height="5" />
+
+
+
+<table cellspacing="5" cellpadding="0" width="100%" border="0">
+
+	<tbody>
+
+	<tr>
+
+			  <td valign="top" width="50" height="100%"><!-- left_sidebar.php starts here -->
+<style type="text/css">
+
+.style3 {
+	font-size: x-small;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+.style5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+.style7 {font-family: Verdana, Arial, Helvetica, sans-serif; color: #999999; font-weight: bold; }
+.style8 {color: #00FF00, align="middle"}
+.style11 {font-family: Geneva, Arial, Helvetica, sans-serif; font-size: x-small;}
+.style12 {font-family: Geneva, Arial, Helvetica, sans-serif}
+
+</style>
+
+<table class="style8" width="200" cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="links" id="menu" valign="center">
+		  <!-- <span><a href="index.php?link=principal" title="Principal">Principal</a></span>
+			<span><a href="index.php?link=teqip" title="TEQIP">TEQIP</a></span>-->
+			<span color: #333333><a href="index.php?link=about" title="About">About</a></span>			
+			<span class="style8"><a href="index.php?link=notifications" title="Notifications">Notifications</a></span> 
+			<span class="style8"><a href="index.php?link=statutory_documents" title="Statutory Documents">StatutoryDocuments</a></span>
+			<span class="style8"><a href="index.php?link=iqac&data=about" title="iqac">IQAC</a></span>
+			<span class="style8"><a href="index.php?link=library&data=about" title="Library">Library</a></span>
+			<span class="style8"><a href="index.php?link=organisations" title="Organisations">Organisations</a></span>
+			<!-- <span><a href="index.php?link=cec_directory" title="CEC Directory">CEC Directory</a></span> -->
+				<span class="style8" class="style8"><a href="http://cecieee.org" title="IEEE"> IEEE</a></span>
+			<span class="style8"><a href="index.php?link=senate" title="Senate">Senate</a></span>
+	    	<span class="style8"><a href="index.php?link=ncc" title="NAVY NCC UNIT">NAVY NCC UNIT</a></span>
+			<span class="style8"><a href="index.php?link=pta" title="PTA"> PTA</a></span>
+			<span class="style8"><a href="index.php?link=nss" title="NSS">NSS</a></span>
+			<span class="style8"><a href="index.php?link=tenders" title="Tenders">Tenders</a></span>
+			<span class="style8"><a href="/qdig" title="Gallery">Gallery</a></span>
+            <span class="style8" > <a href="index.php?link=downloads">Downloads</a></span>
+		<!--	<span><a href="index.php?link=resultstat">ResultStatistics</a></span>
+			 <span><a href="results/frontpage.php">ResultStatistics</a></span>-->
+			
+	</label>
+</td>
+</tr>
+</table>
+ 
+  <form action="studentportal/processlogin.php"  method="post" class="style11">
+ 
+  <table width="177" border="0" align="left" cellspacing="5" bordercolor="#ECE9D8">
+            <tr>
+			<td><a href="http://imail.ceconline.edu"><img src="images/mail.jpg" alt="mail" width="70" height="50" border="0" /></a></td>
+			 <td><a href="http://imail.ceconline.edu"></a></td>
+			</tr>
+			<tr>
+              <td colspan="2" valign="middle" class="style7">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="2" valign="middle" class="style7"><div align="left"><img src="images/login.JPG" alt="Login" width="72" height="39" /></div></td>
+            </tr>
+            <tr>
+               <td width="84"> <span class="style8">  
+                <label class="style108"><strong>UserName  </strong></label>
+              </span> </td>
+              <td width="74"><div align="right">
+                <input name="username" type="text" size="12" />
+              </div></td>
+            </tr>
+            <tr>
+              <td> <span class="style8">  
+                 <label class="style108"><strong>Password  </strong></label>
+              </span> </td>
+              <td><div align="right">
+                <input name="password" type="password" size="12" />
+              </div></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td><div align="right" class="style7">
+                <input name="submit" type="submit" value="Login >>" />
+              </div></td>
+            </tr>
+			
+    </table>
+
+</form> 
+<!-- left_sidebar.php ends here --><br /></td>
+
+      <td width="830" valign="top"> 
+
+	     
+
+     
+
+
+
+
+
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="tabbar.css"/>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+</body>
+</html><!--about.php begins here-->
+<html>
+<style type="text/css">
+<!--
+.style31 {
+	font-size: smaller;
+	font-weight: bold;
+}
+.style131 {	color: #FF0000;
+	font-weight: bold;
+}
+.style34 {color: #000000}
+.style37 {font-size: 14px; font-weight: bold; }
+.style132 {font-size: large}
+-->
+</style>
+<body>
+<table width=100% align="center" height="199" border="0">
+  <tr>
+    <td height="422"><div align="center">
+     <div class="slider-wrapper theme-light">
+      <div class="ribbon"></div>
+       <div id="slider" class="nivoSlider">
+       <img src="slider/images/4.jpg" alt="" />
+       <img src="slider/images/5.jpg" alt="" />
+       <img src="../images/Rank Btech2017.jpg" alt="" />
+       </div>
+      </div>
+     </div>
+    </td>
+   </tr>
+  <tr>
+    <td height="244"><div align="justify">College of Engineering, Chengannur being located in Chengannur town, Alleppey   district is a premier institute of engineering that has carved a niche for itself in the field of technical education in a very short span of time. Since its inception in 1993, under the aegis of IHRD, approved by AICTE and recognized by KTU, the college has made its presence felt in the technical horizon of the state. <p>The college offers Under Graduate programmes in Computer Science & Engineering (<strong>CSE</strong>), Electronics & Communication Engineering (<strong>ECE</strong>), Electrical & Electronics Engineering (<strong>EEE</strong>) and Electronics & Instrumentation Engineering (<strong>EIE</strong>). The Masters Degree Programmes offered by the college are M. Tech. (Electronics) with specialization in  <strong>VLSI & Embedded System</strong> & M .Tech (Computer Science) with specialization in <strong>Image Processing</strong>. Admission Details:: <a href="index.php?link=home&amp;data=admissions" class="style31">more<img src="../images/morered.jpg" alt="more" width="8" height="5" border="0"></a>
+        
+    </div>      
+      <div align="center">
+        <table width="800" align="center" height="100" border="0">
+          <tr>
+           <!-- <td colspan="3"><div align="center"><span class="style131"><img src="images/blink.gif" alt="n" width="12"    height="12" /> <span class="style132">CONGRATULATIONS !!!</span> <img src="images/blink.gif" alt="n" width="12" height="8" /></span></div></td>-->
+          </tr>
+
+<tr>
+        <!--    <td colspan="3"><div align="center"><span class="style131"><img src="images/blink.gif" alt="n" width="12" height="2" /> <span class="style132">** Rank Holders **</span> <img src="images/blink.gif" alt="n" width="12" height="2" /></span></div></td>-->
+          </tr>
+
+        <!--  <tr>
+            <td width="692" colspan="3" align="center"><p><img src="../images/Rank Btech2017.jpg" alt="rank holders" width="658"  height="516"></p>
+            </td>
+          </tr>
+         <tr>
+            <td colspan="3"><div align="center" class="style131"><img src="../images/news 23Aug2016.jpg" alt="news" width="573" height="551"></div></td>
+          </tr> -->
+          
+       
+
+
+       <tr>
+            <td colspan="3"><table width="690" height="27" border="0">
+              
+              
+            </table></td>
+          </tr>
+          <tr>          </tr>
+        </table>
+      </div></td>
+  </tr>
+</table>
+
+</body>
+</html>		</td>
+
+	<td valign="top" width="100" height="100%"><!--right_sidebar.php begins here -->
+<style type="text/css">
+
+.style2 {
+	font-size: small;
+	font-weight: bold;
+}
+.style3 {font-size: smaller}
+.style118 {color: #990000; font-weight: bold; font-family: Geneva, Arial, Helvetica, sans-serif; font-size: x-small; }
+.style120 {font-size: x-small; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+.style130 {font-family: Geneva, Arial, Helvetica, sans-serif; font-size: x-small; color: #990000;}
+.style6 {font-family: Arial, Helvetica, sans-serif; font-size: x-small; color: #FF0000; font-weight: bold; }
+.style131 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style133 {color: #FF0000; font-weight: bold; font-size: medium; }
+.style111 {	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.style7 {color: #000033}
+.style8 {font-size: 14px; font-weight: bold; font-family: Geneva, Arial, Helvetica, sans-serif;}
+
+</style>
+
+<div>
+	<p align="left" ><img src="line1.jpg" width="250" height="10" /></p>
+	<p align="left" class="style2" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./index.php?link=notifications" class="style8"><img src="images/newslatest1.JPG" alt="news" width="106" height="36" border="0" /></a></p>
+	<p> <script type="text/javascript" src="news_scroller.js"> </script>
+	        <img src="line1.jpg" alt="n" width="250" height="10" /></p>
+	  <!-- <p align="left" ><img src="line1.jpg" width="160" height="5" /></p>
+	  
+	   <p>Subscribe to RSS feeds</b></p>
+	<img src="feed-icon.svg.png" width="16" height="16" align="absmiddle" /> <a href="notifications_feed.xml">Notifications Feed</a><br/> </p>
+  <form action="studentportal/processlogin.php"  method="post" class="style11">
+ </p> -->
+ 
+ 
+	  <table width="250" border="0" align="left" cellspacing="5">
+	   
+	    
+	      <!--
+	      <tr class="style118">
+              <td><a href="/index.php?link=notifications"><img src="images/new_high.gif" alt="new" width="32" height="20" border="0" /></a>Option Registration - B.Tech. VIII Semester Non-Departmental Electives. 
+              
+            <br>**<a href="https://docs.google.com/forms/d/e/1FAIpQLScXHlfAJ6IrbU1iMIt_Rwb4wQ9xzB7G6fwx716EWf_veSOpTA/viewform">Electornics and Communication Engineering
+            <br>**<a href="https://docs.google.com/forms/d/e/1FAIpQLSeC19gGA85tKeRIC4qwWYjznMmB1FdU-VHgY8lgHyUDC3rxPQ/viewform">Computer Science and Engineering
+            <br>**<a href="https://docs.google.com/forms/d/e/1FAIpQLScTzctvmZFpNRDUHaJ5UWOdycWf8BzfVvQBdhgpjV7PK16UMQ/viewform">Electrical and Electronics Engineering
+            <br>**<a href="https://docs.google.com/forms/d/e/1FAIpQLScZIiJNyODIhPoSVbb2zQYjk63HKCqLE0ZA7f-npjb2Ev23lA/viewform">Electronics and Instrumentation Engineering
+            
+            </td>
+            </tr> 
+            -->
+	      
+	       <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />B.Tech. Degree VIII semester - Non-Departmental Electives<br>
+                  <a href="admissions/Admission2019/condelist.pdf">Coursewise List</a>&nbsp&nbsp&nbsp<a href="admissions/Admission2019/clndelist.pdf">Classwise List</a>&nbsp&nbsp&nbsp
+                  </td>
+            </tr>
+	      
+	      <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> BTech 1st, 2nd, 3rd & 4th year ::  <a href="admissions/Admission2019/semreg2.pdf">Notice</a>::<a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Feepayment Link </a>:: <a href="https://ceconline.edu/Registration">Registration </a></a></td>
+            </tr> 
+	      <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> MTech 2nd, 4th year ::  <a href="admissions/Admission2019/semregm.pdf">Notice</a>::<a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Feepayment Link </a>:: <a href="https://ceconline.edu/Registration">Registration </a></a></td>
+            </tr> 
+	      
+	     
+            
+	      <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />AICTE Sponsored Faculty Development Program in Recent Advances in Sensors and Actuators.
+                 <br> &nbsp&nbsp&nbsp<a href="/fdp/fdp2019/rasa.pdf">Brochure</a>&nbsp&nbsp&nbsp
+                  </td>
+            </tr>
+            
+           
+            
+         <!--    <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />The Practical Examinations of Supplementary B Tech Degree III, V, VII semester, December 2019 Examination under Electrical Engineering department
+                 <br> &nbsp&nbsp&nbsp<a href="admissions/Admission2019/ee2019.pdf">Time Table</a>&nbsp&nbsp&nbsp
+                  </td>
+            </tr>
+           
+          
+          
+          <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />Spot Admission 2019-2020
+                 <br> &nbsp&nbsp&nbsp<a href="/admissions/Admission2019/sspot2019.pdf">B.Tech. - Notice</a>&nbsp&nbsp&nbsp
+                  </td>
+            </tr>
+            
+            
+            <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />Ladies Hostel
+                 <br> &nbsp&nbsp&nbsp<a href="/admissions/Admission2019/lhostel19.pdf">Allottemnt List</a>&nbsp&nbsp&nbsp<a href="/admissions/Admission2019/lrules19.pdf">Rules</a>
+                  </td>
+            </tr>
+            
+            <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />M.Tech Admission 2019-2020<br><a href="/admissions/Admission2019/mtechdoc.pdf"> Fee details and Document to be produced</a> 
+                
+               </td>
+            </tr>
+            
+          <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />B.Tech Admission 2019-2020
+                 <br> <br><a href="/admissions/Admission2019/admsch19.pdf">Schedule</a><br><a href="/admissions/Admission2019/bcerti2019.pdf">Documents to be submitted</a>
+                  <br><a href="/admissions/Admission2019/bfees2019.pdf">Fees Details  </a>
+                  <br><a href="/admissions/Admission2019/sbc.pdf">SB Collect - Guidelines</a>
+                  
+                  </td>
+            </tr>
+           <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> MTech 3rd Semester::  <a href="admissions/Admission2019/msemreg.pdf">Notice</a>::<a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Feepayment Link </a>:: <a href="https://ceconline.edu/Registration">Registration </a></a></td>
+            </tr> 
+          <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> BTech 2nd Year, 3rd Year,and 4th year ::  <a href="admissions/Admission2019/semreg.pdf">Notice</a>::<a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Feepayment Link </a>:: <a href="https://ceconline.edu/Registration">Registration </a></a></td>
+            </tr> 
+          
+          
+          
+          
+          
+           <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />M.Tech Admission 2019-2020(MCAP) <br><a href="/admissions/Admission2019/mtech19.pdf"> Prospectus</a> 
+                  &nbsp<a href="http://admissions.dtekerala.gov.in/mcap/"> Admission portal</a> 
+                  &nbsp<a href="/admissions/Admission2019/sh19.pdf"> Impotant Dates</a> 
+               </td>
+            </tr>
+            <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />M.Tech Sponsored Seat Admission 2019-20 <br><a href="/admissions/Admission2019/notifspon19.pdf"> Notification</a> 
+                  &nbsp<a href="/admissions/Admission2019/prosspon19.pdf"> Prospectus</a> 
+                  &nbsp<a href="/admissions/Admission2019/applnspon19.pdf"> Application Form</a> 
+               </td>
+            </tr>
+            
+           
+           <!--
+           <tr class="style118">
+              <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />B.Tech NRI Admission 2019-2020
+              <br><a href="/admissions/Admission2019/nriwaitcs19.pdf">Waiting  List (CS)</a>
+                   <br><a href="/admissions/Admission2019/nriprosel19.pdf">Provisinal Selection List </a>
+                  <br><a href="/admissions/Admission2019/nripro19.pdf">Provisinal List  </a>
+                  <br><a href="/admissions/Admission2019/nridetails19.pdf">Details of Candidates Applied  </a>
+                  <br><a href="/admissions/Admission2019/nridates19.pdf">Proposed Admission Dates </a>
+                  <br><a href="/admissions/Admission2019/nricerti19.pdf">Documents to be submitted</a>
+                  <br><a href="/admissions/Admission2019/nrifees19.pdf">Fees Details  </a><br>
+                  <br><a href="http://ihrd.ac.in/index.php/admissions">ADMISSION TO NRI SEATS IN ENGINEERING COLLEGES UNDER IHRD 2019-2020</a>
+                  </td>
+            </tr>
+           
+           -->
+           <tr class="style118">
+          <td class="style130"><img src="images/new_high.gif" alt="news" width="56" height="32" border="0" />Online Grievance Redressal System  is available right from January 2019  in our college website <br><a href="http://ceconline.edu/grs"> Registraion</a> 
+                                </td>
+            </tr>
+          
+            <tr class="style118">
+              <td class="style130">Notice...Final Year Students... No dues Clearence Certificate.        <a href="/admissions/duesnotice.pdf">    NOTICE       </a><a href="/admissions/duesform.pdf">    Form     </a></td>
+            </tr>
+           
+  
+           
+           
+           <tr class="style118">
+              <td><a href="/index.php?link=notifications"><img src="images/new_high.gif" alt="new" width="32" height="20" border="0" /></a><a href="http://dv2l.com/chn.aspx">College of Engineering Chengannur in association with DVPTL and IEDC is organizing a hackathon and a live session for our students.</a></td>
+            </tr>
+            
+           
+            
+            
+            
+           <!--<tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> M Tech 1st Year, 2nd Year ::  <a href="admissions/Admission2017/mnoti.pdf">Notice</a>::<a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Feepayment Link </a>:: <a href="https://ceconline.edu/Registration">Registration </a></a></td>
+            </tr> 
+           
+           
+           
+           
+           
+           
+             <tr class="style118">
+              <td><a href="/index.php?link=notifications"><img src="images/new_high.gif" alt="new" width="32" height="20" border="0" /></a><a href="admissions/Admission2017/docmtech.pdf">Documents to be submitted at the time of M.Tech Admission</a></td>
+            </tr>
+            
+            
+            
+            
+            
+            </tr>
+            
+            
+            
+            
+            
+           
+       <!--      <tr class="style118">
+              <td height="40" bordercolor="0" class="style111"> <a href="/index.php?link=notifications"><img src="images/new_high.gif" alt="new" width="30" height="15" border="0" /></a><a href="admissions/Admission2017/hostel.pdf">List of 1st year students allotted in Ladies Hostel</a></td>
+            </tr>
+             <tr class="style118">
+              <td height="40" bordercolor="0" class="style111"> <a href="/index.php?link=notifications"><img src="images/new_high.gif" alt="new" width="30" height="15" border="0" /></a><a href="admissions/Admission2017/hostelb.pdf">List of 1st year students allotted in Boys Hostel</a></td>
+            </tr>
+         
+            
+                      <tr class="style118">
+           <td height="40" bordercolor="0" class="style111"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span><!-- <a href="/feepayment">B.Tech.Admission 2018 - 2019</a> <br>:: <a  href="admissions/Admission2017/bnotice18.pdf">Schedule</a> <br>:: <a href="admissions/Admission2017/docb18.pdf">Documents to be submitted</a> <br>:: <a href="admissions/Admission2017/feesb18.pdf">Fees to be remitted</a> <br>:: <a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Fee payment Link </a></td>
+           </tr>
+            </tr>
+          <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> MTech S2 ::  <a href="admissions/Admission2017/msemreg.pdf">Notice</a> :: <a href="/Registration">Registration</a> ::<a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Feepayment Link </a>:: <a href="/Registration">Online Registration</a></td>
+            </tr>
+             <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> BTech 2nd Year,3rd year and 4th year ::  <a href="admissions/Admission2017/bsemreg.pdf">Notice</a>:: <a href="/Registration">Registration</a>::<a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm">Feepayment Link </a>:: <a href="/Registration">Online Registration</a></td>
+            </tr> 
+            -->
+          <!--   <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> BTech Caution Deposit ::  <a href="Registration/alumni/appealprn.pdf">Notice </a>:: <a href="/Registration/alumni/indexx.php">Online Registration</a></td>
+            </tr> 
+            
+         <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> BTech S8 :: <a href="scroll_notifications2018/jan/s8dues.pdf">Notice - Dues clearance</a>:: <a href="scroll_notifications2018/jan/bank.pdf"><!-- Guidelines</a>::<a href="/feepayment">Feepayment Link </a></td> -->
+            </tr>
+              
+    
+         
+         <!--   <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> BTech S2, S3 and S4 ::  <a href="scroll_notifications2017/dec/btechreg2017.pdf">Notice</a>:: <a href="/Registration">Registration</a> ::<a href="/feepayment">Feepayment Link </a></td>
+            </tr>
+             <tr class="style118">
+              <td class="style130"><a href="Downloads/NIRF Data.zip"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span></a> BTech S8 Registration :: <a href="scroll_notifications2017/nov/regs8.pdf">Notice</a>:: <a href="/Registration">Online Registration</a></td>
+            </tr>
+        
+          <tr class="style118">
+              <td class="style130"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span>BTech Admission 2017 :: <a href="admissions/Admission2017/Fees &amp; Docs B Tech admn. 2017 admn.pdf">Documents to be submitted &amp; Fee Details </a></td>
+            </tr>
+            <tr class="style118">
+              <td class="style130"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span> <a href="/feepayment">MTech Fee Payment Link </a></td>
+            </tr>
+            <tr class="style118">
+              <td class="style130"><span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span> <span class="style131"><a href="admissions/Admission2017/Mtech/IHRD Spon seat Rank list.pdf">MTech Admission2017 :: Rank List IHRD Sponsored seat </a></span></td>
+            </tr>
+           
+            <tr class="style118">
+              <td class="style130"> <span class="style111"><img src="images/newfastblink.gif" alt=" " width="30" border="0" height="15" /></span> BTech S3 and S5 Registration ::  <a href="scroll_notifications2017/July/fee payment S3 S5.pdf">Notice</a> :: <a href="/feepayment">Feepayment Link </a> :: <a href="/Registation/regform.php">Registration </a></a></td>
+            </tr>
+           
+            
+            <tr class="style118">
+              <td><a href="/index.php?link=notifications"><img src="images/new_high.gif" alt="new" width="32" height="20" border="0" /></a><a href="/index.php?link=tender">Quotations are invited Read More&gt;&gt;</a></td>
+            </tr>-->
+            <tr class="style118">
+              <td class="style130"><a href="http://www.ihrd.ac.in/images/stories/fdp/front_page_jyothi_ayub_model1_ver2_final.pdf"></a> <a href="Downloads/rules scholarship.pdf">Merit-cum-Means, PMS Scholarship:: Rules &amp; Regulations </a></td>
+            </tr>
+            <tr class="style118">
+              <td><a href="index.php?link=downloads">Procedure for Student Verification Report  </a></td>
+            </tr>
+            
+            
+                <td width="183"><div align="left"><span class="style6">More Links</span></div></td>
+            </tr>
+            
+                       
+            
+        <tr class="style118">
+              <td><div align="left"><span class="style118"><img src="images/blink_red bullet.gif" alt="new" width="10" height="10" border="0" /><a href="Downloads/Syllabus.php">Syllabus</a></span><br />
+                 </td>
+            </tr>        
+            
+        
+           
+               <!--  <span class="style130"><a href="scroll_notification2013/Course Fee 2013.pdf" target="_blank" class="style120"><img src="images/blink_red bullet.gif" alt="new" width="10" height="10" border="0" /></a><a href="home/lastrank.php">Last Rank Details</a></span><br />
+				  </div></td> -->
+            </tr>
+            <tr class="style118">
+              <td class="style130"><span class="style111"><strong class="style131"><a href="KTU/Rules_For_Assigning_Student_Activity_Points.pdf" class="style118">RULES FOR ASSIGNING ACTIVITY POINTS- APJAKTU</a></strong></span></td>
+            </tr>
+            <tr class="style118">
+              <td class="style130"><a href="scroll_notifications2016/M Tech registration (Notice)-Dec 2016.pdf"> </a><a href="Downloads/NIRF Data.zip">NIRF Data </a></td>       
+            
+            
+            
+            
+            
+            
+            
+            
+            
+  </table>      
+</div>
+<blockquote>
+  <p>&nbsp;</p>
+</blockquote>
+<br />
+
+		<!--<a href="http://cecsummit.org" style="border:none #FFFFFF" target="_blank"><img src="headersmall.jpg" alt="SUMMIT 09" /></a>
+
+	  <a href="http://cecsummit.org" style="border:none #FFFFFF" target="_blank"></a>-->	  </td>
+	</tr>
+	</tbody>
+</table>
+
+	<!-- footer.php begins here -->
+<style type="text/css">
+<!--
+.style4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FF0000;
+	font-size: 12px;
+}
+.style13 {font-family: Arial, Helvetica, sans-serif; color: #003399; font-size: x-small; }
+.style14 {
+	color: #336699;
+	font-weight: bold;
+}
+.style15 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #336699;
+	font-size: x-small;
+	font-weight: bold;
+}
+-->
+</style>
+
+<!--
+<marquee  behavior="alternate" scrollamount="4">
+<p><a href="http://www.ceconline.edu/notifications/MTech/Admission2011.php" class="style4">:: MTech.Admission2011  Rank List Published :: </a></p></marquee>-->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td width="26" height="20%" background="cec_images/L_Tile.gif"></td>
+		<td width="825" align="center" class="style4">  <a href="index.php?link=credits">Credits</a> |  <a href="mailto:cecwebadmin@gmail.com">cecwebadmin@ceconline.edu</a>
+		| <a href="http://imail.ceconline.edu"> Access CEC Mail Service </a> 
+	    <td width="146" align="center" class="style13"><div align="right">
+	       <p align="left" class="style13">
+		     <span class="style15">
+		     
+		     Last Updated on  :  21-Jan-2020        
+             </span></p>
+	      </div>
+	      <div align="right" class="style14"></div>
+      <td width="26" background="cec_images/R_Tile.gif" class="style13"></td>
+	</tr>
+	<tr>
+		<td background="cec_images/blc_edge.gif" width="26" height="20"></td>
+		<td colspan="2" background="cec_images/B_Tile.gif"></td>
+		<td background="cec_images/brc_edge.gif" width="26"></td>
+	</tr>
+</table>
+<p class="style4">&nbsp;</p>
+<!-- footer.php ends here --></body>
+
+</html>]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ makdir ceccs1802
+No command 'makdir' found, did you mean:
+ Command 'mkdir' from package 'coreutils' (main)
+makdir: command not found
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ makdir ceccs1802[C[1P
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cd mkdir cs232
+bash: cd: mkdir: No such file or directory
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cd mkdir cs232[C[C[1P cs232[1P cs232[1P cs232[1P cs232[1P cs232[1Pcs232[1P cs232[1P cs232m cs232k cs232d cs232i cs232r cs232[C cs232
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ mv Desktop/work.txt Desktop/ceccs18c02/cs232/
+mv: cannot stat 'Desktop/work.txt': No such file or directory
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cd ..
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ cd ..mv Desktop/work.txt Desktop/ceccs18c02/cs232/
+mv: cannot move 'Desktop/work.txt' to 'Desktop/ceccs18c02/cs232/': No such file or directory
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ mkdir cs[K[Kcsccs[K[K[K[K[K[K[K[K[K[K[Kcd Desktop
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ mkdir ceccs18c02
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cd ceccs18c02
+]0;s4c1@ceclab2: ~/Desktop/ceccs18c02[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop/ceccs18c02[00m$ mkdir cs232
+]0;s4c1@ceclab2: ~/Desktop/ceccs18c02[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop/ceccs18c02[00m$ cd ..
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cd ..
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ cd ..mkdir cs232cd ceccs18c02[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[6Pcd Desktopmv Desktop/work.txt Desktop/ceccs18c02/cs232/
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ mv Desktop/work.txt Desktop/ceccs18c02/cs232/cd ..[Kmkdir cs232cd ceccs18c02[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[6Pcd Desktopmv Desktop/work.txt Desktop/ceccs18c02/cs232/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kmv Desktop/work.txt Desktop/ceccs18c02/cs232/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckdir  cs232[K[2@cd mkdir[C[C[C[C[C[Cmkdir ceccs1802[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcd mkdir cs232[2Pmkdir [C[C[C[C[C[Cv Desktop/work.txt Desktop/ceccs18c02/cs232/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kmv Desktop/work.txt Desktop/ceccs18c02/cs232/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd Desktop[Kmkdir ceccs18c02[3Pcd[C[C[C[C[C[C[C[C[C[C[C[2Pmkdir cs232[6Pcd ..mv Desktop/work.txt Desktop/ceccs18c02/cs232/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kmv Desktop/work.txt Desktop/ceccs18c02/cs232/[1P[1P[1P[1P[1@r[1@e[1@o[1@p[1@r[1@t
+mv: cannot stat 'Desktop/reoprt.txt': No such file or directory
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ mv Desktop/reoprt.txt Desktop/ceccs18c02/cs232/[1P[1P[1P[1P[1@p[1@o[1@r[1@t
+mv: cannot stat 'Desktop/report.txt': No such file or directory
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ mv Desktop/report.txt Desktop/ceccs18c02/cs232/[C[C[1P[1P[1P[1P[1P[1P[1@s[1@t[1@a[1@t[1@e[1@s[1P
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ mv Desktop/state.txt Desktop/ceccs18c02/cs232/[1P[1P[1P[1P[1P[1@i[1@n[1@d[1@e[1@x
+mv: cannot stat 'Desktop/index.txt': No such file or directory
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ mv Desktop/index.txt Desktop/ceccs18c02/cs232/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstate[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cindex[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P Desktop/ceccs18c02/cs232/[1P Desktop/ceccs18c02/cs232/[1P Desktop/ceccs18c02/cs232/t Desktop/ceccs18c02/cs232/[1P Desktop/ceccs18c02/cs232/h Desktop/ceccs18c02/cs232/t Desktop/ceccs18c02/cs232/m Desktop/ceccs18c02/cs232/l Desktop/ceccs18c02/cs232/
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ftp 192.168.0.30
+ftp: connect: Connection timed out
+ftp> exit
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ftp 192.168.0.30mv Desktop/index.html Desktop/ceccs18c02/cs232/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Pftp 192.168.0.30[K[K2
+ftp: connect: Connection timed out
+ftp> exit
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ftp 192.168.0.230
+ftp: connect: Connection timed out
+ftp> exit
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+
+
+^C
+--- 192.168.0.30 ping statistics ---
+23 packets transmitted, 0 received, 100% packet loss, time 22493ms
+
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ping 192.168.0.30[1Pftp[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ping[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+^C
+--- 192.168.0.2 ping statistics ---
+9 packets transmitted, 0 received, 100% packet loss, time 8171ms
+
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:1a:65  
+          inet addr:192.168.1.10  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::6e3f:ff7d:5f08:d259/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:131561 errors:0 dropped:50 overruns:0 frame:0
+          TX packets:22985 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:28178734 (28.1 MB)  TX bytes:3172566 (3.1 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:16758 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16758 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1264718 (1.2 MB)  TX bytes:1264718 (1.2 MB)
+
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ifconfigping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+^C
+--- 192.168.0.2 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3070ms
+
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.291 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.446 ms
+64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.510 ms
+64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.649 ms
+^C
+--- 192.168.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3057ms
+rtt min/avg/max/mdev = 0.291/0.474/0.649/0.128 ms
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ftp p[K192.168.0.30
+ftp: connect: Connection timed out
+ftp> exit
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ftp 192.168.0.30
+ftp: connect: Connection timed out
+ftp> exit
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ftp 192.168.0.30[K[K2
+ftp: connect: Connection timed out
+ftp> exit
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ sf[K[Kftp 192.168.0.2[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K30
+^C]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ sftp 192.168.0.30
+^C]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ sftp 192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K2
+ssh: connect to host 192.168.0.2 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ sftp 192.168.0.230
+^C]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 10:39 ?        00:00:01 /sbin/init splash
+root         2     0  0 10:39 ?        00:00:00 [kthreadd]
+root         4     2  0 10:39 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 10:39 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 10:39 ?        00:00:00 [ksoftirqd/0]
+root         8     2  0 10:39 ?        00:00:09 [rcu_sched]
+root         9     2  0 10:39 ?        00:00:00 [rcu_bh]
+root        10     2  0 10:39 ?        00:00:00 [migration/0]
+root        11     2  0 10:39 ?        00:00:00 [watchdog/0]
+root        12     2  0 10:39 ?        00:00:00 [cpuhp/0]
+root        13     2  0 10:39 ?        00:00:00 [cpuhp/1]
+root        14     2  0 10:39 ?        00:00:00 [watchdog/1]
+root        15     2  0 10:39 ?        00:00:00 [migration/1]
+root        16     2  0 10:39 ?        00:00:00 [ksoftirqd/1]
+root        18     2  0 10:39 ?        00:00:00 [kworker/1:0H]
+root        19     2  0 10:39 ?        00:00:00 [cpuhp/2]
+root        20     2  0 10:39 ?        00:00:00 [watchdog/2]
+root        21     2  0 10:39 ?        00:00:00 [migration/2]
+root        22     2  0 10:39 ?        00:00:00 [ksoftirqd/2]
+root        24     2  0 10:39 ?        00:00:00 [kworker/2:0H]
+root        25     2  0 10:39 ?        00:00:00 [cpuhp/3]
+root        26     2  0 10:39 ?        00:00:00 [watchdog/3]
+root        27     2  0 10:39 ?        00:00:00 [migration/3]
+root        28     2  0 10:39 ?        00:00:00 [ksoftirqd/3]
+root        30     2  0 10:39 ?        00:00:00 [kworker/3:0H]
+root        31     2  0 10:39 ?        00:00:00 [kdevtmpfs]
+root        32     2  0 10:39 ?        00:00:00 [netns]
+root        33     2  0 10:39 ?        00:00:00 [rcu_tasks_kthre]
+root        34     2  0 10:39 ?        00:00:00 [kauditd]
+root        38     2  0 10:39 ?        00:00:00 [khungtaskd]
+root        39     2  0 10:39 ?        00:00:00 [oom_reaper]
+root        40     2  0 10:39 ?        00:00:00 [writeback]
+root        41     2  0 10:39 ?        00:00:00 [kcompactd0]
+root        42     2  0 10:39 ?        00:00:00 [ksmd]
+root        43     2  0 10:39 ?        00:00:00 [khugepaged]
+root        44     2  0 10:39 ?        00:00:00 [crypto]
+root        45     2  0 10:39 ?        00:00:00 [kintegrityd]
+root        46     2  0 10:39 ?        00:00:00 [kblockd]
+root        48     2  0 10:39 ?        00:00:00 [ata_sff]
+root        49     2  0 10:39 ?        00:00:00 [md]
+root        50     2  0 10:39 ?        00:00:00 [edac-poller]
+root        51     2  0 10:39 ?        00:00:00 [devfreq_wq]
+root        52     2  0 10:39 ?        00:00:00 [watchdogd]
+root        53     2  0 10:39 ?        00:00:02 [kworker/u8:1]
+root        55     2  0 10:39 ?        00:00:00 [kswapd0]
+root        56     2  0 10:39 ?        00:00:00 [kworker/u9:0]
+root        57     2  0 10:39 ?        00:00:00 [ecryptfs-kthrea]
+root        99     2  0 10:39 ?        00:00:00 [kthrotld]
+root       100     2  0 10:39 ?        00:00:00 [acpi_thermal_pm]
+root       103     2  0 10:39 ?        00:00:00 [kworker/3:4]
+root       108     2  0 10:39 ?        00:00:00 [ipv6_addrconf]
+root       118     2  0 10:39 ?        00:00:00 [kstrp]
+root       135     2  0 10:39 ?        00:00:00 [charger_manager]
+root       182     2  0 10:39 ?        00:00:00 [scsi_eh_0]
+root       183     2  0 10:39 ?        00:00:00 [scsi_tmf_0]
+root       184     2  0 10:39 ?        00:00:00 [scsi_eh_1]
+root       185     2  0 10:39 ?        00:00:00 [scsi_tmf_1]
+root       186     2  0 10:39 ?        00:00:00 [scsi_eh_2]
+root       187     2  0 10:39 ?        00:00:00 [scsi_tmf_2]
+root       188     2  0 10:39 ?        00:00:00 [scsi_eh_3]
+root       189     2  0 10:39 ?        00:00:00 [scsi_tmf_3]
+root       192     2  0 10:39 ?        00:00:00 [i915/signal:0]
+root       193     2  0 10:39 ?        00:00:00 [i915/signal:1]
+root       194     2  0 10:39 ?        00:00:00 [i915/signal:2]
+root       195     2  0 10:39 ?        00:00:00 [i915/signal:4]
+root       200     2  0 10:39 ?        00:00:00 [kworker/2:1H]
+root       202     2  0 10:39 ?        00:00:00 [kworker/0:1H]
+root       204     2  0 10:39 ?        00:00:00 [kworker/3:1H]
+root       226     2  0 10:39 ?        00:00:00 [jbd2/sda1-8]
+root       227     2  0 10:39 ?        00:00:00 [ext4-rsv-conver]
+root       254     2  0 10:39 ?        00:00:00 [kworker/1:1H]
+root       265     1  0 10:40 ?        00:00:00 /lib/systemd/systemd-journald
+root       299     1  0 10:40 ?        00:00:00 /lib/systemd/systemd-udevd
+systemd+   356     1  0 10:40 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root       489     2  0 10:40 ?        00:00:00 [irq/126-mei_me]
+root       741     1  0 10:40 ?        00:00:00 /usr/sbin/cron -f
+root       745     1  0 10:40 ?        00:00:00 /usr/sbin/thermald --no-daemon -
+root       748     1  0 10:40 ?        00:00:00 /usr/sbin/acpid
+message+   749     1  0 10:40 ?        00:00:01 /usr/bin/dbus-daemon --system --
+root       764     1  0 10:40 ?        00:00:00 /usr/sbin/NetworkManager --no-da
+syslog     767     1  0 10:40 ?        00:00:00 /usr/sbin/rsyslogd -n
+avahi      769     1  0 10:40 ?        00:00:01 avahi-daemon: running [ceclab2.l
+root       770     1  0 10:40 ?        00:00:00 /usr/lib/accountsservice/account
+root       775     1  0 10:40 ?        00:00:00 /lib/systemd/systemd-logind
+avahi      803   769  0 10:40 ?        00:00:00 avahi-daemon: chroot helper
+root       821     1  0 10:40 ?        00:00:00 /usr/sbin/lightdm
+root       857     1  0 10:40 ?        00:00:00 /usr/sbin/irqbalance --pid=/var/
+root       865     1  0 10:40 ?        00:00:00 /usr/bin/python3 /usr/share/unat
+root       874     1  0 10:40 ?        00:00:00 /usr/lib/policykit-1/polkitd --n
+mysql      885     1  0 10:40 ?        00:00:02 /usr/sbin/mysqld
+root       939   821  0 10:40 tty7     00:00:00 /usr/lib/xorg/Xorg -core :0 -sea
+root      1065   821  0 10:40 ?        00:00:00 lightdm --session-child 12 15
+ceclab2   1070     1  0 10:40 ?        00:00:00 /lib/systemd/systemd --user
+ceclab2   1071  1070  0 10:40 ?        00:00:00 (sd-pam)
+ceclab2   1074  1065  0 10:40 ?        00:00:00 /sbin/upstart --user
+ceclab2   1150  1074  0 10:40 ?        00:00:00 upstart-udev-bridge --daemon --u
+ceclab2   1161  1074  0 10:40 ?        00:00:00 dbus-daemon --fork --session --a
+ceclab2   1173  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/wi
+ceclab2   1204  1074  0 10:40 ?        00:00:00 upstart-dbus-bridge --daemon --s
+ceclab2   1206  1074  0 10:40 ?        00:00:00 upstart-dbus-bridge --daemon --s
+ceclab2   1210  1074  0 10:40 ?        00:00:00 upstart-file-bridge --daemon --u
+ceclab2   1211  1074  0 10:40 ?        00:00:00 /usr/bin/ibus-daemon --daemonize
+ceclab2   1218  1074  0 10:40 ?        00:00:00 gnome-keyring-daemon --start --c
+ceclab2   1236  1074  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfsd
+ceclab2   1241  1074  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/us
+ceclab2   1243  1211  0 10:40 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+ceclab2   1244  1211  0 10:40 ?        00:00:00 /usr/lib/ibus/ibus-ui-gtk3
+ceclab2   1246  1074  0 10:40 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-da
+ceclab2   1268  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/bamf/b
+ceclab2   1279  1074  0 10:40 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus
+ceclab2   1284  1279  0 10:40 ?        00:00:00 /usr/bin/dbus-daemon --config-fi
+ceclab2   1286  1074  0 10:40 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-re
+ceclab2   1296  1211  0 10:40 ?        00:00:00 /usr/lib/ibus/ibus-engine-simple
+whoopsie  1301     1  0 10:40 ?        00:00:00 /usr/bin/whoopsie -f
+root      1306     1  0 10:40 tty1     00:00:00 /sbin/agetty --noclear tty1 linu
+ceclab2   1312  1074  0 10:40 ?        00:00:00 gpg-agent --homedir /home/ceclab
+ceclab2   1326  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/hu
+ceclab2   1328  1074  0 10:40 ?        00:00:00 /usr/lib/unity-settings-daemon/u
+ceclab2   1336  1074  0 10:40 ?        00:00:00 /usr/lib/gnome-session/gnome-ses
+ceclab2   1346  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity/
+ceclab2   1393  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+ceclab2   1394  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+ceclab2   1395  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+ceclab2   1396  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+ceclab2   1397  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+ceclab2   1398  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+ceclab2   1399  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+ceclab2   1400  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+ceclab2   1401  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+ceclab2   1440  1074  0 10:40 ?        00:00:00 /usr/lib/dconf/dconf-service
+root      1454     1  0 10:40 ?        00:00:00 /usr/lib/upower/upowerd
+ceclab2   1471  1074  0 10:40 ?        00:00:00 compiz
+ceclab2   1484  1074  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-sou
+ceclab2   1492  1074  0 10:40 ?        00:00:00 /usr/bin/pulseaudio --start --lo
+rtkit     1493     1  0 10:40 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+colord    1498     1  0 10:40 ?        00:00:00 /usr/lib/colord/colord
+ceclab2   1515  1336  0 10:40 ?        00:00:00 /usr/bin/gnome-software --gappli
+ceclab2   1516  1336  0 10:40 ?        00:00:00 /usr/lib/policykit-1-gnome/polki
+ceclab2   1518  1336  0 10:40 ?        00:00:00 /usr/lib/unity-settings-daemon/u
+ceclab2   1522  1336  0 10:40 ?        00:00:00 nm-applet
+ceclab2   1524  1336  0 10:40 ?        00:00:00 nautilus -n
+ceclab2   1539  1074  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volum
+ceclab2   1547  1074  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-cal
+root      1566     1  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/
+root      1577     1  0 10:40 ?        00:00:00 /usr/lib/udisks2/udisksd --no-de
+ceclab2   1586  1074  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-mo
+ceclab2   1591  1074  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-mo
+ceclab2   1597  1074  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volum
+ceclab2   1603  1074  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-mo
+ceclab2   1617  1547  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-cal
+ceclab2   1628  1074  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spaw
+ceclab2   1636  1074  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-add
+ceclab2   1638  1547  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-cal
+ceclab2   1655  1636  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-add
+ceclab2   1666  1074  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+root      1691   821  2 10:40 tty8     00:01:25 /usr/lib/xorg/Xorg -core :1 -sea
+root      1879   821  0 10:40 ?        00:00:00 lightdm --session-child 15 22
+ceclab2   1883  1336  0 10:40 ?        00:00:00 zeitgeist-datahub
+ceclab2   1890  1074  0 10:40 ?        00:00:00 /bin/sh -c /usr/lib/x86_64-linux
+ceclab2   1894  1890  0 10:40 ?        00:00:00 /usr/bin/zeitgeist-daemon
+ceclab2   1901  1074  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitge
+s4c1      1937     1  0 10:40 ?        00:00:00 /lib/systemd/systemd --user
+s4c1      1938  1937  0 10:40 ?        00:00:00 (sd-pam)
+s4c1      1943     1  0 10:40 ?        00:00:00 /usr/bin/gnome-keyring-daemon --
+s4c1      1945  1879  0 10:40 ?        00:00:00 /sbin/upstart --user
+s4c1      2022  1945  0 10:40 ?        00:00:00 upstart-udev-bridge --daemon --u
+s4c1      2032  1945  0 10:40 ?        00:00:01 dbus-daemon --fork --session --a
+s4c1      2044  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/wi
+s4c1      2076  1945  0 10:40 ?        00:00:12 /usr/bin/ibus-daemon --daemonize
+s4c1      2083  1945  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfsd
+s4c1      2094  1945  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/us
+s4c1      2103  2076  0 10:40 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+s4c1      2105  2076  0 10:40 ?        00:00:02 /usr/lib/ibus/ibus-ui-gtk3
+s4c1      2111  1945  0 10:40 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-da
+s4c1      2112  1945  0 10:40 ?        00:00:02 /usr/lib/x86_64-linux-gnu/bamf/b
+s4c1      2131  1945  0 10:40 ?        00:00:00 upstart-dbus-bridge --daemon --s
+s4c1      2133  1945  0 10:40 ?        00:00:00 upstart-dbus-bridge --daemon --s
+s4c1      2137  1945  0 10:40 ?        00:00:00 upstart-file-bridge --daemon --u
+s4c1      2141  2076  0 10:40 ?        00:00:03 /usr/lib/ibus/ibus-engine-simple
+s4c1      2150  1945  0 10:40 ?        00:00:00 gpg-agent --homedir /home/s4c1/.
+s4c1      2160  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/hu
+s4c1      2162  1945  0 10:40 ?        00:00:00 /usr/lib/unity-settings-daemon/u
+s4c1      2169  1945  0 10:40 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus
+s4c1      2174  1945  0 10:40 ?        00:00:00 /usr/lib/gnome-session/gnome-ses
+s4c1      2177  2169  0 10:40 ?        00:00:00 /usr/bin/dbus-daemon --config-fi
+s4c1      2182  1945  0 10:40 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-re
+s4c1      2194  1945  0 10:40 ?        00:00:01 /usr/lib/x86_64-linux-gnu/unity/
+s4c1      2226  1945  0 10:40 ?        00:00:00 /usr/lib/dconf/dconf-service
+s4c1      2235  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+s4c1      2238  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+s4c1      2247  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+s4c1      2249  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+s4c1      2256  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+s4c1      2258  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+s4c1      2259  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+s4c1      2262  1945  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-sou
+s4c1      2264  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+s4c1      2282  1945  0 10:40 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+s4c1      2309  1945  0 10:40 ?        00:00:00 /usr/bin/pulseaudio --start --lo
+s4c1      2321  1945  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-cal
+s4c1      2341  1945  4 10:40 ?        00:02:10 compiz
+s4c1      2342  2321  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-cal
+s4c1      2355  1945  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-add
+s4c1      2357  2321  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-cal
+s4c1      2364  2355  0 10:40 ?        00:00:00 /usr/lib/evolution/evolution-add
+s4c1      2396  2174  0 10:40 ?        00:00:03 /usr/bin/gnome-software --gappli
+s4c1      2397  2174  0 10:40 ?        00:00:00 /usr/lib/policykit-1-gnome/polki
+s4c1      2399  2174  0 10:40 ?        00:00:00 /usr/lib/unity-settings-daemon/u
+s4c1      2402  2174  0 10:40 ?        00:00:00 nm-applet
+s4c1      2408  2174  0 10:40 ?        00:00:02 nautilus -n
+s4c1      2424  1945  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volum
+s4c1      2433  1945  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-mo
+s4c1      2448  1945  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-mo
+s4c1      2461  1945  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volum
+s4c1      2477  1945  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-mo
+s4c1      2508  1945  0 10:40 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spaw
+s4c1      2528  1945  6 10:40 ?        00:03:12 /usr/lib/firefox/firefox
+s4c1      2626  2528  0 10:41 ?        00:00:01 /usr/lib/firefox/firefox -conten
+s4c1      2722  2174  0 10:41 ?        00:00:00 zeitgeist-datahub
+s4c1      2729  1945  0 10:41 ?        00:00:00 /bin/sh -c /usr/lib/x86_64-linux
+s4c1      2742  2729  0 10:41 ?        00:00:00 /usr/bin/zeitgeist-daemon
+s4c1      2750  1945  0 10:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitge
+s4c1      2771  2528  0 10:41 ?        00:00:16 /usr/lib/firefox/firefox -conten
+s4c1      2857  1945  0 10:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-
+s4c1      2867  1945  0 10:41 ?        00:00:00 /usr/bin/unity-scope-loader appl
+s4c1      2869  1945  0 10:41 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-
+ceclab2   2900  1336  0 10:41 ?        00:00:00 update-notifier
+s4c1      2959  2174  0 10:41 ?        00:00:00 update-notifier
+s4c1      2998  1945  0 10:42 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --sp
+s4c1      3036  1945  0 10:42 ?        00:00:00 /usr/lib/gvfs/gvfsd-smb-browse -
+s4c1      3071  1945  0 10:42 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spaw
+ceclab2   3106  1336  0 10:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-d
+s4c1      3124  1945  0 10:42 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+s4c1      3138  2174  0 10:42 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-d
+s4c1      3178  1945  0 10:43 ?        00:00:00 /usr/lib/libunity-webapps/unity-
+s4c1      3232  1945  0 10:43 ?        00:00:13 /usr/lib/gnome-terminal/gnome-te
+s4c1      3243  1945  0 10:43 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/
+s4c1      3249  3232  0 10:43 pts/4    00:00:00 bash
+s4c1      3287  2528  2 10:43 ?        00:01:05 /usr/lib/firefox/firefox -conten
+root      3515     2  0 10:45 ?        00:00:00 [kworker/1:0]
+root      3517     1  0 10:45 ?        00:00:00 /usr/sbin/cupsd -l
+root      3518     1  0 10:45 ?        00:00:00 /usr/sbin/cups-browsed
+lp        3519  3517  0 10:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        3520  3517  0 10:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        3521  3517  0 10:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        3522  3517  0 10:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        3523  3517  0 10:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        3524  3517  0 10:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        3525  3517  0 10:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        3526  3517  0 10:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        3529  3517  0 10:45 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+s4c1      3743  3249  0 10:48 pts/4    00:00:00 script work.txt
+s4c1      3744  3743  0 10:48 pts/19   00:00:00 bash -i
+root      3965     2  0 10:54 ?        00:00:00 [kworker/u8:3]
+s4c1      3984  2528  6 10:56 ?        00:02:34 /usr/lib/firefox/firefox -conten
+s4c1      4124  2528  0 11:01 ?        00:00:04 /usr/lib/firefox/firefox -conten
+root      4174     2  0 11:03 ?        00:00:00 [kworker/2:1]
+root      4189     2  0 11:05 ?        00:00:00 [kworker/0:0]
+s4c1      4579  2528  0 11:21 ?        00:00:00 /usr/lib/firefox/firefox -conten
+root      4640     2  0 11:24 ?        00:00:00 [kworker/2:0]
+root      4644     2  0 11:25 ?        00:00:00 [kworker/3:0]
+root      4656     2  0 11:25 ?        00:00:00 [kworker/1:1]
+root      4658     2  0 11:25 ?        00:00:00 [kworker/u8:2]
+s4c1      4674  1945  0 11:25 ?        00:00:00 /usr/lib/x86_64-linux-gnu/notify
+ceclab2   4676  1074  0 11:25 ?        00:00:00 /usr/lib/x86_64-linux-gnu/notify
+root      4767     2  0 11:25 ?        00:00:00 [kworker/u8:4]
+root      4778     2  0 11:26 ?        00:00:00 [kworker/0:2]
+root      4875     2  0 11:29 ?        00:00:00 [kworker/2:2]
+root      4879     2  0 11:30 ?        00:00:00 [kworker/3:1]
+root      4890     2  0 11:31 ?        00:00:00 [kworker/1:2]
+root      4891     2  0 11:31 ?        00:00:00 [kworker/0:1]
+s4c1      4908  3744  0 11:33 pts/19   00:00:00 ps -ef
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ps -efsftp 192.168.0.30[1P230[2Pftp 192.168.0.230ping 192.168.0.2[8Pifconfigping 192.168.0.2[K30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^C
+--- 192.168.0.30 ping statistics ---
+9 packets transmitted, 0 received, 100% packet loss, time 8159ms
+
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ping 192.168.0.30[K[K2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=6 ttl=64 time=0.673 ms
+64 bytes from 192.168.0.2: icmp_seq=7 ttl=64 time=0.542 ms
+^C
+--- 192.168.0.2 ping statistics ---
+8 packets transmitted, 2 received, 75% packet loss, time 7165ms
+rtt min/avg/max/mdev = 0.542/0.607/0.673/0.069 ms
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.420 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.469 ms
+64 bytes from 192.168.0.2: icmp_seq=20 ttl=64 time=0.476 ms
+64 bytes from 192.168.0.2: icmp_seq=21 ttl=64 time=0.652 ms
+64 bytes from 192.168.0.2: icmp_seq=26 ttl=64 time=0.510 ms
+64 bytes from 192.168.0.2: icmp_seq=27 ttl=64 time=0.668 ms
+64 bytes from 192.168.0.2: icmp_seq=30 ttl=64 time=0.471 ms
+64 bytes from 192.168.0.2: icmp_seq=31 ttl=64 time=0.352 ms
+64 bytes from 192.168.0.2: icmp_seq=34 ttl=64 time=0.591 ms
+64 bytes from 192.168.0.2: icmp_seq=35 ttl=64 time=0.587 ms
+64 bytes from 192.168.0.2: icmp_seq=39 ttl=64 time=0.680 ms
+64 bytes from 192.168.0.2: icmp_seq=40 ttl=64 time=0.510 ms
+64 bytes from 192.168.0.2: icmp_seq=43 ttl=64 time=0.513 ms
+64 bytes from 192.168.0.2: icmp_seq=44 ttl=64 time=0.653 ms
+64 bytes from 192.168.0.2: icmp_seq=47 ttl=64 time=0.580 ms
+64 bytes from 192.168.0.2: icmp_seq=48 ttl=64 time=0.482 ms
+64 bytes from 192.168.0.2: icmp_seq=51 ttl=64 time=0.538 ms
+64 bytes from 192.168.0.2: icmp_seq=52 ttl=64 time=0.558 ms
+64 bytes from 192.168.0.2: icmp_seq=55 ttl=64 time=0.508 ms
+64 bytes from 192.168.0.2: icmp_seq=56 ttl=64 time=0.541 ms
+64 bytes from 192.168.0.2: icmp_seq=59 ttl=64 time=0.565 ms
+64 bytes from 192.168.0.2: icmp_seq=60 ttl=64 time=0.457 ms
+64 bytes from 192.168.0.2: icmp_seq=63 ttl=64 time=0.660 ms
+64 bytes from 192.168.0.2: icmp_seq=64 ttl=64 time=0.445 ms
+64 bytes from 192.168.0.2: icmp_seq=67 ttl=64 time=0.449 ms
+64 bytes from 192.168.0.2: icmp_seq=68 ttl=64 time=0.674 ms
+
+
+64 bytes from 192.168.0.2: icmp_seq=71 ttl=64 time=0.465 ms
+
+
+64 bytes from 192.168.0.2: icmp_seq=72 ttl=64 time=0.433 ms
+^C
+--- 192.168.0.2 ping statistics ---
+74 packets transmitted, 28 received, 62% packet loss, time 74694ms
+rtt min/avg/max/mdev = 0.352/0.532/0.680/0.089 ms
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ git init
+The program 'git' is currently not installed. To run 'git' please ask your administrator to install the package 'git'
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ cat e[Kcomplete.txt
+cat: complete.txt: No such file or directory
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ cd Desktop
+]0;s4c1@ceclab2: ~/Desktop[01;32ms4c1@ceclab2[00m:[01;34m~/Desktop[00m$ cd [K[K[Kcd ..
+]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ cd ..Desktopat complete.txt[8Pgit initping 192.168.0.230s -ef[Ksftp 192.168.0.30[1P230
+^C]0;s4c1@ceclab2: ~[01;32ms4c1@ceclab2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Friday 24 January 2020 11:50:24 AM IST
