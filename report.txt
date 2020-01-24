@@ -1,0 +1,117 @@
+CEC CS 18 02
+Abin Binu Sam
+Date: 24-01-2020
+
+--------------------------------
+#1: Aim/task
+
+Familiarisation of Linux commands
+---------------------------------
+Command/Shell script/Program name
+
+#A: Sorting A File
+---------------------------------
+
+	sort -o output.txt fist.txt
+
+Input: (If relevant)
+---------------
+
+fist.txt
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+output.txt (Sorted File)
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#B: Cut command
+---------------------------------
+
+	cut -b 1,2,3 state.txt
+
+Input: (If relevant)
+---------------
+
+state.txt
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+him
+and
+ker
+tam
+-------------------
+Remarks if any:
+
+
+
+
+#C: A webpage
+---------------------------------
+
+	wget http://ceconline.edu
+
+Input: (If relevant)
+---------------
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+index.html(Source code of the above website)
+-------------------
+Remarks if any:
+
+
+
+
+#D: Uname command
+---------------------------------
+
+	uname -v
+
+Input: (If relevant)
+---------------
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+#83~16.04.1-Ubuntu SMP Wed Dec 18 04:56:23 UTC 2019
+-------------------
+Remarks if any:
+
+
+
+
+#E: GREP command
+---------------------------------
+
+	grep -c "uman" employee.txt
+
+Input: (If relevant)
+---------------
+employee.txt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+1
+-------------------
+Remarks if any:
+--------------------------
+Output: or Input & Output (whichever is applicable)
+
+output.txt (Sorted File)
+-------------------
+Remarks if any:
+
+
+
