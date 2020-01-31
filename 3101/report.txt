@@ -1,0 +1,105 @@
+CEC CS 18 002
+Abin Binu Sam
+Date :30-01-2020
+
+--------------------------------
+#1: Aim/task
+
+T5:Ftp Usage 	
+---------------------------------
+Command/Shell script/Program name
+
+	# ftp cs18c02@192.168.0.30
+	(or sftp cs18cs02@192.168.0.2)
+
+	# put work.txt
+
+	# rm work.txt
+
+	# lpwd	
+
+---------------------------------
+	# Logging into the FTP server
+
+	# uploading the file 'work.txt' to the server
+
+	# removing file 'work.txt' to the server
+
+	# Check the local present directory
+
+
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+#2: Aim/task
+
+T3:Networking Tasks 	
+---------------------------------
+Command/Shell script/Program name
+
+	# ifconfig
+
+	# ifconfig -a
+
+	# route add default gw 192.168.1.10
+
+	# ping 192.168.1.10
+
+	# cat /etc/resolv.conf
+
+	# echo 'nameserver '1.0.0.1' > /etc/resolv.conf	
+
+---------------------------------
+
+	# Displays information about all network interfaces
+
+	# All interfaces including inactive ones are displayed
+
+	# Adding a route to route table 
+
+	# Communicating to the new created gateway
+
+	# To configure DNS nameservers
+
+	# Adding the DNS by Cloudfare 1.0.0.1
+
+-------------------
+Remarks if any:
+	User 's4c1' is not in sudoers list.Incident will be reported
+
+-------------------------------------
+-------------------------------------
+#3: Aim/task
+
+T4:Networking Tasks 	
+---------------------------------
+Command/Shell script/Program name
+
+	# ssh cs18c02@192.168.0.30
+
+	# rsync work.txt cs18c02@192.168.0.30:3101
+
+	# scp report.txt cs18c02@192.168.0.30:3101
+
+---------------------------------
+
+	# Secured Shell connection to the server
+
+	# Copies only difference between source file in local host and file destination in remote host
+	 (Delta Transfer Alogorithm)
+
+	# Allows secure transferring of files between local host and remote host
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+
+
+
+
