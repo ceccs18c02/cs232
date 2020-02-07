@@ -1,0 +1,665 @@
+Script started on Friday 07 February 2020 09:37:53 AM IST
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ ls
+work.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ ls
+result_s1.pdf  result_s2.pdf  work.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ mkdir S1
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ ls
+result_s2.pdf  [0m[01;34mS1[0m  work.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ mkdir s2
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ cd s2
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/s2[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/s2[00m$ ls
+result_s2.pdf
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/s2[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/s2[00m$ cd ..
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ pdf [Ktotext -layout [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksftp cs18c02@192.168.0 .2
+ssh: connect to host 192.168.0.2 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ sftp cs18c02@192.168.0..2[K[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ sftp cs18c02@192.168.0.2
+ssh: connect to host 192.168.0.2 port 22: Connection refused
+Couldn't read packet: Connection reset by peer
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ sftp cs18c02@192.168.0.2[K30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+From 192.168.0.132 icmp_seq=1 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=2 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=3 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=4 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=5 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=6 Destination Host Unreachable
+^C
+--- 192.168.0.30 ping statistics ---
+8 packets transmitted, 0 received, +6 errors, 100% packet loss, time 7160ms
+pipe 4
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ ping 192.168.0.30sftp cs18c02@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ [K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ ls
+[0m[01;34mS1[0m  [01;34ms2[0m  work.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ cd S1
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ ls
+result_s1.pdf
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ pdftotext -layout [K r esult_s1.txt[K[K[Kpdf[K[K[Ktxt
+I/O Error: Couldn't open file 'result_s1.txt': No such file or directory.
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ pdftotext -layout reesult_s1.txt[K[K[Kpddf >~~~[K[K[K[K[K[K[Kf > resulty[K.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ ls
+result_s1.pdf  result_s1.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ grep --no-group-sep arator -A3 "CHN18CS" RESULT_S1[K[K[K[K[K[K[K[K[Kresult_s1.txt > result.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ ls
+result_s1.pdf  result_s1.txt  result.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ tr '\n' ' ' < resul t.txt > resultn.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed 's/t//g' result n.txt >? [K[K file[K[K[K[Kresult2.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{$1=$1;print}'  resi[Kult2.txt > result2.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{$1=$1;print}'  result2.txt > result2.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed 's/t//g' resultn[7P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed 's/t//g' resultnn.txt > result2.txt[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kn.txt
+sed: can't read resultn2.txt: No such file or directory
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed 's/t//g' resultnn2.txt > resultn.txt[1P
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed 's/CHN/\nCHM[KN/g'  fil[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'  file[K[K[K[Kresulr[Ktn.txt > file[K[K[K[Kresult2.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ tr ',' ' ' result2. txt > res_s1.txt
+tr: extra operand ‘result2.txt’
+Try 'tr --help' for more information.
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ tr ',' ' ' result2.ttxt > res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C, ' ' result2.[1@t[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C' ' result2.t[1P[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C
+
+^C
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ tr ',',' ' result2.ttxt > res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C,
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ,' ' result2.[1@t[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C ' ' result2[1@.[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C
+
+tr: extra operand ‘ ’
+Try 'tr --help' for more information.
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ tr ',' , ' ' result22.txt > res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ' ' result2.[1P[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C' ' result2.t[1P[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C result2.[1@t[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C< result2[1@.[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C result[1@2[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(O)[K[Ko[KO)/ 10/g ' result[K[K[K_s1.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(O)/ 10/g'' res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)/ 10/g' [1Pres_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CA)/ 10/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C+)/ 10/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g'[1P res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g' [1Pres_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g'[1P res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5/[1@g[K[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(A+)/ 9.5//g' res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g[1P[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g'[1P res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(A+)/ 9/g'' res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)/ 9/g' [1Pres_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(A)/ 8.5/gg' res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)/ 8.5/g'[1P res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CB)/ 8.5/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C+)/ 8.5/[1@g[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g[1P[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g'[1P res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(B+)/ 8/g'' res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)/ 8/g' [1Pres_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C)/ 8/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CB)/ 8/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(B)/ 7/g'  res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)/ 7/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CC)/ 7/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(C)/ 6/g'  res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)/ 6/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CP)/ 6/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[CF/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(P)/ 5/g'  res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)/ 5/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CF)/ 5/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(F)/ 0/g'  res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CE)/ 0/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(FE)/ 0/g'' res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)/ 0/g' [1Pres_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C)/ 0/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CI)/ 0/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(I)/ 0/g'  res_s1.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)/ 0/g' r[1Pes_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CA)/ 0/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cb)/ 0/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cs)/ 0/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ce)/ 0/[1@g[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn)/ 0[1@/[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct)/ [1@0[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{
+> $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+> }' res_s1.txt > g.txt
+awk: line 2: syntax error at or near ,
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{
+$1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+}' res_s1.txt > g.txt[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -i 's/(Absent)/ [18P0/g' res_s1.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{             $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+}' res_s1.txt > g.txt[A[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(Absent)/ [18P0/g' res_s1.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CI)/ 0/g' [5Pres_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CAbsent)/ 0/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{             $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+}' res_s1.txt > g.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp$1,$3,$5,$7,$9,$11,$13,$15,$17,$19[Cr$1,$3,$5,$7,$9,$11,$13,$15,$17,$19[C[Ci$1,$3,$5,$7,$9,$11,$13,$15,$17,$19[C[C[Cn$1,$3,$5,$7,$9,$11,$13,$15,$17,$19[C[C[C[Ct$1,$3,$5,$7,$9,$11,$13,$15,$17,$19[C[C[C[C[C $1,$3,$5,$7,$9,$11,$13,$15,$17,$19[C[C[C[C[C[C
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk {'[K[K'{ 
+> s=0
+> fla[K[K[Ktest=0
+> f=0
+> for( i=0[K2;i<=NF;i++){
+> if($i == 0){
+> test=1
+> f=f+1
+> }
+> s=s+$i
+> cg=[K[K[K}
+> cg=s/9
+> if(f[Ktest=0){
+> printf("%s %0.3f\n",$1,cg)
+> }
+> if(test ==1[K 1){
+> printf(No. of [K[K[K[K[K[K[K"Subjects Failed %[C[1@%[1@s[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: %[C[Cd",$1,fa[K)
+> }
+> },[K' g.txt >cgp.txt cgp.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{ 
+s=0
+test=0
+f=0
+for( i=2;i<=NF;i++){
+if($i == 0){
+test=1
+f=f+1
+}
+s=s+$i
+}
+cg=s/9
+if(test=0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d",$1,f)
+}
+}' g.txt > cgp.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{ 
+s=0
+test=0
+f=0
+for( i=2;i<=NF;i++){
+if($i == 0){
+test=1
+f=f+1
+}
+s=s+$i
+}
+cg=s/9
+if(test=0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d",$1,f)
+}
+}' g.txt > cgp.txt[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[A[C[A[C[C[C[C[C[A[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P=2;i<=NF;i++){[C[C[C[C[Cv=2;i<=NF;i++){[C[C[C[C[C[Ca=2;i<=NF;i++){[C[C[C[C[C[C[Cr=2;i<=NF;i++){[C[C[C[C[C[C[C[C[C[C[C[C[1P<=NF;i++){v<=NF;i++){a<=NF;i++){r<=NF;i++){[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[A[A[A[A[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '{ 
+s=0
+test=0
+f=0
+for( var=2;var<=NF;i++){
+if($i == 0){
+test=1
+f=f+1
+}
+s=s+$i
+}
+cg=s/9
+if(test=0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d",$1,f)
+}
+}' g.txt > cgp.txt[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[A[C[A[C[C[C[C[C[A[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P++){v++){a++){r++){[C[C[C[C
+[C[C[C[C[C[1P[1@v[1@a[1@r[C[C[C[C[C[C[C
+[C[C[C[C[C[C
+[C[C[C[C[C
+[C
+[C[C[C[C[C[C
+[C
+[C[A[A[A[A[A[A[A[C[C[C[C[6Pi=2;i<=NF;i++){
+[C[C[C[C[2Pi
+
+
+
+
+
+
+
+
+
+
+
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[Cvar=2;var<=NF;var++){
+[C[C[C[C[2@var
+
+
+
+
+
+
+
+
+
+
+
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[A[C[A[C[C[C[C[C
+[C
+[C[C[C[C[C[C var
+
+
+
+
+
+
+
+
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{ 
+s=0
+test=0
+f=0
+for( var=2;var<=NF;var++){
+if($var == 0){
+test=1
+f=f+1
+}
+s=s+$var
+}
+cg=s/9
+if(test=0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d",$1,f)
+}
+}' g.txt > cgp.txt[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C=0){
+
+
+
+
+
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{ 
+s=0
+test=0
+f=0
+for( var=2;var<=NF;var++){
+if($var == 0){
+test=1
+f=f+1
+}
+s=s+$var
+}
+cg=s/9
+if(test==0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d",$1,f)
+}
+}' g.txt > cgp.txt[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\",$1,f)n",$1,f)
+
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{ 
+s=0
+test=0
+f=0
+for( var=2;var<=NF;var++){
+if($var == 0){
+test=1
+f=f+1
+}
+s=s+$var
+}
+cg=s/9
+if(test==0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d\n",$1,f)
+}
+}' g.txt > cgp.txt[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[2P",$1,f)
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[C[C[C[C[C[C[C[C[C[C[C[C\n",$1,f)
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C   i[A[C[A[C[C[C[C[C[A[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@i[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P++){[1P++){[1P++){i++){[1P<=NF;i++){[1P<=NF;i++){[1P<=NF;i++){i<=NF;i++){[C[1P=2;i<=NF;i++){[C[C[C[C[C[C[C[1P=2;i<=NF;i++){[C[C[C[C[C[C[1P=2;i<=NF;i++){[C[C[C[C[Ci=2;i<=NF;i++){[C[C[C[C[C[C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{ 
+s=0
+test=0
+f=0
+for( i=2;i<=NF;i++){
+if($i == 0){
+test=1
+f=f+1
+}
+s=s+$i
+}
+cg=s/9
+if(test==0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d\n",$1,f)
+}
+}' g.txt > cgp.txt1.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{ 
+s=0
+test=0
+f=0
+for( i=2;i<=NF;i++){
+if($i == 0){
+test=1
+f=f+1
+}
+s=s+$i
+}
+cg=s/9
+if(test==0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d\n",$1,f)
+}
+}' g.txt > cgp1.txt[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk '{ 
+s=0
+test=0
+f=0
+for( i=2;i<=NF;i++){
+if($i == 0){
+test=1
+f=f+1
+}
+s=s+$i
+}
+cg=s/9
+if(test==0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d\n",$1,f)
+}
+}' g.txt > cgp1.txt[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ gedity re^[[2~[K[K[K[K[K[K[K[K report.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ join students.txt cgp. txt
+join: students.txt: No such file or directory
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ cd s[KS1
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ cd S1join students.txt cggp.txt
+CHN18CS002 ABHIITHP  Subjects Failed: 4
+CHN18CS003 ABIN BINU SAM  9.333
+CHN18CS005 ADHIL SHAHANAD K K  8.056
+CHN18CS006 ADWAITH SIVAN  Subjects Failed: 3
+CHN18CS007 Aju George Jacob  8.556
+CHN18CS008 AKHIL RAVINDRAN  7.944
+CHN18CS012 ALKA ANNA SABU  8.222
+CHN18CS015 Amal Ramachandran  Subjects Failed: 4
+CHN18CS018 ANJANA S  9.333
+CHN18CS023 ARAVIND R  7.889
+CHN18CS024 ARJUN A  Subjects Failed: 3
+CHN18CS025 ARJUN G KRISHNA  8.111
+CHN18CS028 ASHIK DAVID ABRAHAM  Subjects Failed: 2
+CHN18CS029 Ashna A  9.167
+CHN18CS035 DEEPA MARIAM GEORGE  9.167
+CHN18CS037 DEVIKA J  8.444
+CHN18CS039 Emmanuel Shine Joseph  8.167
+CHN18CS043 GEORGE MANI  8.056
+CHN18CS046 GOPIKA PRADEEP  Subjects Failed: 2
+CHN18CS047 GOPIKA SURESH  Subjects Failed: 1
+CHN18CS048 GOPUDAS KM  Subjects Failed: 4
+CHN18CS049 GOVIND KARTHA  8.556
+CHN18CS051 HABEL JAMES GEORGE  Subjects Failed: 2
+CHN18CS052 HARI S R  Subjects Failed: 5
+CHN18CS053 HELEENA ANNA VARGHESE  7.722
+CHN18CS055 lrene Maria Zachariah  Subjects Failed: 1
+CHN18CS056 JALENA MATHEW  8.389
+CHN18CS057 JEENU CHACKO  8.056
+CHN18CS060 Jessal John Mammen  Subjects Failed: 1
+CHN18CS061 Jesswin W Varghese  Subjects Failed: 2
+CHN18CS063 Jibin Joseph  8.444
+CHN18CS064 JISA SURENDRAN  Subjects Failed: 1
+CHN18CS068 Jonathan John Varghese  7.833
+CHN18CS069 JOSHENA JOSEPH  8.222
+CHN18CS071 JUSTIN JOSEPH  Subjects Failed: 3
+CHN18CS073 KAVYA M  8.833
+CHN18CS076 KIRAN U  Subjects Failed: 1
+CHN18CS079 Manu Mathew  7.889
+CHN18CS080 MARGRET JAISON  9.333
+CHN18CS082 Muhammad Jalal  7.889
+CHN18CS083 MUNISH KUMAR  Subjects Failed: 4
+CHN18CS084 NAJEEB  7.778
+CHN18CS090 NIMMY GEORGE  Subjects Failed: 5
+CHN18CS092 NIVEA GIGEN  8.833
+CHN18CS093 Nivya Maria Mathew  9.611
+CHN18CS095 PARVATHY KRISHNAN  9.111
+CHN18CS096 PARVATHY SANTHOSH  8.000
+CHN18CS097 Prayank P Nair  8.056
+CHN18CS100 Remya C  8.833
+CHN18CS101 REMYA RAVEEDRANATHAN 7.944
+CHN18CS103 RINU ELISABATH MATHEW  9.000
+CHN18CS104 Rojin K Sunny  9.111
+CHN18CS108 SARATH KUMAR S  Subjects Failed: 3
+CHN18CS109 SAURAV K.J.  Subjects Failed: 2
+CHN18CS110 SEBA SUSAN MATHEW  Subjects Failed: 1
+CHN18CS111 SHILPA SAJAN PUNNOOSE 8.333
+CHN18CS113 SONA SEBASTIAN  8.500
+CHN18CS114 SOUMYAMOL S  Subjects Failed: 1
+CHN18CS115 SREEJITH MURALI  8.722
+CHN18CS118 THEJUS R  8.056
+CHN18CS120 VISHNUSS  7.111
+CHN18CS121 VISHWANATH R ATHREY  8.222
+CHN18CS122 VIVEK K P 8.556
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ join students.txt cggp.txt >RESULT.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ join students.txt cggp.txt >RESULT.txt[C[C[C[C[C[C[K[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ cd S1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjoin students.txt cggp.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [3Pgedit report.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kawk '{ 
+s=0
+test=0
+f=0
+for( i=2;i<=NF;i++){
+if($i == 0){
+test=1
+f=f+1
+}
+s=s+$i
+}
+cg=s/9
+if(test==0){
+printf("%s %0.3f\n",$1,cg)
+}
+if(test == 1){
+printf("%s Subjects Failed: %d\n",$1,f)
+}
+}' g.txt > cgp1.txt[1P.txt[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[Cvar=2;var<=NF;var++){
+[C[C[C[C[2@var
+
+
+
+[C[C[C[C[Cvar
+
+
+
+
+
+
+
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[C[C[C[C[C[C[C[C[C[C[C[C[2P",$1,f)
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[A[A[A[C[C[C[C[C[C[C[C[1P0){
+
+
+
+
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[6Pi=2;i<=NF;i++){
+[C[C[C[C[2Pi
+
+
+
+[C[C[C[C[C[2Pi
+
+
+
+
+
+
+
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C 
+print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+}' res_s1.txt > g.txt
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[6P$1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed -i 's/(Absent)/ [18P0/g' res_s1.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CI)/ 0/g' [5Pres_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CFE)/ 0/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C)/ 0/g' [1Pres_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CP)/ 5/g' [C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CC)/ 6/g' [C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CB)/ 7/g' [C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C+)/ 8/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CA)/ 8.5/g' res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C+)/ 9/g'[1P res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C[C[C[C[CO)/ 10/g'[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ tr ',' ' ' <  result2.txt > res_s1.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[C, ' ' result2[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C,' ' result2.t[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed 's/CHN/\nCHN/g' resultn.txt > result2.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [C[C[C[C[C[C[Ct//g' result2[7P.txt > resultn.txt[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt > result2.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ awk '{$1=$1;print}' [7@result2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ sed 's/t//g' resultn[7P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ tr '\n' ' ' < result[C[C[C[C[C[C[C[C[C[C[C[C[Cn.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep --no-group-sepaarator -A3 "CHN18CS" result_s1.txt > result.txt[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpdftotext -layout reesult_s1.pdf > result.txt[C[C[C[C[C[C[C[C[Ctxt[K[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd S1[3Plssftp cs18c02@192.1688.0.30[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [2Pping 192.168.0.30
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c02@192.1688.0.30[A]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ [2Pping 192.168.0.30
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c02@192.1688.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ git [K[K[K[Kping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+From 192.168.0.132 icmp_seq=1 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=2 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=3 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=4 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=5 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=6 Destination Host Unreachable
+^C
+--- 192.168.0.30 ping statistics ---
+8 packets transmitted, 0 received, +6 errors, 100% packet loss, time 7150ms
+pipe 4
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ ping 192.168.0.30[1P020
+PING 192.168.0.20 (192.168.0.20) 56(84) bytes of data.
+64 bytes from 192.168.0.20: icmp_seq=1 ttl=128 time=1.31 ms
+64 bytes from 192.168.0.20: icmp_seq=2 ttl=128 time=0.571 ms
+64 bytes from 192.168.0.20: icmp_seq=3 ttl=128 time=0.405 ms
+^C
+--- 192.168.0.20 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2013ms
+rtt min/avg/max/mdev = 0.405/0.763/1.313/0.394 ms
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ ping 192.168.0.20[K
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.232 ms
+
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.152 ms
+64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.184 ms
+64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.264 ms
+64 bytes from 192.168.0.2: icmp_seq=5 ttl=64 time=0.184 ms
+^C
+--- 192.168.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.152/0.203/0.264/0.040 ms
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   ../../3101/report.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../[m
+
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ git statusping 192.168.0.2[C[K30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+From 192.168.0.132 icmp_seq=1 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=2 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=3 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=4 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=5 Destination Host Unreachable
+From 192.168.0.132 icmp_seq=6 Destination Host Unreachable
+^C
+--- 192.168.0.30 ping statistics ---
+7 packets transmitted, 0 received, +6 errors, 100% packet loss, time 6133ms
+pipe 4
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702/S1[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702/S1[00m$ cs[Kd ..
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ git add[K[K[Kpull "http:[K://githu b[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit pull origin master [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kin master [A
+
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+From https://github.com/ceccs18c02/cs232
+ * branch            master     -> FETCH_HEAD
+   44a7581..f0701d4  master     -> origin/master
+Updating 44a7581..f0701d4
+Fast-forward
+ 3101/report.txt | 105 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 105 insertions(+)
+ create mode 100644 3101/report.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ 
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ git dd [K[K[Kadd 0702
+fatal: pathspec '0702' did not match any files
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ git add 0702/work.txt
+fatal: pathspec '0702/work.txt' did not match any files
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ git add work.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/0702[00m$ git push origin master [A
+Username for 'https://github.com': ceccs18c02
+Password for 'https://ceccs18c02@github.com': 
+Everything up-to-date
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/0702[01;32ms4c1@ceclab2-System-Pro
