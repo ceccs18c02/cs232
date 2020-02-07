@@ -1,0 +1,37 @@
+CEC CS 18 C02
+Abin Binu Sam
+Date: 07/02/2020
+
+--------------------------------
+#1: Aim/task
+	#2 Scripting(CGPA Computation)
+---------------------------------
+Command/Shell script/Program name
+
+	# Cgpa computation of S1 and S2 results
+	# pdftotext -layout file.txt
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+	result_s1.pdf
+	result_s2.pdf
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+	result_s1.txt
+	result_s2.txt
+
+
+	# FINAL RESULT(Output) 
+	# RESULT.txt
+
+-------------------
+Remarks if any:
+
+	
+
+
+
+-------------------------------------
+
