@@ -311,4 +311,63 @@ Already up-to-date.
 [master a7e5e4c] task 2
  1 file changed, 47 insertions(+)
  create mode 100644 1702/report.txt
-]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-Syst
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ git commit -m "task 2"[4Padd report.txtpull http://github.com/ceccs18c02/cs232[27Pedit index.htmlreport.txtsftp cs18c02@192.168.0.30rsync report.txt cs18c02@192.168.0.30:1702[26Pgedit report.txtit push -u origin master[3Pcommit -m "task 2"push -u origin master
+Username for 'https://github.com': ceccs18c02
+Password for 'https://ceccs18c02@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 696 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/ceccs18c02/cs232
+   416a800..a7e5e4c  master -> master
+Branch master set up to track remote branch master from origin.
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ git push -u origin master[3Pcommit -m "task 2"[4Padd report.txtpull http://github.com/ceccs18c02/cs232[27Pedit index.htmlreport.txtsftp cs18c02@192.168.0.30rsync report.txt cs18c02@192.168.0.30:1702[26Pgedit report.txtit push -u origin master[3Pcommit -m "task 2"add *[Kcommit -m "task 2"push -u origin master[9Pedit report.txtit push -u origin master[3Pcommit -m "task 2"add *[Kallpull http://github.com/ceccs18c02/cs232[5Prsync index.html cs18c02@192.168.0.30:[22Pgedit index.html
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ gedit index.html
+^C
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ gedit index.htmlit push -u origin master[3Pcommit -m "task 2"[4Padd report.txtpull http://github.com/ceccs18c02/cs232[25Padd report.txt[K[K[K[K[K[K[K[K[K[Kwork.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ git add work.txtedit index.htmlit push -u origin master[3Pcommit -m "task 2"[4Padd report.txtcommit -m "task 2"
+[master 15f4b10] task 2
+ 1 file changed, 314 insertions(+)
+ create mode 100644 1702/work.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ git commit -m "task 2"[6Padd work.txtedit index.htmlit push -u origin master
+Username for 'https://github.com': ceccs18c02
+Password for 'https://ceccs18c02@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 10.93 KiB | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/ceccs18c02/cs232
+   a7e5e4c..15f4b10  master -> master
+Branch master set up to track remote branch master from origin.
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ git push -u origin master[3Pcommit -m "task 2"[6Padd work.txtedit index.htmlit push -u origin master[3Pcommit -m "task 2"[4Padd report.txtpull http://github.com/ceccs18c02/cs232[27Pedit index.htmlreport.txtsftp cs18c02@192.168.0.30rsync report.txt cs18c02@192.168.0.30:1702[26Pgedit report.txtit push -u origin master[9Pedit report.txtrsync report.txt cs18c02@192.168.0.30:1702[26Pgedit report.txtit push -u origin master[3Pcommit -m "task 2"add *[Kallpull http://github.com/ceccs18c02/cs232[5Prsync index.html cs18c02@192.168.0.30:[22Pgedit index.htmlrsync index.html cs18c02@192.168.0.30:
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c02@192.168.0.30's password: 
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ rsync index.html cs18c02@192.168.0.30:[13Pgit push -u origin master[3Pcommit -m "task 2"[6Padd work.txtedit index.htmlit push -u origin master[9Pedit index.html
+^C
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ gedit index.htmlrsync index.html cs18c02@192.168.0.30:
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c02@192.168.0.30's password: 
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ rsync index.html cs18c02@192.168.0.30:[22Pgedit index.html[C[K[K[K[K[K[K[K[K[K[Kreport.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ gedit report.txtrsync index.html cs18c02@192.168.0.30:[C1702[26Pgedit report.txtrsync index.html cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702[1P cs18c02@192.168.0.30:1702r cs18c02@192.168.0.30:1702e cs18c02@192.168.0.30:1702p cs18c02@192.168.0.30:1702o cs18c02@192.168.0.30:1702r cs18c02@192.168.0.30:1702t cs18c02@192.168.0.30:1702. cs18c02@192.168.0.30:1702t cs18c02@192.168.0.30:1702x cs18c02@192.168.0.30:1702t cs18c02@192.168.0.30:1702
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c02@192.168.0.30's password: 
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c02/cs232/1702[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c02/cs232/1702[00m$ exit
+exit
+
+Script done on Monday 17 February 2020 11:50:00 AM IST
