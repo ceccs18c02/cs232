@@ -1,0 +1,47 @@
+CEC CS 18 C02
+Abin Binu Sam
+
+--------------------------------
+#1: Aim/task
+	T2--Scripting Task(Cont.)
+---------------------------------
+Command/Shell script/Program name
+
+	script_s1.sh
+	#Script for calculating SGPA of S1 Result
+
+	sscript_s2.sh
+	#Script for calculating SGPA of S2 Result
+---------------------------------
+
+Input:
+---------------
+	result_s1.pdf
+	#Official S1 Result by KTU
+
+	result_s2.pdf
+	#Official S2 Result by KTU
+
+--------------------------------
+Output: 
+	sgpf_s1.txt
+	#Calculated SGPA of S1 Result
+
+	sgpf_s2.txt
+	#Calculated SGPA of S2 Result
+
+-------------------------------------
+
+--------------------------------
+#2: Aim/task
+	T9--Own Webpage at the server
+---------------------------------
+---------------------------------
+
+Input:
+---------------
+
+	index.html
+	#Static page to upload contents of Lab work
+
+--------------------------------
