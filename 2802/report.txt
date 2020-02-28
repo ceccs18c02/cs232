@@ -1,6 +1,6 @@
 CEC CS 18 C02
 Abin Binu Sam 
-Mac address: 
+Mac address: //eventually system froze and couldn't obtain mac address within stipulated time.
 Date: 28-02-2020
 
 --------------------------------
