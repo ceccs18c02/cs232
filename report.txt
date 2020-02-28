@@ -1,0 +1,30 @@
+CEC CS 18 C02
+Abin Binu Sam 
+Mac address: 
+Date: 28-02-2020
+
+--------------------------------
+#1: Aim/task
+---------------------------------
+T6:
+Linux Installation
+---------------------------------
+
+Input: (If relevant)
+---------------
+Manjaro 16.10 Installation Dvd
+
+
+
+
+-------------------
+Remarks if any:
+
+Installation took too long to complete.
+Prof. recommended to abort and continue next day.
+
+
+
+
+-------------------------------------
+-------------------------------------
