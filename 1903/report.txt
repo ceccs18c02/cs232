@@ -1,0 +1,38 @@
+CEC CS 18 C02
+Abin Binu Sam
+Date: 19-03-2020
+
+--------------------------------
+#1: Aim/task
+
+T7: Setiing up HTTP and ftp server
+---------------------------------
+Command/Shell script/Program name
+
+	sudo apt install apache2 # HTTP server
+
+
+	sudo apt install vsftpd # FTP server
+
+---------------------------------
+
+
+
+--------------------------------
+Output: 
+
+In Apache2: local host called mydomain.com created with a sample index file
+
+In Vsftpd: Two users namely 'abs' and 'ebs' was created to acccess the ftp through ip of the system
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
