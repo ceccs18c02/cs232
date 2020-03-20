@@ -25,7 +25,7 @@ In Apache2: local host called mydomain.com created with a sample index file
 
 In Vsftpd: Two users namely 'abs' and 'ebs' was created to acccess the ftp through ip of the system
 
-
+A screenshot proof.png was uploaded
 -------------------
 Remarks if any:
 
