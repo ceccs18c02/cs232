@@ -1,0 +1,45 @@
+CEC CS 18 C02
+Abin Binu Sam
+Date: 21/03/2020
+
+--------------------------------
+#1: Aim/task
+
+T8.2 : PERL
+
+---------------------------------
+Command/Shell script/Program name
+
+	switch.pl #program name
+
+	gedit switch.pl #creating program file
+
+	perl switch.pl #compilation and execution
+
+
+---------------------------------
+
+Input: 
+---------------
+
+	# Two numbers by the user
+
+
+
+--------------------------------
+Output: 
+
+	# The user selects from the four operations given.
+
+
+-------------------
+Remarks if any:
+
+Contrary to the file name i have used given-when instead of switch-case which is a feature of perl.
+
+
+
+
+-------------------------------------
+-------------------------------------
+
