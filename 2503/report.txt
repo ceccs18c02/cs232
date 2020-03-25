@@ -1,0 +1,59 @@
+CEC CS 18 C02
+Abin Binu Sam
+Date:25/03/2020
+
+--------------------------------
+#1: Aim/task
+
+T8.4: Kernel Compilation
+---------------------------------
+Command/Shell script/Program name
+
+Latest kernel stable version as of Mar 25 at 10 am: linux 5.5.11
+
+---------------------------------
+
+Input: 
+---------------
+
+	*Download latest kernel source code
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.11.tar.xz
+
+	*Extracting file in home directory
+	unxz -v linux-5.5.11.tar.xz
+
+	*Get the PGP signature(cryptographic signature from the person making the release)
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.11.tar.sign
+
+	*Verification of the cryptographic signature
+	gpg --verify linux-5.5.11.tar.sign 
+
+	*Extraxting linux tarball
+	tar xvf linux-5.5.11.tar
+
+	cd linux-5.5.11
+
+	*Coping the existing config files(ie kernel modules/drivers) 
+	cp -v /boot/config-$(uname -r) .config
+
+	*Installing GCC and various development tools
+	sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+
+	*compiling and creating a compressed kernel image(nproc command counts cpu/threads to speed up compile time)
+	make -j $(nproc)
+--------------------------------
+Output: 
+
+1. Screenshot of the compiled kernel is at kernel.png
+
+2. The PGP signature of linux 5.5.11
+
+-------------------
+Remarks if any:
+
+
+Since the completion of my kernel compilation noticed the release of the next stable version 5.5.12 , afternoon at the same day.
+
+
+-------------------------------------
+-------------------------------------
