@@ -1,0 +1,50 @@
+CEC CS 18 C02
+Abin Binu Sam
+Date: 31/03/2020
+
+--------------------------------
+#1: Aim/task
+
+T8.1: Package Management
+---------------------------------
+Command/Shell script/Program name
+
+	# Update the list of packages
+	sudo apt update
+
+	# List of all packages that can be upgraded
+	sudo apt list --upgradable
+
+	# Searching if the package is available
+	sudo apt search vlc
+
+	# Installing the package
+	sudo apt install vlc
+
+	# Removing the package(The configaration/ data files are intact)
+	sudo apt remove vlc
+
+	# Purging the package(All the configuration files are deleted)
+	sudo apt purge vlc
+
+	# List of all the packages installed
+	sudo apt list > package.txt
+	
+---------------------------------
+
+Input: 
+---------------
+
+--------------------------------
+Output: 
+
+	# package.txt
+-------------------
+Remarks if any:
+
+	VLC (VideoLan Client) is a free and open source cross-platform multimedia player 
+	
+	https://www.videolan.org/
+
+-------------------------------------
+-------------------------------------
