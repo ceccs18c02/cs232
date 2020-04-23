@@ -1,0 +1,523 @@
+Script started on 2020-04-23 18:50:25+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit s4.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ chmod +x s4.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./s4.sh
+Username : abin\n
+Login name : abin\n
+Current Shell : /bin/bash\n
+Home Directory : /home/abin\n
+Operating System Type : \n
+GNU/Linux
+Current Path Setting : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/abin/go/bin\n
+Current Working Directory : \n
+/home/abin/Desktop
+Currently logged on users : \n
+abin     :0           2020-04-24 00:33 (:0)
+Number of logged in users: \n
+1
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./s4.shchmod +x s4.sh[3Pgedit[C[C[C[C[C[C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit s4.sh[4P./s4.shchmod +x s4.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ chmod +x s4.sh[3Pgedit[C[C[C[C[C[C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit s4.sh[3@chmod +x[C[C[C[C[C[C[3Pgedit[C[C[C[C[C[C[4P./s4.sh
+Username : abin
+ 
+Login name : abin\n
+Current Shell : /bin/bash\n
+Home Directory : /home/abin\n
+Operating System Type : \n
+GNU/Linux
+Current Path Setting : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/abin/go/bin\n
+Current Working Directory : \n
+/home/abin/Desktop
+Currently logged on users : \n
+abin     :0           2020-04-24 00:33 (:0)
+Number of logged in users: \n
+1
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./s4.shgedit s4.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit s4.sh[4P./s4.shgedit s4.sh[3@chmod +x[C[C[C[C[C[C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ chmod +x s4.sh[3Pgedit[C[C[C[C[C[C[4P./s4.sh
+Username : abin
+Login name : abin\n
+Current Shell : /bin/bash\n
+Home Directory : /home/abin\n
+Operating System Type : \n
+GNU/Linux
+Current Path Setting : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/abin/go/bin\n
+Current Working Directory : \n
+/home/abin/Desktop
+Currently logged on users : \n
+abin     :0           2020-04-24 00:33 (:0)
+Number of logged in users: \n
+1
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./s4.shchmod +x s4.sh[3Pgedit[C[C[C[C[C[C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit s4.sh[4P./s4.shchmod +x s4.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ chmod +x s4.sh[3Pgedit[C[C[C[C[C[C[4P./s4.sh
+Username : abin
+Login name : abin
+Current Shell : /bin/bash
+Home Directory : /home/abin
+Operating System Type : 
+GNU/Linux
+Current Path Setting : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/abin/go/bin
+Current Working Directory : 
+/home/abin/Desktop
+Currently logged on users : 
+abin     :0           2020-04-24 00:33 (:0)
+Number of logged in users: 
+1
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit s5.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit s5.sh[Kchmod +x s5.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./s5.sh
+Operating Sysyetm Info :
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=19.10
+DISTRIB_CODENAME=eoan
+DISTRIB_DESCRIPTION="Ubuntu 19.10"
+NAME="Ubuntu"
+VERSION="19.10 (Eoan Ermine)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 19.10"
+VERSION_ID="19.10"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=eoan
+UBUNTU_CODENAME=eoan
+Available Shells :
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/bin/dash
+/usr/bin/dash
+CPU Info :
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          8
+On-line CPU(s) list:             0-7
+Thread(s) per core:              2
+Core(s) per socket:              4
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           142
+Model name:                      Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Stepping:                        10
+CPU MHz:                         800.031
+CPU max MHz:                     3400.0000
+CPU min MHz:                     400.0000
+BogoMIPS:                        3600.00
+Virtualization:                  VT-x
+L1d cache:                       128 KiB
+L1i cache:                       128 KiB
+L2 cache:                        1 MiB
+L3 cache:                        6 MiB
+NUMA node0 CPU(s):               0-7
+Vulnerability Itlb multihit:     KVM: Mitigation: Split huge pages
+Vulnerability L1tf:              Mitigation; PTE Inversion; VMX conditional cach
+                                 e flushes, SMT vulnerable
+Vulnerability Mds:               Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled v
+                                 ia prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user
+                                  pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, IBPB condit
+                                 ional, IBRS_FW, STIBP conditional, RSB filling
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtr
+                                 r pge mca cmov pat pse36 clflush dts acpi mmx f
+                                 xsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rd
+                                 tscp lm constant_tsc art arch_perfmon pebs bts 
+                                 rep_good nopl xtopology nonstop_tsc cpuid aperf
+                                 mperf pni pclmulqdq dtes64 monitor ds_cpl vmx e
+                                 st tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_
+                                 1 sse4_2 x2apic movbe popcnt tsc_deadline_timer
+                                  aes xsave avx f16c rdrand lahf_lm abm 3dnowpre
+                                 fetch cpuid_fault epb invpcid_single pti ssbd i
+                                 brs ibpb stibp tpr_shadow vnmi flexpriority ept
+                                  vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep
+                                  bmi2 erms invpcid mpx rdseed adx smap clflusho
+                                 pt intel_pt xsaveopt xsavec xgetbv1 xsaves dthe
+                                 rm ida arat pln pts hwp hwp_notify hwp_act_wind
+                                 ow hwp_epp md_clear flush_l1d
+\n C.P.U Information :\n
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0xca
+cpu MHz		: 800.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0xca
+cpu MHz		: 800.015
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0xca
+cpu MHz		: 799.999
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0xca
+cpu MHz		: 800.031
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0xca
+cpu MHz		: 800.028
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0xca
+cpu MHz		: 800.007
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0xca
+cpu MHz		: 800.002
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0xca
+cpu MHz		: 799.970
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+\n Memory Information :\n
+MemTotal:       12183624 kB
+MemFree:         7817828 kB
+MemAvailable:    9459712 kB
+Buffers:          110984 kB
+Cached:          2106772 kB
+SwapCached:            0 kB
+Active:          2722340 kB
+Inactive:        1068932 kB
+Active(anon):    1733648 kB
+Inactive(anon):   232848 kB
+Active(file):     988692 kB
+Inactive(file):   836084 kB
+Unevictable:      157516 kB
+Mlocked:              16 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:               760 kB
+Writeback:             0 kB
+AnonPages:       1731500 kB
+Mapped:           644172 kB
+Shmem:            392984 kB
+KReclaimable:     117192 kB
+Slab:             259860 kB
+SReclaimable:     117192 kB
+SUnreclaim:       142668 kB
+KernelStack:       15472 kB
+PageTables:        23036 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     8188960 kB
+Committed_AS:    6903520 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       45348 kB
+VmallocChunk:          0 kB
+Percpu:             7168 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      271668 kB
+DirectMap2M:     6983680 kB
+DirectMap1G:     5242880 kB
+\n Hard disk Information :\n
+[sudo] password for abin: 
+
+
+DMI
+
+   
+SMP
+
+   
+PA-RISC
+
+       
+device-tree
+
+           
+SPD
+
+   
+memory
+
+      
+/proc/cpuinfo
+
+             
+CPUID
+
+     
+PCI (sysfs)
+
+           
+ISA PnP
+
+       
+PnP (sysfs)
+
+           
+PCMCIA
+
+      
+PCMCIA
+
+      
+Virtual I/O (VIRTIO) devices
+
+                            
+IBM Virtual I/O (VIO)
+
+                     
+kernel device tree (sysfs)
+
+                          
+USB
+
+   
+IDE
+
+   
+SCSI
+
+    
+S/390 devices
+
+             
+Network interfaces
+
+                  
+Framebuffer devices
+
+                   
+Display
+
+       
+CPUFreq
+
+       
+ABI
+
+   
+
+H/W path       Device           Class          Description
+==========================================================
+/0/100/17/0    /dev/sda         disk           1TB ST1000LM035-1RK1
+/0/100/17/1    /dev/cdrom       disk           DVDRW  DA8AESH
+Filesystem      Size  Used Avail Use% Mounted on
+udev            5.8G     0  5.8G   0% /dev
+tmpfs           1.2G  1.9M  1.2G   1% /run
+/dev/sda6        72G   13G   56G  19% /
+tmpfs           5.9G  164M  5.7G   3% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           5.9G     0  5.9G   0% /sys/fs/cgroup
+/dev/loop1       55M   55M     0 100% /snap/core18/1705
+/dev/loop3      1.0M  1.0M     0 100% /snap/gnome-logs/93
+/dev/loop2      1.0M  1.0M     0 100% /snap/gnome-logs/81
+/dev/loop4       94M   94M     0 100% /snap/core/8935
+/dev/loop0       15M   15M     0 100% /snap/gnome-characters/495
+/dev/loop6      150M  150M     0 100% /snap/gnome-3-28-1804/71
+/dev/loop9      4.3M  4.3M     0 100% /snap/gnome-calculator/544
+/dev/loop7       55M   55M     0 100% /snap/core18/1668
+/dev/loop8       63M   63M     0 100% /snap/gtk-common-themes/1506
+/dev/loop5      161M  161M     0 100% /snap/gnome-3-28-1804/116
+/dev/loop11      15M   15M     0 100% /snap/gnome-characters/399
+/dev/loop10     148M  148M     0 100% /snap/postman/106
+/dev/loop13     4.4M  4.4M     0 100% /snap/gnome-calculator/704
+/dev/loop16      49M   49M     0 100% /snap/gtk-common-themes/1474
+/dev/loop12     203M  203M     0 100% /snap/vlc/1397
+/dev/sda1       256M   89M  168M  35% /boot/efi
+tmpfs           1.2G   44K  1.2G   1% /run/user/1000
+/dev/loop17      94M   94M     0 100% /snap/core/9066
+/dev/loop14     148M  148M     0 100% /snap/postman/107
+\n File System(Mounted) :\n
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+udev on /dev type devtmpfs (rw,nosuid,relatime,size=6064352k,nr_inodes=1516088,mode=755)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=1218364k,mode=755)
+/dev/sda6 on / type ext4 (rw,relatime,errors=remount-ro)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)
+cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+efivarfs on /sys/firmware/efi/efivars type efivarfs (rw,nosuid,nodev,noexec,relatime)
+bpf on /sys/fs/bpf type bpf (rw,nosuid,nodev,noexec,relatime,mode=700)
+cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup on /sys/fs/cgroup/rdma type cgroup (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=33,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=1860)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)
+debugfs on /sys/kernel/debug type debugfs (rw,nosuid,nodev,noexec,relatime)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,nosuid,nodev,noexec,relatime)
+configfs on /sys/kernel/config type configfs (rw,nosuid,nodev,noexec,relatime)
+/var/lib/snapd/snaps/core18_1705.snap on /snap/core18/1705 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_93.snap on /snap/gnome-logs/93 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_81.snap on /snap/gnome-logs/81 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8935.snap on /snap/core/8935 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_495.snap on /snap/gnome-characters/495 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_71.snap on /snap/gnome-3-28-1804/71 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_544.snap on /snap/gnome-calculator/544 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1668.snap on /snap/core18/1668 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1506.snap on /snap/gtk-common-themes/1506 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_116.snap on /snap/gnome-3-28-1804/116 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_399.snap on /snap/gnome-characters/399 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/postman_106.snap on /snap/postman/106 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_704.snap on /snap/gnome-calculator/704 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1474.snap on /snap/gtk-common-themes/1474 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/vlc_1397.snap on /snap/vlc/1397 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/dev/sda1 on /boot/efi type vfat (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=1218360k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+/dev/fuse on /run/user/1000/doc type fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+/var/lib/snapd/snaps/core_9066.snap on /snap/core/9066 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/postman_107.snap on /snap/postman/107 type squashfs (ro,nodev,relatime,x-gdu.hide)
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2020-04-23 19:47:19+05:30 [COMMAND_EXIT_CODE="0"]
