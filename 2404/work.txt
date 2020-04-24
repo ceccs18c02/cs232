@@ -1,0 +1,120 @@
+Script started on 2020-04-24 18:56:28+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit calc.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit calc.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit calc.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ chmod +x calc.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./calc.sh
+[H[2J[3JEnter the first number:
+21
+Enter the secong number:
+21
+./calc.sh: line 8: [y: command not found
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./calc.shchmod +x calc.sh[3Pgedit[C[C[C[C[C[C[C[C
+^[[A    ^C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit calc.sh[4P./calc.shchmod +x calc.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ chmod +x calc.sh[3Pgedit[C[C[C[C[C[C[C[C[4P./calc.sh
+Enter the first number:
+21
+Enter the secong number:
+21
+./calc.sh: line 8: [y: command not found
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./calc.shchmod +x calc.sh[3Pgedit[C[C[C[C[C[C[C[C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit calc.sh[4P./calc.shchmod +x calc.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ chmod +x calc.sh[3Pgedit[C[C[C[C[C[C[C[C[4P./calc.sh
+Enter the first number:
+21
+Enter the secong number:
+21
+Enter your choice
+1 for Addition
+2 for Subtraction
+3 for Multiplication
+4 for Division
+1
+Sum = 42
+Do u want to continue ?
+y
+Enter your choice
+1 for Addition
+2 for Subtraction
+3 for Multiplication
+4 for Division
+2
+Diff = 0
+Do u want to continue ?
+n
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./calc.shchmod +x calc.sh[3Pgedit[C[C[C[C[C[C[C[C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit calc.sh[4P./calc.shchmod +x calc.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ chmod +x calc.sh[3Pgedit[C[C[C[C[C[C[C[C[4P./calc.sh
+Enter the first number:
+21
+Enter the secong number:
+21
+Enter your choice
+1 for Addition
+2 for Subtraction
+3 for Multiplication
+4 for Division
+1
+Sum = 42
+Do u want to continue ?
+y
+Enter the first number:
+23
+Enter the secong number:
+23
+Enter your choice
+1 for Addition
+2 for Subtraction
+3 for Multiplication
+4 for Division
+2
+Diff = 0
+Do u want to continue ?
+y
+Enter the first number:
+21
+Enter the secong number:
+21
+Enter your choice
+1 for Addition
+2 for Subtraction
+3 for Multiplication
+4 for Division
+3
+Mul = 441
+Do u want to continue ?
+y
+Enter the first number:
+21
+Enter the secong number:
+21
+Enter your choice
+1 for Addition
+2 for Subtraction
+3 for Multiplication
+4 for Division
+4
+Div = 1
+Do u want to continue ?
+n
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ./calc.shchmod +x calc.sh[3Pgedit[C[C[C[C[C[C[C[C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ gedit calc.sh[4P./calc.shchmod +x calc.sh
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ chmod +x calc.sh[3Pgedit[C[C[C[C[C[C[C[C[4P./calc.sh
+Enter the first number:
+26
+Enter the second number:
+1
+Enter your choice
+1 for Addition
+2 for Subtraction
+3 for Multiplication
+4 for Division
+4
+Div = 26
+Do u want to continue ?
+n
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2020-04-24 19:33:37+05:30 [COMMAND_EXIT_CODE="0"]
