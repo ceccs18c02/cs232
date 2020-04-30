@@ -1,0 +1,69 @@
+CEC CS 18 02
+Abin Binu Sam
+
+Date:30/04/2020
+IP:202.83.57.197
+
+--------------------------------
+#1: Aim/task
+
+	T8.3: LAMP Stack
+---------------------------------
+Command/Shell script/Program name
+
+	# update list
+            sudo apt update
+
+
+        # install apache2
+            sudo apt-get install apache2
+
+	# making sure it allows the traffic on ports 80 and 443
+	    sudo ufw app info “Apache Full”
+
+
+        # install mysql
+            sudo apt-get install mysql-server
+
+
+	# to start MySQLserver
+           sudo service mysql start 
+
+
+	# log in to MySQL
+             mysql -u root -p
+
+
+        # to show databases
+          show databases;
+
+
+
+        # PHP installation
+           sudo apt install php libapache2-mod-php php-mysql
+
+
+        # Creating PHP file info
+            sudo nano /var/www/html/info.php
+
+       
+        # Creating PHP file index
+            sudo nano /var/www/html/index.php
+---------------------------------
+
+
+--------------------------------
+Output: Screenshots:
+	mysql database ->mysql.png
+	info.php -> info.png
+	index.php ->info.png
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
