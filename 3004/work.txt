@@ -1,0 +1,1090 @@
+Script started on 2020-04-30 10:37:36+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt [K-get update
+[sudo] password for abin: 
+0% [Working]            Hit:1 http://packages.microsoft.com/repos/vscode stable InRelease
+0% [Waiting for headers] [Waiting for headers] [Connected to brave-browser-apt-                                                                               Hit:2 http://archive.canonical.com/ubuntu eoan InRelease
+0% [Waiting for headers] [Connected to brave-browser-apt-release.s3.brave.com (0% [Waiting for headers] [Connected to brave-browser-apt-release.s3.brave.com (                                                                               Hit:3 http://archive.ubuntu.com/ubuntu eoan InRelease
+                                                                               0% [Connected to brave-browser-apt-release.s3.brave.com (151.101.194.217)]                                                                          0% [Waiting for headers] [Waiting for headers]                                              Hit:4 https://brave-browser-apt-release.s3.brave.com stable InRelease
+                                              0% [Waiting for headers]0% [Waiting for headers]                        Hit:5 http://archive.ubuntu.com/ubuntu eoan-updates InRelease
+0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]                        Hit:6 http://archive.ubuntu.com/ubuntu eoan-backports InRelease
+                        0% [Working]0% [Waiting for headers]                        Hit:7 http://archive.ubuntu.com/ubuntu eoan-security InRelease
+                        0% [Working]20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 7%Reading package lists... 7%Reading package lists... 9%Reading package lists... 9%Reading package lists... 40%Reading package lists... 40%Reading package lists... 71%Reading package lists... 71%Reading package lists... 88%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... Done
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt-get install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.41-1ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 14 not upgraded.
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo service apache2 stsus[K[K[Katus
+[?1h=● apache2.service - The Apache HTTP Server[m
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: [m
+   Active: inactive (dead) since Thu 2020-04-30 10:30:55 IST; 8min ago[m
+     Docs: https://httpd.apache.org/docs/2.4/[m
+  Process: 4695 ExecStop=/usr/sbin/apachectl stop (code=exited, status=0/SUCCESS[m
+ Main PID: 27555 (code=exited, status=0/SUCCESS)[m
+[m
+Apr 29 21:19:00 ABS-LAP systemd[1]: Starting The Apache HTTP Server...[m
+Apr 29 21:19:00 ABS-LAP systemd[1]: Started The Apache HTTP Server.[m
+Apr 30 10:30:55 ABS-LAP systemd[1]: Stopping The Apache HTTP Server...[m
+Apr 30 10:30:55 ABS-LAP systemd[1]: apache2.service: Succeeded.[m
+Apr 30 10:30:55 ABS-LAP systemd[1]: Stopped The Apache HTTP Server.[m
+[7mlines 1-12/12 (END)[27m[K[K[K[7mlines 1-12/12 (END)[27m[K[K[?1l>
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt-get remove apache2*
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Note, selecting 'apache2-ssl-dev' for glob 'apache2*'
+Note, selecting 'apache2.2-common' for glob 'apache2*'
+Note, selecting 'apache2-suexec-pristine' for glob 'apache2*'
+Note, selecting 'apache2-api-20120211' for glob 'apache2*'
+Note, selecting 'apache2-data' for glob 'apache2*'
+Note, selecting 'apache2-api-20120211-openssl1.1' for glob 'apache2*'
+Note, selecting 'apache2-suexec' for glob 'apache2*'
+Note, selecting 'apache2-bin' for glob 'apache2*'
+Note, selecting 'apache2.2-bin' for glob 'apache2*'
+Note, selecting 'apache2-dev' for glob 'apache2*'
+Note, selecting 'apache2-doc' for glob 'apache2*'
+Note, selecting 'apache2-suexec-custom' for glob 'apache2*'
+Note, selecting 'apache2' for glob 'apache2*'
+Note, selecting 'apache2-utils' for glob 'apache2*'
+Note, selecting 'apache2-mpm-itk' for glob 'apache2*'
+Package 'apache2.2-bin' is not installed, so not removed
+Package 'apache2.2-common' is not installed, so not removed
+Note, selecting 'apache2-bin' instead of 'apache2-api-20120211'
+Note, selecting 'apache2-bin' instead of 'apache2-api-20120211-openssl1.1'
+Package 'apache2-mpm-itk' is not installed, so not removed
+Package 'apache2-dev' is not installed, so not removed
+Package 'apache2-doc' is not installed, so not removed
+Package 'apache2-ssl-dev' is not installed, so not removed
+Package 'apache2-suexec-custom' is not installed, so not removed
+Package 'apache2-suexec-pristine' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  apache2 apache2-bin apache2-data apache2-utils
+0 upgraded, 0 newly installed, 4 to remove and 14 not upgraded.
+After this operation, 6,833 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 216516 files and directories currently installed.)
+Removing apache2 (2.4.41-1ubuntu1) ...
+Removing apache2-bin (2.4.41-1ubuntu1) ...
+dpkg: warning: while removing apache2-bin, directory '/var/lib/apache2' not empty so not removed
+Removing apache2-data (2.4.41-1ubuntu1) ...
+Removing apache2-utils (2.4.41-1ubuntu1) ...
+Processing triggers for man-db (2.8.7-3) ...
+Processing triggers for ufw (0.36-1ubuntu3) ...
+Rules updated for profile 'Apache'
+
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt-get remove apache2*[1Pservice apache2 statusapt-get install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils
+0 upgraded, 4 newly installed, 0 to remove and 14 not upgraded.
+Need to get 1,518 kB of archives.
+After this operation, 6,833 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu eoan/main amd64 apache2-bin amd64 2.4.41-1ubuntu1 [1,179 kB]
+0% [1 apache2-bin 1,163 B/1,179 kB 0%]3% [1 apache2-bin 60.5 kB/1,179 kB 5%]20% [1 apache2-bin 372 kB/1,179 kB 32%]33% [1 apache2-bin 618 kB/1,179 kB 52%]37% [1 apache2-bin 711 kB/1,179 kB 60%]48% [1 apache2-bin 912 kB/1,179 kB 77%]                                       67% [Working]             Get:2 http://archive.ubuntu.com/ubuntu eoan/main amd64 apache2-data all 2.4.41-1ubuntu1 [159 kB]
+67% [2 apache2-data 2,613 B/159 kB 2%]                                      80% [Waiting for headers]                         Get:3 http://archive.ubuntu.com/ubuntu eoan/main amd64 apache2-utils amd64 2.4.41-1ubuntu1 [85.2 kB]
+81% [3 apache2-utils 3,079 B/85.2 kB 4%]                                        90% [Waiting for headers]                         Get:4 http://archive.ubuntu.com/ubuntu eoan/main amd64 apache2 amd64 2.4.41-1ubuntu1 [95.5 kB]
+90% [4 apache2 1,553 B/95.5 kB 2%]                                  100% [Working]              Fetched 1,518 kB in 4s (376 kB/s)
+Selecting previously unselected package apache2-bin.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 216010 files and directories currently installed.)
+Preparing to unpack .../apache2-bin_2.4.41-1ubuntu1_amd64.deb ...
+Unpacking apache2-bin (2.4.41-1ubuntu1) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../apache2-data_2.4.41-1ubuntu1_all.deb ...
+Unpacking apache2-data (2.4.41-1ubuntu1) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../apache2-utils_2.4.41-1ubuntu1_amd64.deb ...
+Unpacking apache2-utils (2.4.41-1ubuntu1) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../apache2_2.4.41-1ubuntu1_amd64.deb ...
+Unpacking apache2 (2.4.41-1ubuntu1) ...
+Setting up apache2-bin (2.4.41-1ubuntu1) ...
+Setting up apache2-data (2.4.41-1ubuntu1) ...
+Setting up apache2-utils (2.4.41-1ubuntu1) ...
+Setting up apache2 (2.4.41-1ubuntu1) ...
+Job for apache2.service failed because the control process exited with error code.
+See "systemctl status apache2.service" and "journalctl -xe" for details.
+invoke-rc.d: initscript apache2, action "restart" failed.
+[0;1;31m●[0m apache2.service - The Apache HTTP Server
+   Loaded: loaded (]8;;file://ABS-LAP/lib/systemd/system/apache2.service/lib/systemd/system/apache2.service]8;;; enabled; vendor preset: enabled)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Thu 2020-04-30 10:41:51 IST; 19ms ago
+     Docs: ]8;;https://httpd.apache.org/docs/2.4/https://httpd.apache.org/docs/2.4/]8;;
+  Process: 6818 ExecStart=/usr/sbin/apachectl start [0;1;31m(code=exited, status=1/FAILURE)[0m
+
+Apr 30 10:41:51 ABS-LAP systemd[1]: Starting The Apache HTTP Server...
+Apr 30 10:41:51 ABS-LAP apachectl[6818]: apache2: Could not open configuration file /etc/apache2/apache2.conf: No such file or directory
+Apr 30 10:41:51 ABS-LAP apachectl[6818]: Action 'start' failed.
+Apr 30 10:41:51 ABS-LAP apachectl[6818]: The Apache error log may have more information.
+Apr 30 10:41:51 ABS-LAP systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+Apr 30 10:41:51 ABS-LAP systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+Apr 30 10:41:51 ABS-LAP systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+Processing triggers for systemd (242-7ubuntu3.7) ...
+Processing triggers for man-db (2.8.7-3) ...
+Processing triggers for ufw (0.36-1ubuntu3) ...
+Rules updated for profile 'Apache'
+
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo ufw app list
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  CUPS
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo ufw app info "Apache Full"
+Profile: Apache Full
+Title: Web Server (HTTP,HTTPS)
+Description: Apache v2 is the next generation of the omnipresent Apache web
+server.
+
+Ports:
+  80,443/tcp
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ s[K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo s[K[K[K[K[K[Ksudo sytemctl status apache2
+[sudo] password for abin: 
+sudo: sytemctl: command not found
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo sytemctl status apache2[1@s
+[?1h=[0;1;31m●[0m apache2.service - The Apache HTTP Server[m
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: [m
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Thu 2020-04-30 10:41:51 IST; 25min a[m
+     Docs: https://httpd.apache.org/docs/2.4/[m
+[m
+Apr 30 10:41:51 ABS-LAP systemd[1]: Starting The Apache HTTP Server...[m
+Apr 30 10:41:51 ABS-LAP apachectl[6818]: apache2: Could not open configuration f[m
+Apr 30 10:41:51 ABS-LAP apachectl[6818]: Action 'start' failed.[m
+Apr 30 10:41:51 ABS-LAP apachectl[6818]: The Apache error log may have more info[m
+Apr 30 10:41:51 ABS-LAP systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, cod[m
+Apr 30 10:41:51 ABS-LAP systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-co[m
+Apr 30 10:41:51 ABS-LAP systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m[m
+[7mlines 1-12/12 (END)[27m[K[K[K[7mlines 1-12/12 (END)[27m[K[K[?1l>
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo systemctl status apache2[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2s apache2t apache2a apache2r apache2t apache2[C apache2[1Papache2[C
+Job for apache2.service failed because the control process exited with error code.
+See "systemctl status apache2.service" and "journalctl -xe" for details.
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo chmod 777 -R /var/www
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo chmod 777 -R /var/wwwsystemctl start apache2
+Job for apache2.service failed because the control process exited with error code.
+See "systemctl status apache2.service" and "journalctl -xe" for details.
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt-get purge apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  apache2*
+0 upgraded, 0 newly installed, 1 to remove and 14 not upgraded.
+After this operation, 540 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 216516 files and directories currently installed.)
+Removing apache2 (2.4.41-1ubuntu1) ...
+Processing triggers for man-db (2.8.7-3) ...
+Processing triggers for ufw (0.36-1ubuntu3) ...
+Rules updated for profile 'Apache'
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 216463 files and directories currently installed.)
+Purging configuration files for apache2 (2.4.41-1ubuntu1) ...
+dpkg: warning: while removing apache2, directory '/var/www/html' not empty so not removed
+Processing triggers for systemd (242-7ubuntu3.7) ...
+Processing triggers for ufw (0.36-1ubuntu3) ...
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt [K-get install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2
+0 upgraded, 1 newly installed, 0 to remove and 14 not upgraded.
+Need to get 0 B/95.5 kB of archives.
+After this operation, 540 kB of additional disk space will be used.
+Selecting previously unselected package apache2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 216300 files and directories currently installed.)
+Preparing to unpack .../apache2_2.4.41-1ubuntu1_amd64.deb ...
+Unpacking apache2 (2.4.41-1ubuntu1) ...
+Setting up apache2 (2.4.41-1ubuntu1) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for systemd (242-7ubuntu3.7) ...
+Processing triggers for man-db (2.8.7-3) ...
+Processing triggers for ufw (0.36-1ubuntu3) ...
+Rules updated for profile 'Apache'
+
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo service apache2 status
+[?1h=[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: [m
+   Active: [0;1;32mactive (running)[0m since Thu 2020-04-30 11:10:54 IST; 4min 46s ago[m
+     Docs: https://httpd.apache.org/docs/2.4/[m
+ Main PID: 9920 (apache2)[m
+    Tasks: 55 (limit: 4915)[m
+   Memory: 6.8M[m
+   CGroup: /system.slice/apache2.service[m
+           ├─9920 /usr/sbin/apache2 -k start[m
+           ├─9921 /usr/sbin/apache2 -k start[m
+           └─9922 /usr/sbin/apache2 -k start[m
+[m
+Apr 30 11:10:54 ABS-LAP systemd[1]: Starting The Apache HTTP Server...[m
+Apr 30 11:10:54 ABS-LAP apachectl[9895]: AH00558: apache2: Could not reliably de[m
+Apr 30 11:10:54 ABS-LAP systemd[1]: Started The Apache HTTP Server.[m
+[7mlines 1-15/15 (END)[27m[K[K[?1l>
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo ufw app list
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  CUPS
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo ufw app info "Apache Full"
+Profile: Apache Full
+Title: Web Server (HTTP,HTTPS)
+Description: Apache v2 is the next generation of the omnipresent Apache web
+server.
+
+Ports:
+  80,443/tcp
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt-get install mysql-server
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libaio1 libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-6 libfcgi-perl
+  libhtml-template-perl libmecab2 mecab-ipadic mecab-ipadic-utf8 mecab-utils
+  mysql-client-8.0 mysql-client-core-8.0 mysql-server-8.0
+  mysql-server-core-8.0
+Suggested packages:
+  libipc-sharedcache-perl mailx tinyca
+The following NEW packages will be installed:
+  libaio1 libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-6 libfcgi-perl
+  libhtml-template-perl libmecab2 mecab-ipadic mecab-ipadic-utf8 mecab-utils
+  mysql-client-8.0 mysql-client-core-8.0 mysql-server mysql-server-8.0
+  mysql-server-core-8.0
+0 upgraded, 15 newly installed, 0 to remove and 14 not upgraded.
+Need to get 0 B/29.8 MB of archives.
+After this operation, 245 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Preconfiguring packages ...
+Selecting previously unselected package mysql-client-core-8.0.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 216517 files and directories currently installed.)
+Preparing to unpack .../00-mysql-client-core-8.0_8.0.19-0ubuntu0.19.10.3_amd64.deb ...
+Unpacking mysql-client-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Selecting previously unselected package mysql-client-8.0.
+Preparing to unpack .../01-mysql-client-8.0_8.0.19-0ubuntu0.19.10.3_amd64.deb ...
+Unpacking mysql-client-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../02-libaio1_0.3.112-5_amd64.deb ...
+Unpacking libaio1:amd64 (0.3.112-5) ...
+Selecting previously unselected package libevent-core-2.1-6:amd64.
+Preparing to unpack .../03-libevent-core-2.1-6_2.1.8-stable-4build1_amd64.deb ...
+Unpacking libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+Selecting previously unselected package libmecab2:amd64.
+Preparing to unpack .../04-libmecab2_0.996-6_amd64.deb ...
+Unpacking libmecab2:amd64 (0.996-6) ...
+Selecting previously unselected package mysql-server-core-8.0.
+Preparing to unpack .../05-mysql-server-core-8.0_8.0.19-0ubuntu0.19.10.3_amd64.deb ...
+Unpacking mysql-server-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Selecting previously unselected package mysql-server-8.0.
+Preparing to unpack .../06-mysql-server-8.0_8.0.19-0ubuntu0.19.10.3_amd64.deb ...
+grep: /etc/mysql/: No such file or directory
+Unpacking mysql-server-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Selecting previously unselected package libcgi-pm-perl.
+Preparing to unpack .../07-libcgi-pm-perl_4.44-1_all.deb ...
+Unpacking libcgi-pm-perl (4.44-1) ...
+Selecting previously unselected package libfcgi-perl.
+Preparing to unpack .../08-libfcgi-perl_0.78-2build2_amd64.deb ...
+Unpacking libfcgi-perl (0.78-2build2) ...
+Selecting previously unselected package libcgi-fast-perl.
+Preparing to unpack .../09-libcgi-fast-perl_1%3a2.15-1_all.deb ...
+Unpacking libcgi-fast-perl (1:2.15-1) ...
+Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../10-libhtml-template-perl_2.97-1_all.deb ...
+Unpacking libhtml-template-perl (2.97-1) ...
+Selecting previously unselected package mecab-utils.
+Preparing to unpack .../11-mecab-utils_0.996-6_amd64.deb ...
+Unpacking mecab-utils (0.996-6) ...
+Selecting previously unselected package mecab-ipadic.
+Preparing to unpack .../12-mecab-ipadic_2.7.0-20070801+main-2.1_all.deb ...
+Unpacking mecab-ipadic (2.7.0-20070801+main-2.1) ...
+Selecting previously unselected package mecab-ipadic-utf8.
+Preparing to unpack .../13-mecab-ipadic-utf8_2.7.0-20070801+main-2.1_all.deb ...
+Unpacking mecab-ipadic-utf8 (2.7.0-20070801+main-2.1) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../14-mysql-server_8.0.19-0ubuntu0.19.10.3_all.deb ...
+Unpacking mysql-server (8.0.19-0ubuntu0.19.10.3) ...
+Setting up libmecab2:amd64 (0.996-6) ...
+Setting up mysql-client-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Setting up libcgi-pm-perl (4.44-1) ...
+Setting up libhtml-template-perl (2.97-1) ...
+Setting up mecab-utils (0.996-6) ...
+Setting up libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+Setting up mysql-client-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Setting up libfcgi-perl (0.78-2build2) ...
+Setting up libaio1:amd64 (0.3.112-5) ...
+Setting up mecab-ipadic (2.7.0-20070801+main-2.1) ...
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array:   9% |###                                        | emitting double-array:  18% |#######                                    | emitting double-array:  27% |###########                                | emitting double-array:  36% |###############                            | emitting double-array:  45% |###################                        | emitting double-array:  54% |#######################                    | emitting double-array:  63% |###########################                | emitting double-array:  72% |###############################            | emitting double-array:  81% |###################################        | emitting double-array:  90% |#######################################    | emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+emitting double-array:   0% |                                           | emitting double-array:   1% |                                           | emitting double-array:   2% |                                           | emitting double-array:   3% |#                                          | emitting double-array:   4% |#                                          | emitting double-array:   5% |##                                         | emitting double-array:   6% |##                                         | emitting double-array:   7% |###                                        | emitting double-array:   8% |###                                        | emitting double-array:   9% |###                                        | emitting double-array:  10% |####                                       | emitting double-array:  11% |####                                       | emitting double-array:  12% |#####                                      | emitting double-array:  13% |#####                                      | emitting double-array:  14% |######                                     | emitting double-array:  15% |######                                     | emitting double-array:  16% |######                                     | emitting double-array:  17% |#######                                    | emitting double-array:  18% |#######                                    | emitting double-array:  19% |########                                   | emitting double-array:  20% |########                                   | emitting double-array:  21% |#########                                  | emitting double-array:  22% |#########                                  | emitting double-array:  23% |#########                                  | emitting double-array:  24% |##########                                 | emitting double-array:  25% |##########                                 | emitting double-array:  26% |###########                                | emitting double-array:  27% |###########                                | emitting double-array:  28% |############                               | emitting double-array:  29% |############                               | emitting double-array:  30% |############                               | emitting double-array:  31% |#############                              | emitting double-array:  32% |#############                              | emitting double-array:  33% |##############                             | emitting double-array:  34% |##############                             | emitting double-array:  35% |###############                            | emitting double-array:  36% |###############                            | emitting double-array:  37% |###############                            | emitting double-array:  38% |################                           | emitting double-array:  39% |################                           | emitting double-array:  40% |#################                          | emitting double-array:  41% |#################                          | emitting double-array:  42% |##################                         | emitting double-array:  43% |##################                         | emitting double-array:  44% |##################                         | emitting double-array:  45% |###################                        | emitting double-array:  46% |###################                        | emitting double-array:  47% |####################                       | emitting double-array:  48% |####################                       | emitting double-array:  49% |#####################                      | emitting double-array:  50% |#####################                      | emitting double-array:  51% |#####################                      | emitting double-array:  52% |######################                     | emitting double-array:  53% |######################                     | emitting double-array:  54% |#######################                    | emitting double-array:  55% |#######################                    | emitting double-array:  56% |########################                   | emitting double-array:  57% |########################                   | emitting double-array:  58% |########################                   | emitting double-array:  59% |#########################                  | emitting double-array:  60% |#########################                  | emitting double-array:  61% |##########################                 | emitting double-array:  62% |##########################                 | emitting double-array:  63% |###########################                | emitting double-array:  64% |###########################                | emitting double-array:  65% |###########################                | emitting double-array:  66% |############################               | emitting double-array:  67% |############################               | emitting double-array:  68% |#############################              | emitting double-array:  69% |#############################              | emitting double-array:  70% |##############################             | emitting double-array:  71% |##############################             | emitting double-array:  72% |##############################             | emitting double-array:  73% |###############################            | emitting double-array:  74% |###############################            | emitting double-array:  75% |################################           | emitting double-array:  76% |################################           | emitting double-array:  77% |#################################          | emitting double-array:  78% |#################################          | emitting double-array:  79% |#################################          | emitting double-array:  80% |##################################         | emitting double-array:  81% |##################################         | emitting double-array:  82% |###################################        | emitting double-array:  83% |###################################        | emitting double-array:  84% |####################################       | emitting double-array:  85% |####################################       | emitting double-array:  86% |####################################       | emitting double-array:  87% |#####################################      | emitting double-array:  88% |#####################################      | emitting double-array:  89% |######################################     | emitting double-array:  90% |######################################     | emitting double-array:  91% |#######################################    | emitting double-array:  92% |#######################################    | emitting double-array:  93% |#######################################    | emitting double-array:  94% |########################################   | emitting double-array:  95% |########################################   | emitting double-array:  96% |#########################################  | emitting double-array:  97% |#########################################  | emitting double-array:  98% |########################################## | emitting double-array:  99% |########################################## | emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      :   0% |                                           | emitting matrix      :   1% |                                           | emitting matrix      :   2% |                                           | emitting matrix      :   3% |#                                          | emitting matrix      :   4% |#                                          | emitting matrix      :   5% |##                                         | emitting matrix      :   6% |##                                         | emitting matrix      :   7% |###                                        | emitting matrix      :   8% |###                                        | emitting matrix      :   9% |###                                        | emitting matrix      :  10% |####                                       | emitting matrix      :  11% |####                                       | emitting matrix      :  12% |#####                                      | emitting matrix      :  13% |#####                                      | emitting matrix      :  14% |######                                     | emitting matrix      :  15% |######                                     | emitting matrix      :  16% |######                                     | emitting matrix      :  17% |#######                                    | emitting matrix      :  18% |#######                                    | emitting matrix      :  19% |########                                   | emitting matrix      :  20% |########                                   | emitting matrix      :  21% |#########                                  | emitting matrix      :  22% |#########                                  | emitting matrix      :  23% |#########                                  | emitting matrix      :  24% |##########                                 | emitting matrix      :  25% |##########                                 | emitting matrix      :  26% |###########                                | emitting matrix      :  27% |###########                                | emitting matrix      :  28% |############                               | emitting matrix      :  29% |############                               | emitting matrix      :  30% |############                               | emitting matrix      :  31% |#############                              | emitting matrix      :  32% |#############                              | emitting matrix      :  33% |##############                             | emitting matrix      :  34% |##############                             | emitting matrix      :  35% |###############                            | emitting matrix      :  36% |###############                            | emitting matrix      :  37% |###############                            | emitting matrix      :  38% |################                           | emitting matrix      :  39% |################                           | emitting matrix      :  40% |#################                          | emitting matrix      :  41% |#################                          | emitting matrix      :  42% |##################                         | emitting matrix      :  43% |##################                         | emitting matrix      :  44% |##################                         | emitting matrix      :  45% |###################                        | emitting matrix      :  46% |###################                        | emitting matrix      :  47% |####################                       | emitting matrix      :  48% |####################                       | emitting matrix      :  49% |#####################                      | emitting matrix      :  50% |#####################                      | emitting matrix      :  51% |#####################                      | emitting matrix      :  52% |######################                     | emitting matrix      :  53% |######################                     | emitting matrix      :  54% |#######################                    | emitting matrix      :  55% |#######################                    | emitting matrix      :  56% |########################                   | emitting matrix      :  57% |########################                   | emitting matrix      :  58% |########################                   | emitting matrix      :  59% |#########################                  | emitting matrix      :  60% |#########################                  | emitting matrix      :  61% |##########################                 | emitting matrix      :  62% |##########################                 | emitting matrix      :  63% |###########################                | emitting matrix      :  64% |###########################                | emitting matrix      :  65% |###########################                | emitting matrix      :  66% |############################               | emitting matrix      :  67% |############################               | emitting matrix      :  68% |#############################              | emitting matrix      :  69% |#############################              | emitting matrix      :  70% |##############################             | emitting matrix      :  71% |##############################             | emitting matrix      :  72% |##############################             | emitting matrix      :  73% |###############################            | emitting matrix      :  74% |###############################            | emitting matrix      :  75% |################################           | emitting matrix      :  76% |################################           | emitting matrix      :  77% |#################################          | emitting matrix      :  78% |#################################          | emitting matrix      :  79% |#################################          | emitting matrix      :  80% |##################################         | emitting matrix      :  81% |##################################         | emitting matrix      :  82% |###################################        | emitting matrix      :  83% |###################################        | emitting matrix      :  84% |####################################       | emitting matrix      :  85% |####################################       | emitting matrix      :  86% |####################################       | emitting matrix      :  87% |#####################################      | emitting matrix      :  88% |#####################################      | emitting matrix      :  89% |######################################     | emitting matrix      :  90% |######################################     | emitting matrix      :  91% |#######################################    | emitting matrix      :  92% |#######################################    | emitting matrix      :  93% |#######################################    | emitting matrix      :  94% |########################################   | emitting matrix      :  95% |########################################   | emitting matrix      :  96% |#########################################  | emitting matrix      :  97% |#########################################  | emitting matrix      :  98% |########################################## | emitting matrix      :  99% |########################################## | emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: using /var/lib/mecab/dic/ipadic to provide /var/lib/mecab/dic/debian (mecab-dictionary) in auto mode
+Setting up libcgi-fast-perl (1:2.15-1) ...
+Setting up mysql-server-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Setting up mecab-ipadic-utf8 (2.7.0-20070801+main-2.1) ...
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array:   9% |###                                        | emitting double-array:  18% |#######                                    | emitting double-array:  27% |###########                                | emitting double-array:  36% |###############                            | emitting double-array:  45% |###################                        | emitting double-array:  54% |#######################                    | emitting double-array:  63% |###########################                | emitting double-array:  72% |###############################            | emitting double-array:  81% |###################################        | emitting double-array:  90% |#######################################    | emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+emitting double-array:   0% |                                           | emitting double-array:   1% |                                           | emitting double-array:   2% |                                           | emitting double-array:   3% |#                                          | emitting double-array:   4% |#                                          | emitting double-array:   5% |##                                         | emitting double-array:   6% |##                                         | emitting double-array:   7% |###                                        | emitting double-array:   8% |###                                        | emitting double-array:   9% |###                                        | emitting double-array:  10% |####                                       | emitting double-array:  11% |####                                       | emitting double-array:  12% |#####                                      | emitting double-array:  13% |#####                                      | emitting double-array:  14% |######                                     | emitting double-array:  15% |######                                     | emitting double-array:  16% |######                                     | emitting double-array:  17% |#######                                    | emitting double-array:  18% |#######                                    | emitting double-array:  19% |########                                   | emitting double-array:  20% |########                                   | emitting double-array:  21% |#########                                  | emitting double-array:  22% |#########                                  | emitting double-array:  23% |#########                                  | emitting double-array:  24% |##########                                 | emitting double-array:  25% |##########                                 | emitting double-array:  26% |###########                                | emitting double-array:  27% |###########                                | emitting double-array:  28% |############                               | emitting double-array:  29% |############                               | emitting double-array:  30% |############                               | emitting double-array:  31% |#############                              | emitting double-array:  32% |#############                              | emitting double-array:  33% |##############                             | emitting double-array:  34% |##############                             | emitting double-array:  35% |###############                            | emitting double-array:  36% |###############                            | emitting double-array:  37% |###############                            | emitting double-array:  38% |################                           | emitting double-array:  39% |################                           | emitting double-array:  40% |#################                          | emitting double-array:  41% |#################                          | emitting double-array:  42% |##################                         | emitting double-array:  43% |##################                         | emitting double-array:  44% |##################                         | emitting double-array:  45% |###################                        | emitting double-array:  46% |###################                        | emitting double-array:  47% |####################                       | emitting double-array:  48% |####################                       | emitting double-array:  49% |#####################                      | emitting double-array:  50% |#####################                      | emitting double-array:  51% |#####################                      | emitting double-array:  52% |######################                     | emitting double-array:  53% |######################                     | emitting double-array:  54% |#######################                    | emitting double-array:  55% |#######################                    | emitting double-array:  56% |########################                   | emitting double-array:  57% |########################                   | emitting double-array:  58% |########################                   | emitting double-array:  59% |#########################                  | emitting double-array:  60% |#########################                  | emitting double-array:  61% |##########################                 | emitting double-array:  62% |##########################                 | emitting double-array:  63% |###########################                | emitting double-array:  64% |###########################                | emitting double-array:  65% |###########################                | emitting double-array:  66% |############################               | emitting double-array:  67% |############################               | emitting double-array:  68% |#############################              | emitting double-array:  69% |#############################              | emitting double-array:  70% |##############################             | emitting double-array:  71% |##############################             | emitting double-array:  72% |##############################             | emitting double-array:  73% |###############################            | emitting double-array:  74% |###############################            | emitting double-array:  75% |################################           | emitting double-array:  76% |################################           | emitting double-array:  77% |#################################          | emitting double-array:  78% |#################################          | emitting double-array:  79% |#################################          | emitting double-array:  80% |##################################         | emitting double-array:  81% |##################################         | emitting double-array:  82% |###################################        | emitting double-array:  83% |###################################        | emitting double-array:  84% |####################################       | emitting double-array:  85% |####################################       | emitting double-array:  86% |####################################       | emitting double-array:  87% |#####################################      | emitting double-array:  88% |#####################################      | emitting double-array:  89% |######################################     | emitting double-array:  90% |######################################     | emitting double-array:  91% |#######################################    | emitting double-array:  92% |#######################################    | emitting double-array:  93% |#######################################    | emitting double-array:  94% |########################################   | emitting double-array:  95% |########################################   | emitting double-array:  96% |#########################################  | emitting double-array:  97% |#########################################  | emitting double-array:  98% |########################################## | emitting double-array:  99% |########################################## | emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      :   0% |                                           | emitting matrix      :   1% |                                           | emitting matrix      :   2% |                                           | emitting matrix      :   3% |#                                          | emitting matrix      :   4% |#                                          | emitting matrix      :   5% |##                                         | emitting matrix      :   6% |##                                         | emitting matrix      :   7% |###                                        | emitting matrix      :   8% |###                                        | emitting matrix      :   9% |###                                        | emitting matrix      :  10% |####                                       | emitting matrix      :  11% |####                                       | emitting matrix      :  12% |#####                                      | emitting matrix      :  13% |#####                                      | emitting matrix      :  14% |######                                     | emitting matrix      :  15% |######                                     | emitting matrix      :  16% |######                                     | emitting matrix      :  17% |#######                                    | emitting matrix      :  18% |#######                                    | emitting matrix      :  19% |########                                   | emitting matrix      :  20% |########                                   | emitting matrix      :  21% |#########                                  | emitting matrix      :  22% |#########                                  | emitting matrix      :  23% |#########                                  | emitting matrix      :  24% |##########                                 | emitting matrix      :  25% |##########                                 | emitting matrix      :  26% |###########                                | emitting matrix      :  27% |###########                                | emitting matrix      :  28% |############                               | emitting matrix      :  29% |############                               | emitting matrix      :  30% |############                               | emitting matrix      :  31% |#############                              | emitting matrix      :  32% |#############                              | emitting matrix      :  33% |##############                             | emitting matrix      :  34% |##############                             | emitting matrix      :  35% |###############                            | emitting matrix      :  36% |###############                            | emitting matrix      :  37% |###############                            | emitting matrix      :  38% |################                           | emitting matrix      :  39% |################                           | emitting matrix      :  40% |#################                          | emitting matrix      :  41% |#################                          | emitting matrix      :  42% |##################                         | emitting matrix      :  43% |##################                         | emitting matrix      :  44% |##################                         | emitting matrix      :  45% |###################                        | emitting matrix      :  46% |###################                        | emitting matrix      :  47% |####################                       | emitting matrix      :  48% |####################                       | emitting matrix      :  49% |#####################                      | emitting matrix      :  50% |#####################                      | emitting matrix      :  51% |#####################                      | emitting matrix      :  52% |######################                     | emitting matrix      :  53% |######################                     | emitting matrix      :  54% |#######################                    | emitting matrix      :  55% |#######################                    | emitting matrix      :  56% |########################                   | emitting matrix      :  57% |########################                   | emitting matrix      :  58% |########################                   | emitting matrix      :  59% |#########################                  | emitting matrix      :  60% |#########################                  | emitting matrix      :  61% |##########################                 | emitting matrix      :  62% |##########################                 | emitting matrix      :  63% |###########################                | emitting matrix      :  64% |###########################                | emitting matrix      :  65% |###########################                | emitting matrix      :  66% |############################               | emitting matrix      :  67% |############################               | emitting matrix      :  68% |#############################              | emitting matrix      :  69% |#############################              | emitting matrix      :  70% |##############################             | emitting matrix      :  71% |##############################             | emitting matrix      :  72% |##############################             | emitting matrix      :  73% |###############################            | emitting matrix      :  74% |###############################            | emitting matrix      :  75% |################################           | emitting matrix      :  76% |################################           | emitting matrix      :  77% |#################################          | emitting matrix      :  78% |#################################          | emitting matrix      :  79% |#################################          | emitting matrix      :  80% |##################################         | emitting matrix      :  81% |##################################         | emitting matrix      :  82% |###################################        | emitting matrix      :  83% |###################################        | emitting matrix      :  84% |####################################       | emitting matrix      :  85% |####################################       | emitting matrix      :  86% |####################################       | emitting matrix      :  87% |#####################################      | emitting matrix      :  88% |#####################################      | emitting matrix      :  89% |######################################     | emitting matrix      :  90% |######################################     | emitting matrix      :  91% |#######################################    | emitting matrix      :  92% |#######################################    | emitting matrix      :  93% |#######################################    | emitting matrix      :  94% |########################################   | emitting matrix      :  95% |########################################   | emitting matrix      :  96% |#########################################  | emitting matrix      :  97% |#########################################  | emitting matrix      :  98% |########################################## | emitting matrix      :  99% |########################################## | emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: using /var/lib/mecab/dic/ipadic-utf8 to provide /var/lib/mecab/dic/debian (mecab-dictionary) in auto mode
+Setting up mysql-server-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+update-alternatives: warning: alternative /etc/mysql/my.cnf.fallback (part of link group my.cnf) doesn't exist; removing from list of alternatives
+update-alternatives: warning: /etc/alternatives/my.cnf is dangling; it will be updated with best choice
+update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+ERROR: Unable to start MySQL server:
+mysqld: Can't read dir of '/etc/mysql/conf.d/' (OS errno 2 - No such file or directory)
+mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Once the problem is resolved, run apt-get --fix-broken install to retry.
+dpkg: error processing package mysql-server-8.0 (--configure):
+ installed mysql-server-8.0 package post-installation script subprocess returned error exit status 1
+No apport report written because the error message indicates its a followup error from a previous failure.
+dpkg: dependency problems prevent configuration of mysql-server:
+ mysql-server depends on mysql-server-8.0; however:
+  Package mysql-server-8.0 is not configured yet.
+
+dpkg: error processing package mysql-server (--configure):
+ dependency problems - leaving unconfigured
+Processing triggers for systemd (242-7ubuntu3.7) ...
+Processing triggers for man-db (2.8.7-3) ...
+Processing triggers for libc-bin (2.30-0ubuntu2.1) ...
+Errors were encountered while processing:
+ mysql-server-8.0
+ mysql-server
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo dpkg --condigure -a
+[1mdpkg:[0m [1;31merror:[0m unknown option --condigure
+
+Type dpkg --help for help about installing and deinstalling packages [*];
+Use 'apt' or 'aptitude' for user-friendly package management;
+Type dpkg -Dhelp for a list of dpkg debug flag values;
+Type dpkg --force-help for a list of forcing options;
+Type dpkg-deb --help for help about manipulating *.deb files;
+
+Options marked [*] produce a lot of output - pipe it through 'less' or 'more' !
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo dpkg --condigure -a[1P
+[1mdpkg:[0m [1;31merror:[0m unknown option --conigure
+
+Type dpkg --help for help about installing and deinstalling packages [*];
+Use 'apt' or 'aptitude' for user-friendly package management;
+Type dpkg -Dhelp for a list of dpkg debug flag values;
+Type dpkg --force-help for a list of forcing options;
+Type dpkg-deb --help for help about manipulating *.deb files;
+
+Options marked [*] produce a lot of output - pipe it through 'less' or 'more' !
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo dpkg --conigure -a[1@f
+Setting up mysql-server-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Renaming removed key_buffer and myisam-recover options (if present)
+ERROR: Unable to start MySQL server:
+mysqld: Can't read dir of '/etc/mysql/conf.d/' (OS errno 2 - No such file or directory)
+mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Once the problem is resolved, run apt-get --fix-broken install to retry.
+[1mdpkg:[0m error processing package mysql-server-8.0 (--configure):
+ installed mysql-server-8.0 package post-installation script subprocess returned error exit status 1
+[1mdpkg:[0m dependency problems prevent configuration of mysql-server:
+ mysql-server depends on mysql-server-8.0; however:
+  Package mysql-server-8.0 is not configured yet.
+
+[1mdpkg:[0m error processing package mysql-server (--configure):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ mysql-server-8.0
+ mysql-server
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ^C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ ^C
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo dpkg -r mysql-client-5.7
+[1mdpkg:[0m [1;33mwarning:[0m ignoring request to remove mysql-client-5.7 which isn't installed
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo dpkg -r mysql-server-5.7
+[1mdpkg:[0m [1;33mwarning:[0m ignoring request to remove mysql-server-5.7 which isn't installed
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo dpkg -r libmysqlclient20:i386
+[1mdpkg:[0m [1;33mwarning:[0m ignoring request to remove libmysqlclient20:i386 which isn't installed
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo dpkg -r libmysqlclient20:amd64
+[1mdpkg:[0m [1;33mwarning:[0m ignoring request to remove libmysqlclient20 which isn't installed
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo dpkg -r libmysqlclient18:amd64
+[1mdpkg:[0m [1;33mwarning:[0m ignoring request to remove libmysqlclient18 which isn't installed
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo dpkg -r mysql-common
+[1mdpkg:[0m dependency problems prevent removal of mysql-common:
+ mysql-server-8.0 depends on mysql-common (>= 5.8+1.0.4~).
+ mysql-server-8.0 depends on mysql-common (>= 5.5).
+ mysql-server-8.0 depends on mysql-common (>= 5.8+1.0.4~).
+ mysql-server-8.0 depends on mysql-common (>= 5.5).
+ mysql-client-8.0 depends on mysql-common (>= 5.5).
+ libmysqlclient21:amd64 depends on mysql-common (>= 5.5).
+
+[1mdpkg:[0m error processing package mysql-common (--remove):
+ dependency problems - not removing
+Errors were encountered while processing:
+ mysql-common
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt-get purge mysql\* mariadb\* libmysql\* libmariadb\*
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 8%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Note, selecting 'mysql-source-8.0' for glob 'mysql*'
+Note, selecting 'mysqltcl' for glob 'mysql*'
+Note, selecting 'mysql-workbench' for glob 'mysql*'
+Note, selecting 'mysql-client-5.5' for glob 'mysql*'
+Note, selecting 'mysql-client-5.6' for glob 'mysql*'
+Note, selecting 'mysql-client-5.7' for glob 'mysql*'
+Note, selecting 'mysql-common-5.6' for glob 'mysql*'
+Note, selecting 'mysql-server-5.0' for glob 'mysql*'
+Note, selecting 'mysql-server-5.1' for glob 'mysql*'
+Note, selecting 'mysql-server-5.5' for glob 'mysql*'
+Note, selecting 'mysql-server-5.6' for glob 'mysql*'
+Note, selecting 'mysql-server-5.7' for glob 'mysql*'
+Note, selecting 'mysql-client-8.0' for glob 'mysql*'
+Note, selecting 'mysql-utilities' for glob 'mysql*'
+Note, selecting 'mysql-testsuite' for glob 'mysql*'
+Note, selecting 'mysql-server' for glob 'mysql*'
+Note, selecting 'mysql-router' for glob 'mysql*'
+Note, selecting 'mysql-server-8.0' for glob 'mysql*'
+Note, selecting 'mysql-client' for glob 'mysql*'
+Note, selecting 'mysql-sandbox' for glob 'mysql*'
+Note, selecting 'mysql-client-core-5.5' for glob 'mysql*'
+Note, selecting 'mysql-client-core-5.6' for glob 'mysql*'
+Note, selecting 'mysql-client-core-5.7' for glob 'mysql*'
+Note, selecting 'mysql-client-core-8.0' for glob 'mysql*'
+Note, selecting 'mysql-testsuite-5.5' for glob 'mysql*'
+Note, selecting 'mysql-testsuite-5.6' for glob 'mysql*'
+Note, selecting 'mysql-testsuite-5.7' for glob 'mysql*'
+Note, selecting 'mysql-common' for glob 'mysql*'
+Note, selecting 'mysql-testsuite-8.0' for glob 'mysql*'
+Note, selecting 'mysqltuner' for glob 'mysql*'
+Note, selecting 'mysql-workbench-data' for glob 'mysql*'
+Note, selecting 'mysql-server-core-5.1' for glob 'mysql*'
+Note, selecting 'mysql-server-core-5.5' for glob 'mysql*'
+Note, selecting 'mysql-server-core-5.6' for glob 'mysql*'
+Note, selecting 'mysql-server-core-5.7' for glob 'mysql*'
+Note, selecting 'mysql-server-core-8.0' for glob 'mysql*'
+Package 'mysql-client-5.7' is not installed, so not removed
+Package 'mysql-client-core-5.7' is not installed, so not removed
+Note, selecting 'mysql-common' instead of 'mysql-common-5.6'
+Package 'mysql-server-5.5' is not installed, so not removed
+Package 'mysql-server-5.7' is not installed, so not removed
+Package 'mysql-server-core-5.7' is not installed, so not removed
+Package 'mysql-client-core-5.5' is not installed, so not removed
+Package 'mysql-client-core-5.6' is not installed, so not removed
+Package 'mysql-client-5.5' is not installed, so not removed
+Package 'mysql-client-5.6' is not installed, so not removed
+Package 'mysql-server-core-5.5' is not installed, so not removed
+Package 'mysql-server-core-5.6' is not installed, so not removed
+Package 'mysql-server-5.6' is not installed, so not removed
+Package 'mysql-testsuite-5.5' is not installed, so not removed
+Package 'mysql-testsuite-5.6' is not installed, so not removed
+Package 'mysql-testsuite-5.7' is not installed, so not removed
+Package 'mysql-server-5.0' is not installed, so not removed
+Package 'mysql-server-5.1' is not installed, so not removed
+Package 'mysql-server-core-5.1' is not installed, so not removed
+Note, selecting 'mariadb-rocksdb-engine-10.2' for glob 'mariadb*'
+Note, selecting 'mariadb-rocksdb-engine-10.3' for glob 'mariadb*'
+Note, selecting 'mariadb-test' for glob 'mariadb*'
+Note, selecting 'mariadb-test-data-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-testsuite-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-testsuite-10.3' for glob 'mariadb*'
+Note, selecting 'mariadb-test-data' for glob 'mariadb*'
+Note, selecting 'mariadb-plugin-cracklib-password-check' for glob 'mariadb*'
+Note, selecting 'mariadb-test-5.5' for glob 'mariadb*'
+Note, selecting 'mariadb-common' for glob 'mariadb*'
+Note, selecting 'mariadb-plugin-connect' for glob 'mariadb*'
+Note, selecting 'mariadb-server-core-5.5' for glob 'mariadb*'
+Note, selecting 'mariadb-server-5.1' for glob 'mariadb*'
+Note, selecting 'mariadb-server-5.2' for glob 'mariadb*'
+Note, selecting 'mariadb-server-5.3' for glob 'mariadb*'
+Note, selecting 'mariadb-server-5.5' for glob 'mariadb*'
+Note, selecting 'mariadb-tokudb-engine-5.5' for glob 'mariadb*'
+Note, selecting 'mariadb-server-core-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-server-core-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-server-core-10.2' for glob 'mariadb*'
+Note, selecting 'mariadb-server-core-10.3' for glob 'mariadb*'
+Note, selecting 'mariadb-connect-engine-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-connect-engine-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-galera-server' for glob 'mariadb*'
+Note, selecting 'mariadb-backup' for glob 'mariadb*'
+Note, selecting 'mariadb-client-5.5' for glob 'mariadb*'
+Note, selecting 'mariadb-server-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-server-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-server-10.2' for glob 'mariadb*'
+Note, selecting 'mariadb-server-10.3' for glob 'mariadb*'
+Note, selecting 'mariadb-plugin-oqgraph' for glob 'mariadb*'
+Note, selecting 'mariadb-plugin-gssapi-client' for glob 'mariadb*'
+Note, selecting 'mariadb-plugin-spider' for glob 'mariadb*'
+Note, selecting 'mariadb-galera-server-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-plugin-rocksdb' for glob 'mariadb*'
+Note, selecting 'mariadb-plugin-gssapi-server' for glob 'mariadb*'
+Note, selecting 'mariadb-plugin-tokudb' for glob 'mariadb*'
+Note, selecting 'mariadb-client-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-client-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-client-10.2' for glob 'mariadb*'
+Note, selecting 'mariadb-client-10.3' for glob 'mariadb*'
+Note, selecting 'mariadb-server' for glob 'mariadb*'
+Note, selecting 'mariadb-tokudb-engine-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-tokudb-engine-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-client-core-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-client-core-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-client-core-10.2' for glob 'mariadb*'
+Note, selecting 'mariadb-client-core-10.3' for glob 'mariadb*'
+Note, selecting 'mariadb-client' for glob 'mariadb*'
+Note, selecting 'mariadb-test-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-test-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-oqgraph-engine-10.0' for glob 'mariadb*'
+Note, selecting 'mariadb-oqgraph-engine-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-galera-server-5.5' for glob 'mariadb*'
+Note, selecting 'mariadb-client-core-5.5' for glob 'mariadb*'
+Note, selecting 'mariadb-gssapi-server-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-gssapi-server-10.2' for glob 'mariadb*'
+Note, selecting 'mariadb-gssapi-client-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-gssapi-client-10.2' for glob 'mariadb*'
+Note, selecting 'mariadb-plugin-mroonga' for glob 'mariadb*'
+Note, selecting 'mariadb-backup-10.1' for glob 'mariadb*'
+Note, selecting 'mariadb-backup-10.2' for glob 'mariadb*'
+Package 'mariadb-client-10.1' is not installed, so not removed
+Package 'mariadb-client-core-10.1' is not installed, so not removed
+Package 'mariadb-server-5.5' is not installed, so not removed
+Package 'mariadb-server-10.1' is not installed, so not removed
+Package 'mariadb-server-core-10.1' is not installed, so not removed
+Package 'mariadb-galera-server-10.0' is not installed, so not removed
+Package 'mariadb-galera-server-5.5' is not installed, so not removed
+Package 'mariadb-server-10.0' is not installed, so not removed
+Package 'mariadb-server-5.1' is not installed, so not removed
+Package 'mariadb-server-5.2' is not installed, so not removed
+Package 'mariadb-server-5.3' is not installed, so not removed
+Package 'mariadb-backup-10.1' is not installed, so not removed
+Package 'mariadb-backup-10.2' is not installed, so not removed
+Package 'mariadb-client-10.0' is not installed, so not removed
+Package 'mariadb-client-10.2' is not installed, so not removed
+Package 'mariadb-client-5.5' is not installed, so not removed
+Package 'mariadb-client-core-10.0' is not installed, so not removed
+Package 'mariadb-client-core-10.2' is not installed, so not removed
+Package 'mariadb-client-core-5.5' is not installed, so not removed
+Package 'mariadb-connect-engine-10.0' is not installed, so not removed
+Package 'mariadb-connect-engine-10.1' is not installed, so not removed
+Package 'mariadb-gssapi-client-10.1' is not installed, so not removed
+Package 'mariadb-gssapi-client-10.2' is not installed, so not removed
+Package 'mariadb-gssapi-server-10.1' is not installed, so not removed
+Package 'mariadb-gssapi-server-10.2' is not installed, so not removed
+Package 'mariadb-oqgraph-engine-10.0' is not installed, so not removed
+Package 'mariadb-oqgraph-engine-10.1' is not installed, so not removed
+Package 'mariadb-rocksdb-engine-10.2' is not installed, so not removed
+Package 'mariadb-rocksdb-engine-10.3' is not installed, so not removed
+Package 'mariadb-tokudb-engine-10.0' is not installed, so not removed
+Package 'mariadb-tokudb-engine-10.1' is not installed, so not removed
+Package 'mariadb-tokudb-engine-5.5' is not installed, so not removed
+Package 'mariadb-galera-server' is not installed, so not removed
+Package 'mariadb-server-10.2' is not installed, so not removed
+Package 'mariadb-server-core-10.0' is not installed, so not removed
+Package 'mariadb-server-core-10.2' is not installed, so not removed
+Package 'mariadb-server-core-5.5' is not installed, so not removed
+Package 'mariadb-test-10.0' is not installed, so not removed
+Package 'mariadb-test-10.1' is not installed, so not removed
+Package 'mariadb-test-5.5' is not installed, so not removed
+Package 'mariadb-test-data-10.0' is not installed, so not removed
+Package 'mariadb-testsuite-10.1' is not installed, so not removed
+Package 'mariadb-testsuite-10.3' is not installed, so not removed
+Note, selecting 'libmysqlclient-dev' for glob 'libmysql*'
+Note, selecting 'libmysqlcppconn-dev' for glob 'libmysql*'
+Note, selecting 'libmysqlcppconn7' for glob 'libmysql*'
+Note, selecting 'libmysqld-dev' for glob 'libmysql*'
+Note, selecting 'libmysql-ocaml-dev' for glob 'libmysql*'
+Note, selecting 'libmysql++3v5' for glob 'libmysql*'
+Note, selecting 'libmysql-ocaml-8gkp8' for glob 'libmysql*'
+Note, selecting 'libmysql-ocaml' for glob 'libmysql*'
+Note, selecting 'libmysql-ocaml-vxp12:i386' for glob 'libmysql*'
+Note, selecting 'libmysql++-dev' for glob 'libmysql*'
+Note, selecting 'libmysql++-doc' for glob 'libmysql*'
+Note, selecting 'libmysqlclient18' for glob 'libmysql*'
+Note, selecting 'libmysqlclient20' for glob 'libmysql*'
+Note, selecting 'libmysqlclient21' for glob 'libmysql*'
+Note, selecting 'libmysql-diff-perl' for glob 'libmysql*'
+Note, selecting 'libmysql-ocaml-dev-8gkp8' for glob 'libmysql*'
+Note, selecting 'libmysql-ocaml-dev-vxp12:i386' for glob 'libmysql*'
+Note, selecting 'libmysqlcppconn7v5' for glob 'libmysql*'
+Note, selecting 'libmysql++3' for glob 'libmysql*'
+Package 'libmysqld-dev' is not installed, so not removed
+Package 'libmysql++3' is not installed, so not removed
+Note, selecting 'libmysql-ocaml' instead of 'libmysql-ocaml-8gkp8'
+Note, selecting 'libmysql-ocaml-dev' instead of 'libmysql-ocaml-dev-8gkp8'
+Package 'libmysqlcppconn7' is not installed, so not removed
+Package 'libmysqlclient18' is not installed, so not removed
+Package 'libmysqlclient20' is not installed, so not removed
+Note, selecting 'libmysql-ocaml:i386' instead of 'libmysql-ocaml-vxp12:i386'
+Note, selecting 'libmysql-ocaml-dev:i386' instead of 'libmysql-ocaml-dev-vxp12:i386'
+Note, selecting 'libmariadbclient16-dev' for glob 'libmariadb*'
+Note, selecting 'libmariadbd19' for glob 'libmariadb*'
+Note, selecting 'libmariadbclient-dev-compat' for glob 'libmariadb*'
+Note, selecting 'libmariadbclient-dev' for glob 'libmariadb*'
+Note, selecting 'libmariadb-dev-compat' for glob 'libmariadb*'
+Note, selecting 'libmariadb-java' for glob 'libmariadb*'
+Note, selecting 'libmariadbd-dev' for glob 'libmariadb*'
+Note, selecting 'libmariadbclient18' for glob 'libmariadb*'
+Note, selecting 'libmariadb3' for glob 'libmariadb*'
+Note, selecting 'libmariadb-dev' for glob 'libmariadb*'
+Note, selecting 'libmariadb-client-lgpl-dev-compat' for glob 'libmariadb*'
+Package 'libmariadbclient16-dev' is not installed, so not removed
+Note, selecting 'libmariadb-dev-compat' instead of 'libmariadb-client-lgpl-dev-compat'
+Note, selecting 'libmariadb-dev-compat' instead of 'libmariadbclient-dev-compat'
+Package 'libmariadbclient18' is not installed, so not removed
+Package 'libmariadb-java' is not installed, so not removed
+Package 'libmysql++-dev' is not installed, so not removed
+Package 'libmysql++-doc' is not installed, so not removed
+Package 'libmysql++3v5' is not installed, so not removed
+Package 'libmysql-diff-perl' is not installed, so not removed
+Package 'libmysql-ocaml' is not installed, so not removed
+Package 'libmysql-ocaml-dev' is not installed, so not removed
+Package 'libmysqlcppconn-dev' is not installed, so not removed
+Package 'libmysqlcppconn7v5' is not installed, so not removed
+Package 'mysql-sandbox' is not installed, so not removed
+Package 'mysql-utilities' is not installed, so not removed
+Package 'mysql-workbench' is not installed, so not removed
+Package 'mysql-workbench-data' is not installed, so not removed
+Package 'mysqltcl' is not installed, so not removed
+Package 'mysqltuner' is not installed, so not removed
+Package 'libmysqlclient-dev' is not installed, so not removed
+Package 'mysql-client' is not installed, so not removed
+Package 'libmariadb-dev' is not installed, so not removed
+Package 'libmariadb-dev-compat' is not installed, so not removed
+Package 'libmariadb3' is not installed, so not removed
+Package 'libmariadbclient-dev' is not installed, so not removed
+Package 'libmariadbd-dev' is not installed, so not removed
+Package 'libmariadbd19' is not installed, so not removed
+Package 'mariadb-backup' is not installed, so not removed
+Package 'mariadb-client' is not installed, so not removed
+Package 'mariadb-client-10.3' is not installed, so not removed
+Package 'mariadb-client-core-10.3' is not installed, so not removed
+Package 'mariadb-common' is not installed, so not removed
+Package 'mariadb-plugin-connect' is not installed, so not removed
+Package 'mariadb-plugin-cracklib-password-check' is not installed, so not removed
+Package 'mariadb-plugin-gssapi-client' is not installed, so not removed
+Package 'mariadb-plugin-gssapi-server' is not installed, so not removed
+Package 'mariadb-plugin-mroonga' is not installed, so not removed
+Package 'mariadb-plugin-oqgraph' is not installed, so not removed
+Package 'mariadb-plugin-rocksdb' is not installed, so not removed
+Package 'mariadb-plugin-spider' is not installed, so not removed
+Package 'mariadb-plugin-tokudb' is not installed, so not removed
+Package 'mariadb-server' is not installed, so not removed
+Package 'mariadb-server-10.3' is not installed, so not removed
+Package 'mariadb-server-core-10.3' is not installed, so not removed
+Package 'mariadb-test' is not installed, so not removed
+Package 'mariadb-test-data' is not installed, so not removed
+Package 'mysql-router' is not installed, so not removed
+Package 'mysql-source-8.0' is not installed, so not removed
+Package 'mysql-testsuite' is not installed, so not removed
+Package 'mysql-testsuite-8.0' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  acl apg colord-data gnome-control-center-faces gnome-online-accounts
+  hplip-data libaio1 libcgi-fast-perl libcgi-pm-perl libcolord-gtk1
+  libcolorhug2 libevent-core-2.1-6 libfcgi-perl libgsound0 libgssdp-1.2-0
+  libgupnp-1.2-0 libgupnp-av-1.0-2 libgupnp-dlna-2.0-3 libhtml-template-perl
+  libieee1284-3 libimagequant0 libmecab2 librygel-core-2.6-2 librygel-db-2.6-2
+  librygel-renderer-2.6-2 librygel-server-2.6-2 libsane-common libsnmp-base
+  mecab-ipadic mecab-ipadic-utf8 mecab-utils mobile-broadband-provider-info
+  network-manager-gnome printer-driver-postscript-hp python3-macaroonbakery
+  python3-olefile python3-pil python3-protobuf python3-renderpm
+  python3-reportlab python3-reportlab-accel python3-rfc3339 python3-tz rygel
+  ubuntu-system-service
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  colord* gnome-control-center* hplip* libhpmud0* libmysqlclient21* libsane*
+  libsane-hpaio* libsnmp30* mysql-client-8.0* mysql-client-core-8.0*
+  mysql-common* mysql-server* mysql-server-8.0* mysql-server-core-8.0*
+  printer-driver-hpcups* sane-utils* simple-scan* ubuntu-desktop*
+  ubuntu-desktop-minimal*
+0 upgraded, 0 newly installed, 19 to remove and 14 not upgraded.
+2 not fully installed or removed.
+After this operation, 223 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 216876 files and directories currently installed.)
+Removing mysql-server (8.0.19-0ubuntu0.19.10.3) ...
+Removing mysql-server-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Removing ubuntu-desktop (1.440.1) ...
+Removing ubuntu-desktop-minimal (1.440.1) ...
+Removing gnome-control-center (1:3.34.1-1ubuntu2) ...
+Removing colord (1.4.4-1) ...
+Removing hplip (3.19.6+dfsg0-1ubuntu1) ...
+Removing printer-driver-hpcups (3.19.6+dfsg0-1ubuntu1) ...
+Removing libsane-hpaio:amd64 (3.19.6+dfsg0-1ubuntu1) ...
+Removing libhpmud0:amd64 (3.19.6+dfsg0-1ubuntu1) ...
+Removing simple-scan (3.34.1-1) ...
+Removing sane-utils (1.0.27-3.2ubuntu3) ...
+Removing libsane:amd64 (1.0.27-3.2ubuntu3) ...
+Removing libsnmp30:amd64 (5.7.3+dfsg-5ubuntu5) ...
+Removing libmysqlclient21:amd64 (8.0.19-0ubuntu0.19.10.3) ...
+Removing mysql-client-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Removing mysql-client-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Removing mysql-common (5.8+1.0.5ubuntu2) ...
+Removing mysql-server-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Processing triggers for mime-support (3.63ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for cups (2.2.12-2ubuntu1.1) ...
+Processing triggers for gnome-menus (3.32.0-1ubuntu1) ...
+Processing triggers for libglib2.0-0:amd64 (2.62.4-1~ubuntu19.10.2) ...
+Processing triggers for libc-bin (2.30-0ubuntu2.1) ...
+Processing triggers for man-db (2.8.7-3) ...
+Processing triggers for dbus (1.12.14-1ubuntu2) ...
+Processing triggers for udev (242-7ubuntu3.7) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215607 files and directories currently installed.)
+Purging configuration files for hplip (3.19.6+dfsg0-1ubuntu1) ...
+Purging configuration files for mysql-server-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Purging configuration files for mysql-common (5.8+1.0.5ubuntu2) ...
+Purging configuration files for colord (1.4.4-1) ...
+Purging configuration files for sane-utils (1.0.27-3.2ubuntu3) ...
+Purging configuration files for libsane-hpaio:amd64 (3.19.6+dfsg0-1ubuntu1) ...
+Processing triggers for dbus (1.12.14-1ubuntu2) ...
+Processing triggers for systemd (242-7ubuntu3.7) ...
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt-get install mysql-server
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  acl apg colord-data gnome-control-center-faces gnome-online-accounts
+  hplip-data libcolord-gtk1 libcolorhug2 libgsound0 libgssdp-1.2-0
+  libgupnp-1.2-0 libgupnp-av-1.0-2 libgupnp-dlna-2.0-3 libieee1284-3
+  libimagequant0 librygel-core-2.6-2 librygel-db-2.6-2 librygel-renderer-2.6-2
+  librygel-server-2.6-2 libsane-common libsnmp-base
+  mobile-broadband-provider-info network-manager-gnome
+  printer-driver-postscript-hp python3-macaroonbakery python3-olefile
+  python3-pil python3-protobuf python3-renderpm python3-reportlab
+  python3-reportlab-accel python3-rfc3339 python3-tz rygel
+  ubuntu-system-service
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  mysql-client-8.0 mysql-client-core-8.0 mysql-common mysql-server-8.0
+  mysql-server-core-8.0
+Suggested packages:
+  mailx tinyca
+The following NEW packages will be installed:
+  mysql-client-8.0 mysql-client-core-8.0 mysql-common mysql-server
+  mysql-server-8.0 mysql-server-core-8.0
+0 upgraded, 6 newly installed, 0 to remove and 14 not upgraded.
+Need to get 7,496 B/22.5 MB of archives.
+After this operation, 187 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+97% [Working]97% [Waiting for headers]                         Get:1 http://archive.ubuntu.com/ubuntu eoan/main amd64 mysql-common all 5.8+1.0.5ubuntu2 [7,496 B]
+97% [1 mysql-common 2,616 B/7,496 B 35%]                                        100% [Working]              Fetched 7,496 B in 1s (13.2 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package mysql-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215583 files and directories currently installed.)
+Preparing to unpack .../mysql-common_5.8+1.0.5ubuntu2_all.deb ...
+Unpacking mysql-common (5.8+1.0.5ubuntu2) ...
+Selecting previously unselected package mysql-client-core-8.0.
+Preparing to unpack .../mysql-client-core-8.0_8.0.19-0ubuntu0.19.10.3_amd64.deb ...
+Unpacking mysql-client-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Selecting previously unselected package mysql-client-8.0.
+Preparing to unpack .../mysql-client-8.0_8.0.19-0ubuntu0.19.10.3_amd64.deb ...
+Unpacking mysql-client-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Selecting previously unselected package mysql-server-core-8.0.
+Preparing to unpack .../mysql-server-core-8.0_8.0.19-0ubuntu0.19.10.3_amd64.deb ...
+Unpacking mysql-server-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Setting up mysql-common (5.8+1.0.5ubuntu2) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Selecting previously unselected package mysql-server-8.0.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215783 files and directories currently installed.)
+Preparing to unpack .../mysql-server-8.0_8.0.19-0ubuntu0.19.10.3_amd64.deb ...
+Unpacking mysql-server-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../mysql-server_8.0.19-0ubuntu0.19.10.3_all.deb ...
+Unpacking mysql-server (8.0.19-0ubuntu0.19.10.3) ...
+Setting up mysql-client-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Setting up mysql-server-core-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Setting up mysql-client-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+Setting up mysql-server-8.0 (8.0.19-0ubuntu0.19.10.3) ...
+update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+mysqld will log errors to /var/log/mysql/error.log
+mysqld is running as pid 15275
+AppArmor parser error for /etc/apparmor.d/usr.sbin.mysqld in /etc/apparmor.d/usr.sbin.mysqld at line 9: Could not open 'abstractions/mysql'
+Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service → /lib/systemd/system/mysql.service.
+Setting up mysql-server (8.0.19-0ubuntu0.19.10.3) ...
+Processing triggers for systemd (242-7ubuntu3.7) ...
+Processing triggers for man-db (2.8.7-3) ...
+Processing triggers for libc-bin (2.30-0ubuntu2.1) ...
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo serce[K[Kvice mysql str[Kart
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 11
+Server version: 8.0.19-0ubuntu0.19.10.3 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> ALTER USR[16G[KER 'root@[24G[K'@'localhost' IDENTIFIED WITH mysql_native_password BY 'r oot';
+Query OK, 0 rows affected (0.17 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.01 sec)
+
+mysql> exit
+Bye
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ [K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ [K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ [K]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo apt instll[K[Kall php libapache2-mod-php p-[Khp-mysl[Kql
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  acl apg colord-data gnome-control-center-faces gnome-online-accounts
+  hplip-data libcolord-gtk1 libcolorhug2 libgsound0 libgssdp-1.2-0
+  libgupnp-1.2-0 libgupnp-av-1.0-2 libgupnp-dlna-2.0-3 libieee1284-3
+  libimagequant0 librygel-core-2.6-2 librygel-db-2.6-2
+  librygel-renderer-2.6-2 librygel-server-2.6-2 libsane-common libsnmp-base
+  mobile-broadband-provider-info network-manager-gnome
+  printer-driver-postscript-hp python3-macaroonbakery python3-olefile
+  python3-pil python3-protobuf python3-renderpm python3-reportlab
+  python3-reportlab-accel python3-rfc3339 python3-tz rygel
+  ubuntu-system-service
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libapache2-mod-php7.3 php-common php7.3 php7.3-cli php7.3-common
+  php7.3-json php7.3-mysql php7.3-opcache php7.3-readline
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php libapache2-mod-php7.3 php php-common php-mysql php7.3
+  php7.3-cli php7.3-common php7.3-json php7.3-mysql php7.3-opcache
+  php7.3-readline
+0 upgraded, 12 newly installed, 0 to remove and 14 not upgraded.
+Need to get 0 B/4,053 kB of archives.
+After this operation, 18.1 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+7[0;22r8[1ASelecting previously unselected package php-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 215821 files and directories currently installed.)
+Preparing to unpack .../00-php-common_2%3a69ubuntu2_all.deb ...
+7[23;0f[42m[30mProgress: [  0%][49m[39m [.........................................................] 87[23;0f[42m[30mProgress: [  2%][49m[39m [#........................................................] 8Unpacking php-common (2:69ubuntu2) ...
+7[23;0f[42m[30mProgress: [  4%][49m[39m [##.......................................................] 8Selecting previously unselected package php7.3-common.
+Preparing to unpack .../01-php7.3-common_7.3.11-0ubuntu0.19.10.4_amd64.deb ...
+7[23;0f[42m[30mProgress: [  6%][49m[39m [###......................................................] 8Unpacking php7.3-common (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [  8%][49m[39m [####.....................................................] 8Selecting previously unselected package php7.3-json.
+Preparing to unpack .../02-php7.3-json_7.3.11-0ubuntu0.19.10.4_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 10%][49m[39m [#####....................................................] 8Unpacking php7.3-json (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 12%][49m[39m [######...................................................] 8Selecting previously unselected package php7.3-opcache.
+Preparing to unpack .../03-php7.3-opcache_7.3.11-0ubuntu0.19.10.4_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 14%][49m[39m [########.................................................] 8Unpacking php7.3-opcache (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 16%][49m[39m [#########................................................] 8Selecting previously unselected package php7.3-readline.
+Preparing to unpack .../04-php7.3-readline_7.3.11-0ubuntu0.19.10.4_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 18%][49m[39m [##########...............................................] 8Unpacking php7.3-readline (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 20%][49m[39m [###########..............................................] 8Selecting previously unselected package php7.3-cli.
+Preparing to unpack .../05-php7.3-cli_7.3.11-0ubuntu0.19.10.4_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 22%][49m[39m [############.............................................] 8Unpacking php7.3-cli (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 24%][49m[39m [#############............................................] 8Selecting previously unselected package libapache2-mod-php7.3.
+Preparing to unpack .../06-libapache2-mod-php7.3_7.3.11-0ubuntu0.19.10.4_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 27%][49m[39m [###############..........................................] 8Unpacking libapache2-mod-php7.3 (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 29%][49m[39m [################.........................................] 8Selecting previously unselected package libapache2-mod-php.
+Preparing to unpack .../07-libapache2-mod-php_2%3a7.3+69ubuntu2_all.deb ...
+7[23;0f[42m[30mProgress: [ 31%][49m[39m [#################........................................] 8Unpacking libapache2-mod-php (2:7.3+69ubuntu2) ...
+7[23;0f[42m[30mProgress: [ 33%][49m[39m [##################.......................................] 8Selecting previously unselected package php7.3.
+Preparing to unpack .../08-php7.3_7.3.11-0ubuntu0.19.10.4_all.deb ...
+7[23;0f[42m[30mProgress: [ 35%][49m[39m [###################......................................] 8Unpacking php7.3 (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 37%][49m[39m [####################.....................................] 8Selecting previously unselected package php.
+Preparing to unpack .../09-php_2%3a7.3+69ubuntu2_all.deb ...
+7[23;0f[42m[30mProgress: [ 39%][49m[39m [######################...................................] 8Unpacking php (2:7.3+69ubuntu2) ...
+7[23;0f[42m[30mProgress: [ 41%][49m[39m [#######################..................................] 8Selecting previously unselected package php7.3-mysql.
+Preparing to unpack .../10-php7.3-mysql_7.3.11-0ubuntu0.19.10.4_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 43%][49m[39m [########################.................................] 8Unpacking php7.3-mysql (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 45%][49m[39m [#########################................................] 8Selecting previously unselected package php-mysql.
+Preparing to unpack .../11-php-mysql_2%3a7.3+69ubuntu2_all.deb ...
+7[23;0f[42m[30mProgress: [ 47%][49m[39m [##########################...............................] 8Unpacking php-mysql (2:7.3+69ubuntu2) ...
+7[23;0f[42m[30mProgress: [ 49%][49m[39m [###########################..............................] 8Setting up php-common (2:69ubuntu2) ...
+7[23;0f[42m[30mProgress: [ 51%][49m[39m [#############################............................] 8Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+7[23;0f[42m[30mProgress: [ 53%][49m[39m [##############################...........................] 8Setting up php7.3-common (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 55%][49m[39m [###############################..........................] 8
+Creating config file /etc/php/7.3/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/tokenizer.ini with new version
+7[23;0f[42m[30mProgress: [ 57%][49m[39m [################################.........................] 8Setting up php7.3-mysql (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 59%][49m[39m [#################################........................] 8
+Creating config file /etc/php/7.3/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/pdo_mysql.ini with new version
+7[23;0f[42m[30mProgress: [ 61%][49m[39m [##################################.......................] 8Setting up php7.3-opcache (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 63%][49m[39m [####################################.....................] 8
+Creating config file /etc/php/7.3/mods-available/opcache.ini with new version
+7[23;0f[42m[30mProgress: [ 65%][49m[39m [#####################################....................] 8Setting up php-mysql (2:7.3+69ubuntu2) ...
+7[23;0f[42m[30mProgress: [ 67%][49m[39m [######################################...................] 87[23;0f[42m[30mProgress: [ 69%][49m[39m [#######################################..................] 8Setting up php7.3-json (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 71%][49m[39m [########################################.................] 8
+Creating config file /etc/php/7.3/mods-available/json.ini with new version
+7[23;0f[42m[30mProgress: [ 73%][49m[39m [#########################################................] 8Setting up php7.3-readline (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 76%][49m[39m [###########################################..............] 8
+Creating config file /etc/php/7.3/mods-available/readline.ini with new version
+7[23;0f[42m[30mProgress: [ 78%][49m[39m [############################################.............] 8Setting up php7.3-cli (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 80%][49m[39m [#############################################............] 8update-alternatives: using /usr/bin/php7.3 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.3 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.3 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.3/cli/php.ini with new version
+7[23;0f[42m[30mProgress: [ 82%][49m[39m [##############################################...........] 8Setting up libapache2-mod-php7.3 (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 84%][49m[39m [###############################################..........] 8
+Creating config file /etc/php/7.3/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.3
+7[23;0f[42m[30mProgress: [ 86%][49m[39m [################################################.........] 8Setting up libapache2-mod-php (2:7.3+69ubuntu2) ...
+7[23;0f[42m[30mProgress: [ 88%][49m[39m [##################################################.......] 87[23;0f[42m[30mProgress: [ 90%][49m[39m [###################################################......] 8Setting up php7.3 (7.3.11-0ubuntu0.19.10.4) ...
+7[23;0f[42m[30mProgress: [ 92%][49m[39m [####################################################.....] 87[23;0f[42m[30mProgress: [ 94%][49m[39m [#####################################################....] 8Setting up php (2:7.3+69ubuntu2) ...
+7[23;0f[42m[30mProgress: [ 96%][49m[39m [######################################################...] 87[23;0f[42m[30mProgress: [ 98%][49m[39m [#######################################################..] 8Processing triggers for man-db (2.8.7-3) ...
+
+7[0;23r8[1A[J]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ cat[K[K[Kgedit index.php
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ system[K[K[K[K[K[Ksudo syster[Kmctl restart apache2
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo nano /etc/apache2/mods-enabled/dir.conf
+[?1049h[22;0;0t[1;23r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[21;33H(B[0;7m[ Reading... ](B[m[21;32H(B[0;7m[ Read 5 lines ](B[m[H(B[0;7m  GNU nano 4.3          /etc/apache2/mods-enabled/dir.conf                     [1;78H(B[m[22d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[23d(B[0;7m^X(B[m Exit[23;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell[21d[2d[39;49m(B[m<IfModule mod_dir.c>[3;9HDirectoryIndex index.html index.cgi index.pl index.php index.xhtml ind(B[0;7m>[4;1H(B[m</IfModule>[6d[36m# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[3;9H[?12l[?25h[?25lD[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25lI[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l[1;70H(B[0;7mModified(B[m[3;23Hi index.html index.cgi index.pl index.php index.xhtml in[3;24H[?12l[?25h[?25l index.html index.cgi index.pl index.php index.xhtml ind[3;23H[?12l[?25h[?25l  index.html index.cgi index.pl index.php index.xhtml in[3;24H[?12l[?25h[?25li index.html index.cgi index.pl index.php index.xhtml i[3;25H[?12l[?25h[?25ln index.html index.cgi index.pl index.php index.xhtml [3;26H[?12l[?25h[?25ld index.html index.cgi index.pl index.php index.xhtml[3;27H[?12l[?25h[?25le index.html index.cgi index.pl index.php index.xhtm[3;28H[?12l[?25h[?25l. index.html index.cgi index.pl index.php index.xht[3;29H[?12l[?25h[?25lp index.html index.cgi index.pl index.php index.xh[3;30H[?12l[?25h[?25lh index.html index.cgi index.pl index.php index.x[21d[K[3;31H[?12l[?25h[?25lp index.html index.cgi index.pl index.php index.[3;32H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25le[?12l[?25h[?25lx.php index.html index.cgi index.pl index.php index[3;29H[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l.[?12l[?25h[?25lh[?12l[?25h[?25lt[?12l[?25h[?25lm[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l index.[72G[?12l[?25h[?25l index.x[3;71H[?12l[?25h[?25l index.xh[3;70H[?12l[?25h[?25l index.xht[3;69H[?12l[?25h[?25l index.xhtm[3;68H[?12l[?25h[?25l index.xhtml[3;67H[?12l[?25h[?25l index.xhtml [3;66H[?12l[?25h[?25l index.xhtml i[3;65H[?12l[?25h[?25l index.xhtml in[3;64H[?12l[?25h[?25lindex.xhtml ind[3;63H[?12l[?25h[?25l[21d(B[0;7mSave modified buffer?                                                          [22;1H Y(B[m Yes[K[23d(B[0;7m N(B[m No  [23;16H (B[0;7m^C(B[m Cancel[K[21;23H[?12l[?25h[?25l[22d(B[0;7m^G(B[m Get Help[22;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[22;58H(B[0;7mM-B(B[m Backup File[23d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[23;58H(B[0;7m^T(B[m To Files[21d(B[0;7mFile Name to Write: /etc/apache2/mods-enabled/dir.conf(B[m[21;55H[?12l[?25h[?25l[K[1;78H[21;33H(B[0;7m[ Writing... ](B[m[1;70H(B[0;7m        (B[m[21;32H(B[0;7m[ Wrote 5 lines ](B[m[J[23;79H[?12l[?25h[23;1H[?1049l[23;0;0t[?1l>]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo nano /etc/apache2/mods-enabled/dir.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Psystemctl restart apache2
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo systemctl restart apache2
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo nano /var/www/html/info.php
+[?1049h[22;0;0t[1;23r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[21;33H(B[0;7m[ Reading... ](B[m[21;32H(B[0;7m[ Read 3 lines ](B[m[H(B[0;7m  GNU nano 4.3                /var/www/html/info.php                           [1;78H(B[m[22d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[23d(B[0;7m^X(B[m Exit[23;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell[21d[2d(B[0;1m[32m<?php[3d(B[0m[37mphpinfo([39m(B[m);[4d(B[0;1m[32m?>[2d[39m(B[m[?12l[?25h[?25l[21d[J[23;79H[?12l[?25h[23;1H[?1049l[23;0;0t[?1l>]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo nano /var/www/html/info.php[2Psystemctl restart apache2
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo systemctl restart apache2nano /var/www/html/info.php[1P.php[1P.php[1P.php[1P.phpi.phpn.phpd.phpe.phpx.php
+[?1049h[22;0;0t[1;23r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[21;34H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                /var/www/html/index.php                          [1;78H(B[m[22d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[23d(B[0;7m^X(B[m Exit[23;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell[21d[2d[39;49m(B[m[?12l[?25h[?25l[1;70H(B[0;7mModified(B[m[2d<[?12l[?25h[?25l(B[0;1m[32m<?[39m(B[m[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[32mphp[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[36mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lc[?12l[?25h[?25ls[?12l[?25h[?25l1[?12l[?25h[?25l8[?12l[?25h[?25lc[?12l[?25h[?25l0[?12l[?25h[?25l2[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l h[?12l[?25h[?25le[?12l[?25h[?25lr[21d[K[3;21H[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l f[?12l[?25h[?25lo[?12l[?25h[?25l(B[0;1m[36mfor[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l t[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l T[?12l[?25h[?25l8[?12l[?25h[?25l.[?12l[?25h[?25l3[?12l[?25h[?25l[6G(B[0;1m[33m"ceccs18c02 here for T8.3"[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25l?[?12l[?25h[?25l(B[0;1m[32m?>[39m(B[m[?12l[?25h[?25l[21d(B[0;7mSave modified buffer?                                                          [22;1H Y(B[m Yes[K[23d(B[0;7m N(B[m No  [23;16H (B[0;7m^C(B[m Cancel[K[21;23H[?12l[?25h[?25l[22d(B[0;7m^G(B[m Get Help[22;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[22;58H(B[0;7mM-B(B[m Backup File[23d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[23;58H(B[0;7m^T(B[m To Files[21d(B[0;7mFile Name to Write: /var/www/html/index.php(B[m[21;44H[?12l[?25h[?25l[K[1;78H[21;33H(B[0;7m[ Writing... ](B[m[1;70H(B[0;7m        (B[m[21;32H(B[0;7m[ Wrote 3 lines ](B[m[J[23;79H[?12l[?25h[23;1H[?1049l[23;0;0t[?1l>]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ sudo nano /var/www/html/index.php[3Psystemctl restart apache2
+]0;abin@ABS-LAP: ~/Desktop[01;32mabin@ABS-LAP[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2020-04-30 12:00:13+05:30 [COMMAND_EXIT_CODE="0"]
